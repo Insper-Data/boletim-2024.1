@@ -1,0 +1,122 @@
+\section{Introdução}
+    Um modelo de crédito consiste em uma ferramenta estatística que relaciona variáveis cadastrais com um resultado, chamado de score, capaz de informar a chance de determinado indivíduo pagar o crédito.
+    Modelos de crédito são treinados com dados de segmentos específicos da população e para que um modelo produza resultados coerentes é necessário que seja utilizado com dados cadastrais de indivíduos que pertençam ao mesmo segmento da população com o qual o modelo foi treinado. Dessa forma, para garantir que o modelo continue performando como esperado, é necessário calcular métricas de instabilidade. Essas métricas avaliam se a distribuição das variáveis cadastrais da população sob a qual o modelo atua está próxima da distribuição das variáveis cadastrais da população de treino.
+
+    Caso um modelo opere em uma população muito diferente daquela com a qual ele foi treinado, é esperado que haja uma queda de performance. Contudo, esse não é sempre o caso. Existem instâncias em que as métricas de instabilidade acusam uma diferença muito grande entre a população recebida e a população esperada, mas, ainda assim, o modelo continua capaz de distinguir bons e maus pagadores. A métrica de performance que avalia a capacidade de distinção do modelo é chamada de KS2.
+    
+    O objetivo do projeto consiste em tentar estimar a variável de performance (KS2) em função das variáveis de instabilidade disponíveis. Isso é interessante uma vez que só se tem acesso à variável de performance após os credores pagarem ou ficarem inadimplentes. Contudo, as variáveis de instabilidade estão disponíveis mensalmente. Dessa forma, seria possível estimar uma possível queda de performance antes dela ocorrer e assim mitigá-la.
+
+    Para estimar o KS2, primeiramente os dados referentes à instabilidade e performance de modelos de crédito foram tratados e, em seguida, três tipos de modelos diferentes foram treinados com as variáveis de instabilidade como entrada e a variável de performance como \emph{"target"}.
+    
+\section{determinação das variáveis de instabilidade}
+
+ Essa etapa consiste na extração das métricas de instabilidade que serão utilizadas nas etapas de  treinamento e validação do modelo. Existem duas métricas de instabilidade principais, o KS1 e o PSI. O KS1 (também conhecido como KS one)  é calculado a partir dos “scores” produzidos pelo modelo de crédito para cada segmento separadamente e para o modelo de crédito inteiro. O PSI é calculado para as mesmas instâncias do KS1 e também para cada variável do modelo de crédito. Também calcula-se um PSI geral que considera todas variáveis e segmentos. Por fim, o KS2 (o \emph{"target"}) é calculado a partir de 90 dias do início da execução do modelo e ele é obtido em função de todos os segmentos. Vale ressaltar que esses indicadores foram calculados por safra.
+	Primeiramente, removemos da base de dados as linhas com valores faltantes, bem como padronizamos os tipos dos dados. Foram utilizadas as bibliotecas do python pandas e numpy para tratar os dados. Também foi utilizada a tabela referente aos dados de treinamento do modelo de crédito avaliado, que contém os percentis esperados para cada variável do modelo em cada segmento e para cada faixa de valores. Esses foram então convertidos em intervalos para facilitar os cálculos.
+
+\begin{equation}
+KS1 = \max \left| \text{Esperada}(i) - \text{Obtida}(i) \right|
+\end{equation}
+    
+\begin{equation}
+PSI = \sum_{i=1}^{n} \left( (Obtida(i) - Esperada(i) ) \cdot \ln\left(\frac{{Esperada(i)}}{{Obtida(i)}}\right) \right)
+\end{equation}
+
+\begin{equation}
+    KS2 = \max {\left| \text{Bons Pagadores}(i) - \text{Maus Pagadores}(i) \right| }
+\end{equation}
+
+Nas equações acima o termo \emph{“Obtida”} diz respeito à distribuição do “score” do modelo em um determinado segmento e safra do modelo de crédito. Já o termo “Esperada” é a distribuição para esse mesmo segmento nos dados de treinamento do modelo de crédito.
+\section{treinamento e avaliação dos modelos preditivos}
+
+Em posse das métricas de instabilidade supracitadas, uma série de modelos foram treinados e avaliados visando estimar KS2 geral de cada safra em função dos dados de cada segmento de modelo.
+	Porque cada modelo de crédito recebido possui um número variável de segmentos e variáveis cadastrais, não foi possível a construção de um modelo agnóstico, isto é, um modelo capaz de receber métricas de instabilidades oriundas de qualquer modelo de crédito. Dessa forma, os dados para treinamento e avaliação dos modelos de modelos foram produzidos a partir da primeira base de dados recebida pelo grupo. Essa base contém dados de um modelo de crédito baseado em regressão logística.	
+	
+	As variáveis utilizadas para prever a resposta incluíram: 'PSI médio das variáveis', 'KS1 do segmento', 'KS1 GERAL', 'PSI GERAL' e 'KS1 segmentos geral'. Essas métricas são calculadas em função dos indicadores de instabilidade já mencionados. A variável 'PSI médio das variáveis' é calculada como a média dos PSI das variáveis de um segmento em determinado mês. 'KS1 Geral' e 'PSI Geral' representam os KS1 e PSI gerais para determinado mês. Enquanto 'KS1 segmentos geral' indica o KS1 calculado para todos os segmentos em uma dada safra. Essas características foram selecionadas por serem indicadores de instabilidades de fácil acesso para a empresa e pois sintetizam todos os outros indicadores de instabilidade que pudemos calcular.
+
+    Para filtrar as variávis explicativas uma matriz de correlação foi produzida:
+
+\begin{adjustwidth}{-10in}{}
+\begin{table}[H]
+\fontsize{8}{12}\selectfont % Set the font size to 10pt with a line spacing of 12pt
+% \small % Reduce the font size
+\setlength{\tabcolsep}{3pt} % Reduce the spacing between columns
+\begin{tabular}{lrrrrrr}
+\toprule
+{} &  Media\_PS\_vars &  KS\_segmento &  KS\_GERAL &  PS\_GERAL &  KS\_SEGMENTOS\_GERAL \\
+\midrule
+Media\_PS\_vars      &       1.000000 &     0.614133 & -0.063322 & -0.027665 &            0.165005\\
+KS\_segmento        &       0.614133 &     1.000000 &  0.157603 &  0.188356 &            0.043072\\
+KS\_GERAL           &      -0.063322 &     0.157603 &  1.000000 &  0.984639 &            0.067978 \\
+PS\_GERAL           &      -0.027665 &     0.188356 &  0.984639 &  1.000000 &            0.121905 \\
+KS\_SEGMENTOS\_GERAL &       0.165005 &     0.043072 &  0.067978 &  0.121905 &            1.000000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+\end{adjustwidth}
+
+À partir dessa matriz foi possível concluir que o KS Geral e o PS geral são muito fortemente correlacionados e portanto foi decidido que o somente o PS geral seria usado no treinamento dos modelos.
+
+Três modelos diferentes foram treinados: uma regressão logística, uma regressão linear e uma rede neural simples com três camadas internas. A rede neural foi construída com 10 neurônios por camada e reLU por função de ativação. Os dados processados anteriormente foram estratificados por segmento e separados aleatoriamente em treino e teste na proporção 70\% para treino e 30\% para teste. As métricas escolhidas para avaliação dos modelos foram o erro absoluto médio (MAE) e o erro quadrático médio (MSE)
+ Seguem os resultados:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|}
+\hline
+        & Rede Neural & Regressão Logística & Regressão Linear \\ \hline
+MAE     & 0.033       & 0.036               & 0.037            \\ \hline
+MAE/avg & 13.56\%     & 16.12\%             & 16.53\%          \\ \hline
+MSE     & 0.0023      & 0.0019              & 0.0020           \\ \hline
+\end{tabular}
+\end{table}
+
+Seguem os p-valores obtidos para a regressão linear:
+
+\begin{table}[H]
+\centering
+\small % Reduce the font size
+\setlength{\tabcolsep}{3pt} % Reduce the spacing between columns
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+                       & Media\_PS\_vars & KS\_segmento &  PS\_GERAL & KS\_SEGMENTOS\_GERAL \\ \hline
+p\textgreater{}{[}t{]} & 0.206           & 0.591    & 0.255     & 0.000                \\ \hline
+\end{tabular}
+\end{table}
+
+O $R^2$ ajustado obtido equivale a \emph{$0.279$}.
+
+
+ Para simular um possível caso de uso para a empresa, os modelos foram treinados com os primeiros 8 meses avaliados nos últimos 3.
+Os resultados e as previsões obtidas são observados a seguir:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|}
+\hline
+        & Rede Neural & Regressão Logística & Regressão Linear \\ \hline
+MAE     & 0.035       & 0.054               & 0.052            \\ \hline
+MAE/avg & 13.81\%      & 20.07\%              & 19.51\%           \\ \hline
+MSE     & 0.0014      & 0.0031              & 0.0029           \\ \hline
+\end{tabular}
+\end{table}
+
+seguem os p-valores calculados para a regressão linear com esse novo treinamento:
+
+\begin{table}[H]
+\centering
+\small % Reduce the font size
+\setlength{\tabcolsep}{3pt} % Reduce the spacing
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+                       & Media\_PS\_vars & KS\_segmento & PS\_GERAL & KS\_SEGMENTOS\_GERAL \\ \hline
+p\textgreater{}{[}t{]} & 0.506           & 0.951        & 0.009     & 0.000                 \\ \hline
+\end{tabular}
+\end{table}
+
+ o $R^2$ ajustado obtido equivale a \emph{$0.337$} e isso indicaria uma melhor \emph{"fit"} do modelo, contudo, o erro mais significativo observado poderia indicar alguma outra variável importante para a determinação da variável resposta não foi considerada ou ainda que há endogeneidade.
+
+Nota-se que os resultados obtidos para o segundo treinamento e teste foram significativamente piores. Por conta do tamanho reduzido do grupo de teste não é possível ter grande certeza do erro apresentado pelos modelos, visto que esse grupo não pode ser considerado representativo.
+
+Ainda que a rede neural tenha performado bem em ambas as rodadas de teste e as regressões tenham sido satisfatórias nos testes iniciais, não é possível concluir que a estratégia de estimar o KS2 safra a safra seja a  ideal. Entendemos que esse seja o caso, pois, para treinar e avaliar os modelos utilizados de forma robusta é necessário centenas de linhas de dados e, mesmo com a estratégia de expandir o conjunto de dados ao estimar o KS2 em função das métricas de instabilidade para cada segmento, ainda assim não é possível atingir uma ordem de magnitude desejável. No caso, ao estimar o KS2 geral em função de cada segmento, foi possível produzir 88 instâncias de dados a partir das 11 instâncias originais. Entretanto, é impossível atingir uma ordem de magnitude desejável para esse tipo de modelagem - na ordem de centenas ou milhares de instâncias de dados, visto que cada instância de dado depende de uma safra (um mês) registrada por um modelo de crédito. Além disso, é importante observar que dentre as variáveis explicativas selecionadas, as variáveis oriundas de segmentos específicos, "Média\_PS\_Vars" e "KS\_Segmento" possuem os maiores p-valores e, portanto, as variáveis mais importantes para determinação do KS2 geral estão contidas nas variáveis de instabilidade gerais, variáveis essas que possuem um número muito reduzido de instâncias de dados em relação às variáveis específicas aos segmentos.
+
+O trabalho indica que há evidências sugerindo que o KS2 pode ser estimado a partir de métricas de instabilidade. Mas seria interessante considerar também diferentes variáveis macroeconômicas para tentar explicar as variações  do \emph{"target"} ao longo do tempo, uma vez que a performance dos modelos apresentou uma queda significativa quando treinados e avaliados temporalmente. Finalmente, o maior desafio enfrentado nesse tipo de modelagem é a obtenção de uma quantidade suficiente de dados para o treinamento desses modelos.

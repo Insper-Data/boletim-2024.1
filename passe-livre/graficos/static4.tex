@@ -1,0 +1,41 @@
+\begin{tikzpicture}
+\begin{axis}[standard,
+    xtick={0.2, 0.4, 0.6, 0.8, 1},
+    ytick={\varC,\varD},
+    yticklabels = {$C$, $D$},
+    samples=\nsamples,
+    ylabel near ticks,
+    xlabel near ticks,
+    xlabel={Comparecimento $t$},
+    ylabel={$C_{mg},B_{mg}$},
+    xmin=0,xmax=1,
+    ymin=0,ymax=4
+]
+
+% \node[anchor=center] at (axis cs:0,0){};
+\draw[dotted] (0,\varD)--(1,\varD);
+\draw[] (1,0)--(1,10);
+
+\addplot[name path=F,domain={0:1}, dashed]{\varA/x + \varD};
+\addplot[name path=Ff,domain={0:1}]{(\varA - 0.1)/x + \varD};
+
+\addplot[name path=G,domain={0:1}]{\varC};
+\addplot[name path=Gg,domain={0:1}, dotted]{\varC-0.13};
+
+
+\path [name intersections={of=G and F}]; 
+\coordinate [label= $t_{eq}$ ] (OP1) at (intersection-1);
+\fill [black] (OP1) circle (1pt);
+
+\path [name intersections={of=Gg and F}]; 
+\coordinate (OP2) at (intersection-1);
+\fill [black] (OP2) circle (1pt);
+\node [below] at (OP2) {$t_{eq}^e$};
+
+\path [name intersections={of=G and Ff}]; 
+\coordinate (OP3) at (intersection-1);
+\fill [black] (OP3) circle (1pt);
+\node [below] at (OP3) {$t_{obs}$};
+
+\end{axis}
+\end{tikzpicture}

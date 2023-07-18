@@ -1,0 +1,66 @@
+\usepackage[
+    a4paper,
+    includehead,
+]{geometry}
+
+\usepackage[portuguese]{babel}
+
+\usepackage{keyval}
+
+\usepackage[color = {[gray]{0.94}}]{draftwatermark}
+\SetWatermarkText{RASCUNHO}
+\SetWatermarkScale{4}
+
+\linespread{1.25}
+\setcounter{tocdepth}{-1}
+
+%DIAGRAMAS E GRÁFICOS ----
+\usepackage{tikz}
+\usetikzlibrary{fit, arrows,automata,positioning, calc, decorations.pathreplacing, calligraphy}
+\usepackage[edges]{forest}
+
+%EQUAÇÕES E TABELAS ----
+\usepackage{amsmath, amssymb}
+\usepackage[makeroom]{cancel}
+\usepackage{booktabs}
+\usepackage{siunitx}
+
+
+% \usepackage[nopatch]{microtype}
+\usepackage{csquotes}
+% \usepackage{caption}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\usepackage{changepage}
+\usepackage{float}
+
+\usepackage{graphicx}
+
+\usepackage{subfiles}
+
+%Margins and Header/Footer
+\geometry{a4paper,
+  top=0.75in,
+  bottom=1.5in,
+  left=1in,
+  right=1in,
+  headheight=14.5pt, % the default is too short
+  heightrounded, % avoids the need of a flexible baselineskip
+} 
+
+\usepackage{hyperref}
+% \hypersetup{
+%     colorlinks=true,
+%     linkcolor=blue,
+%     filecolor=magenta,      
+%     urlcolor=blue,
+%     }
+
+\usepackage[style=authoryear]{biblatex}
+\addbibresource{passe-livre/citacoes.bib}
+\addbibresource{macro/citacoes.bib}
+
+\usepackage{lipsum}
+
+
+

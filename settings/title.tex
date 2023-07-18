@@ -1,0 +1,46 @@
+\usepackage{titlesec}
+
+\titleformat{\part}
+    [hang]
+    {\LARGE\bfseries}
+    {}
+    {0pt}
+    {   
+    \clearpage
+    \begin{figure}
+        \includegraphics[width = 0.25\linewidth]{logo/hlogo.png}
+    \end{figure}
+    \setcounter{section}{0}
+    \raggedright
+}
+\titlespacing{\part}{0pt}{0pt}{10pt}
+
+\makeatletter
+
+% Define the function
+\newcommand{\relatorio}[5]{%
+    \part{#1}
+
+    \noindent Pesquisadores: #2
+
+    \noindent Orientado por: #3
+
+    \bigskip
+
+    \noindent\colorbox{black!10}{\begin{minipage}{\textwidth}
+        \vspace{10pt}
+        \begin{center}
+            \begin{minipage}{0.95\textwidth}
+                \textbf{Resumo}
+                \par #4
+            \end{minipage}
+        \end{center}
+        \vspace{1pt}
+    \end{minipage}}
+
+    \bigskip
+
+    Palavras-chave: #5
+}
+
+\makeatother
