@@ -1,0 +1,42 @@
+\begin{table}
+    \centering
+    \begin{tabular}{m{0.18\linewidth}|m{0.7\linewidth}}
+        Variável & Descrição \\
+        \toprule
+        Tratamento & Variável binária que assume 1 caso o município tenha recebido passe livre e 0 caso contrário \\
+        \midrule
+        Competitividade & Quão proximos foram os resultados entre primeiro e segundo candidatos. Calculado por $1/[\log({V_A/V_B})]$, na qual $V_A$ representa o número de votos recebidos pelo candidato mais votado e $V_B$, pelo segundo candidato mais votado. \\
+        \midrule
+        População & População do município \\
+        \midrule
+        PIB per capita & PIB per capita do municipio, disponível até 2020. Para 2022, foram utilizados os últimos dados disponíveis, de 2020. \\
+        \midrule
+        Beneficiados & Número de pessoas no municipio dividido pela quantidade de eleitores aptos. \\
+        \midrule
+        IDEB & Nota da educacao dos anos finais do ensino fundamental nas escolas publicas. A nota é apenas calculadas nos anos ímpares, com o primeiro dado disponível em 2005, então foram utilizados dados defasados em um ano. \\
+        \midrule
+        PIB governo & É definido como valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social dividido pelo PIB municipal. \\
+        \midrule
+        Eleitores por seção & Média do número de eleitores aptos por seção eleitoral no município
+
+    \end{tabular}
+
+    \caption{Variáveis utilizadas nos modelos econométricos}
+    \label{tab_variaveis}
+\end{table}
+
+% \begin{table}
+%     \centering
+%     \begin{tabular}[t]{llrrrrrr}
+%     \toprule
+%     \multicolumn{2}{c}{ } & \multicolumn{3}{c}{Primeiro Turno} & \multicolumn{3}{c}{Segundo Turno} \\
+%     \cmidrule(l{3pt}r{3pt}){3-5} \cmidrule(l{3pt}r{3pt}){6-8}
+%       & Passe Livre & Mean & SD & N & Mean & SD & N\\
+%     \midrule
+%     Abstenção & Não Houve & \num{0.21} & \num{0.05} & 5437 & \num{0.21} & \num{0.05} & 5148\\
+%      & Houve & \num{0.20} & \num{0.03} & 81 & \num{0.20} & \num{0.03} & 370\\
+%     \bottomrule
+%     \end{tabular}
+%     \caption{Abstenção e tamanho amostral para cada grupo em 2022}
+%     \label{tab_descritiva}
+%     \end{table}
