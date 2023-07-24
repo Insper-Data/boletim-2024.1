@@ -79,8 +79,7 @@
       <file>main.bcf</file>
     </requires>
     <requires type="editable">
-      <file>passe-livre/citacoes.bib</file>
-      <file>macro/citacoes.bib</file>
+      <file>citacoes.bib</file>
     </requires>
   </external>
 </requests>

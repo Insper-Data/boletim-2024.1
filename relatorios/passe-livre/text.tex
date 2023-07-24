@@ -66,7 +66,7 @@ Um desdobramento peculiar desse modelo é uma espécie de paradoxo, que inclusiv
 
 \begin{figure}
     \centering
-    \input{passe-livre/graficos/cycle}
+    \input{relatorios/passe-livre/graficos/cycle}
     \caption{Paradoxo de Downs: ciclo de balanceamento.}
     \label{cycle}
 \end{figure}
@@ -88,13 +88,13 @@ Na figura \ref{fig_static1} é possível observar para qualquer nível de compar
 
 \begin{figure}[!ht]
     \begin{subfigure}[t]{0.45\linewidth}
-      \input{passe-livre/graficos/static1}
+      \input{relatorios/passe-livre/graficos/static1}
       \caption{Oferta e demanda de votos}
       \label{fig_static1}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.45\linewidth}
-      \input{passe-livre/graficos/static2}
+      \input{relatorios/passe-livre/graficos/static2}
       \caption{Derivada parcial do comparecimento de equilíbrio em relação ao custo}
       \label{fig_static2}
     \end{subfigure}
@@ -130,13 +130,13 @@ Este componente permite analisar o efeito que a assimetria de informações pode
 
 \begin{figure}[!ht]
     \begin{subfigure}[t]{0.45\linewidth}
-      \input{passe-livre/graficos/static3}
+      \input{relatorios/passe-livre/graficos/static3}
       \caption{Sem assimetria de informações}
       \label{fig_static3}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.45\linewidth}
-      \input{passe-livre/graficos/static4}
+      \input{relatorios/passe-livre/graficos/static4}
       \caption{Com assimetria de informações}
       \label{fig_static4}
     \end{subfigure}
@@ -168,7 +168,7 @@ Há apenas um estudo que analisa o impacto do passe livre adotado em 2022 na abs
 Entretanto, associada à forte afirmação sobre as políticas de redução de custos que vai na contramão da literatura teórica, há algumas pontos a serem levantados em relação à interpretação dos resultados. O primeiro comentário que deve ser feito se refere à afirmação sobre o aumento nos níveis de mobilidade. Os autores identificam que houve aumento de mobilidade nos municípios que adotaram o passe livre em relação aos que não adotaram -- efeito não encontrado para aumento do comparecimento --, mas a hipótese de identificação é bastante frágil nesta inferência. 
 
 \begin{figure}[!ht]
-    \includegraphics[width = \linewidth]{passe-livre/graficos/pereira_mob.png}
+    \includegraphics[width = \linewidth]{relatorios/passe-livre/graficos/pereira_mob.png}
     \caption{Mudança nos níveis de mobilidade nos municípios tratados nos domingos anterior e
 posterior e no dia do primeiro turno da eleição de 2022 em comparação aos níveis de
 mobilidade dos municípios do grupo de controle}
@@ -179,7 +179,7 @@ mobilidade dos municípios do grupo de controle}
 Primeiramente porque no \textit{event study} apresentado (Figura \ref{fig_pereira_mob}), entre os quatro domingos anteriores, observou-se efeito significativo em um deles, mas não houve passe livre nesse domingo e os pesquisadores não comentaram nada sobre essa quebra de paralelismo no estudo. Em segundo, diferentemente do \textit{event study} para identificar efeito na abstenção, este \textit{event study} não compara o domingo de eleição com outros domingos de eleição, mas sim, com outros domingos do mês anterior. Isso é uma limitação, visto que o domingo de eleição funciona de maneira muito diferente de outros domingos e possivelmente os municípios dos grupos diferentes apresentam distintas tradições de mobilidade no dia da eleição. Nesse sentido, inclusive, que fica complicado comparar os resultados de mudança na mobilidade com mudança na abstenção, já que foram utilizados \textit{designs} diferentes no \textit{event study}.
 
 \begin{figure}[!ht]
-    \includegraphics[width = \linewidth]{passe-livre/graficos/pereira_abst.png}
+    \includegraphics[width = \linewidth]{relatorios/passe-livre/graficos/pereira_abst.png}
     \caption{Efeitos da política de passe livre no transporte público sobre: comparecimento eleitoral
 (A), parcela de votos para o PT (B), comparecimento em seções eleitorais com diferentes
 níveis socioeconômicos (C) e comparecimento em seções eleitorais em áreas com menor
@@ -198,7 +198,7 @@ De maneira geral, afirmar que o passe livre aumentou a mobilidade, mas as pessoa
 
 O passe livre foi uma medida adotada em nível municipal, então os dados foram coletados também nessa escala. Para aumentar a robustez da análise, os dados foram organizados em painel, com todas as eleições nos últimos 20 anos, desde 2002. Para fins de comparação de comparáveis, foram apenas analisadas os anos de eleições presidenciais. Algumas variáveis são diferentes para o primeiro e segundo turno, como a abstenção e passe livre, mas outras como o PIB \textit{per capita} não. Os dados foram coletados para todos os municípios brasileiros.
 
-\input{passe-livre/tabelas/descritiva}
+\input{relatorios/passe-livre/tabelas/descritiva}
 
 \textcite{smets2013embarrassment} conduziram uma meta análise de 90 estudos empíricos que foram publicados nos jornais de maior renome durante a década de 2000 que estudaram a abstenção de votos. Como variáveis a nível individual que foram consideradas relevantes, estão a idade, escolaridade e renda. Os dados do TSE são segmentados por faixa etária, gênero e escolaridade, mas o dado da escolaridade não é de qualidade, visto que não é atualizado regularmente - apenas quando há uma atualização do título de eleitor. Para contornar este problema, seria ideal analisar pela PNAD a média de anos de estudo na população, mas dessa forma não haveria cobertura de todos os municípios do Brasil. A \textit{proxy} adotada foi a nota do IDEB do município, um índice de educação básica calculado com base no Censo Escolar e desempenho no Sistema de Avaliação da Educação Básica (Saeb). Quanto aos dados de renda, os dados de PIB \textit{per capita} a nível municipal foram coletados do IBGE.
 
@@ -210,7 +210,7 @@ Em relação ao custo de votar, muitos componentes estão envolvidos. Entre eles
 
 A descrição mais detalhada das variáveis adotadas se encontra na tabela \ref{tab_variaveis}.
 
-\input{passe-livre/tabelas/variaveis.tex}
+\input{relatorios/passe-livre/tabelas/variaveis.tex}
 
 \subsection{Metodologia}
 
@@ -233,13 +233,13 @@ Considerando a endogeneidade discutida, o primeiro passo adotado foi fazer o \te
 
 \begin{figure}[!ht]
     \begin{subfigure}[t]{0.49\linewidth}
-      \includegraphics[width = \linewidth]{passe-livre/graficos/pre-propensity.png}
+      \includegraphics[width = \linewidth]{relatorios/passe-livre/graficos/pre-propensity.png}
       \caption{Antes do PSM}
       \label{fig_prePSM}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.49\linewidth}
-      \includegraphics[width = \linewidth]{passe-livre/graficos/pos-propensity.png}
+      \includegraphics[width = \linewidth]{relatorios/passe-livre/graficos/pos-propensity.png}
       \caption{Depois do PSM}
       \label{fig_posPSM}
     \end{subfigure}
@@ -251,7 +251,7 @@ Depois do balanceamento dos grupos, foi conduzido um \textit{event study} (Tabel
 
 A partir dos resultados da tabela \ref{tab_eventStud}, a hipótese de identificação não se sustenta para o primeiro turno, visto que foi observado um efeito do passe livre na abstenção em 2014, para o nível de significância de 5\%, o que é impossível, visto que não houve passe livre em 2014. Para o segundo turno não há evidências que rejeitem a hipótese de paralelismo das tendências, mas também não há evidências que apontem para um efeito do passe livre na abstenção.
 
-\input{passe-livre/tabelas/event_study}
+\input{relatorios/passe-livre/tabelas/event_study}
 
 É relevante destacar que as variáveis de controle selecionadas se mostraram bastante relevantes e apresentam o sinal esperado, o que aponta na mesma direção da literatura teórica e outros estudos empíricos. Os coeficientes do primeiro turno são semelhantes aos do segundo turno, com exceção da competitividade e eleitores por seção, que se mostram menos relevantes no segundo turno. Entretanto, a variável de interesse a partir dessa estratégia não se demonstra relevante.
 
@@ -259,13 +259,13 @@ Com isso, foi feita uma análise de efeito heterogêneo de renda. Como descrito 
 
 \begin{figure}[!ht]
     \begin{subfigure}[t]{0.49\linewidth}
-      \includegraphics[width = \linewidth]{passe-livre/graficos/event_study_heter_1t.png}
+      \includegraphics[width = \linewidth]{relatorios/passe-livre/graficos/event_study_heter_1t.png}
       \caption{Primeiro Turno}
       \label{fig_eventStud1}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.49\linewidth}
-      \includegraphics[width = \linewidth]{passe-livre/graficos/event_study_heter_2t.png}
+      \includegraphics[width = \linewidth]{relatorios/passe-livre/graficos/event_study_heter_2t.png}
       \caption{Segundo Turno}
       \label{fig_eventStud2}
     \end{subfigure}
