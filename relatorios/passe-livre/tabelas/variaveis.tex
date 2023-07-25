@@ -1,11 +1,13 @@
 \begin{table}
     \centering
+    \caption{Variáveis utilizadas nos modelos econométricos}
+
     \begin{tabular}{m{0.18\linewidth}|m{0.7\linewidth}}
         Variável & Descrição \\
         \toprule
         Tratamento & Variável binária que assume 1 caso o município tenha recebido passe livre e 0 caso contrário \\
         \midrule
-        Competitividade & Quão proximos foram os resultados entre primeiro e segundo candidatos. Calculado por $1/[\log({V_A/V_B})]$, na qual $V_A$ representa o número de votos recebidos pelo candidato mais votado e $V_B$, pelo segundo candidato mais votado. \\
+        Competitividade & Quão proximos foram os resultados entre primeiro e segundo candidatos. Calculado por $1/[\log({V_A/V_B})]$, na qual $V_A$ representa o número de votos recebidos pelo candidato mais votado e $V_B$, pelo segundo candidato mais votado.\footnotemark \\
         \midrule
         População & População do município \\
         \midrule
@@ -21,9 +23,10 @@
 
     \end{tabular}
 
-    \caption{Variáveis utilizadas nos modelos econométricos}
     \label{tab_variaveis}
 \end{table}
+
+\footnotetext[\thefootnote]{competitividade calculada pós}
 
 % \begin{table}
 %     \centering

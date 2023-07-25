@@ -66,8 +66,9 @@ Um desdobramento peculiar desse modelo é uma espécie de paradoxo, que inclusiv
 
 \begin{figure}
     \centering
-    \input{relatorios/passe-livre/graficos/cycle}
     \caption{Paradoxo de Downs: ciclo de balanceamento.}
+
+    \input{relatorios/passe-livre/graficos/cycle}
     \label{cycle}
 \end{figure}
 
@@ -87,6 +88,7 @@ Na figura \ref{fig_static1} é possível observar para qualquer nível de compar
 \end{equation}
 
 \begin{figure}[!ht]
+    \caption{Visualização do modelo microeconômico}
     \begin{subfigure}[t]{0.45\linewidth}
       \input{relatorios/passe-livre/graficos/static1}
       \caption{Oferta e demanda de votos}
@@ -98,7 +100,6 @@ Na figura \ref{fig_static1} é possível observar para qualquer nível de compar
       \caption{Derivada parcial do comparecimento de equilíbrio em relação ao custo}
       \label{fig_static2}
     \end{subfigure}
-    \caption{Visualização do modelo microeconômico}
     \label{fig_staticA}
   \end{figure}
 
@@ -129,6 +130,7 @@ Entretanto, um fator que não pode ser ignorado é de que estas variáveis todas
 Este componente permite analisar o efeito que a assimetria de informações pode causar. Na figura \ref{fig_static3} é possível observar como o comparecimento de equilíbrio se desloca quando há uma redução no custo sem que haja assimetria de informações. Entretanto, na figura \ref{fig_static4}, é anunciada uma redução no custo para todos os eleitores, mas no dia da eleição esta redução não ocorre, sem que as pessoas fossem avisadas. Neste caso, há uma assimetria de informações e os eleitores antecipam um número maior de eleitores por causa da redução do custo, que reduz a utilidade de seus votos via menor probabilidade dele ser decisivo, criando desincentivos para o voto. Dessa forma, há um aumento em $\varepsilon$, que desloca a curva de benefício marginal para baixo e se observa o comparecimento na intersecção da curva de custo marginal, que efetivamente não se desloca, com a nova curva de benefício marginal. Este equilíbrio, inclusive, é de um comparecimento menor do que tinha se não fosse anunciada a redução no custo.
 
 \begin{figure}[!ht]
+  \caption{Estática comparativa e \textit{moral hazard}}
     \begin{subfigure}[t]{0.45\linewidth}
       \input{relatorios/passe-livre/graficos/static3}
       \caption{Sem assimetria de informações}
@@ -140,7 +142,6 @@ Este componente permite analisar o efeito que a assimetria de informações pode
       \caption{Com assimetria de informações}
       \label{fig_static4}
     \end{subfigure}
-    \caption{Estática comparativa e \textit{moral hazard}}
     \label{fig_staticB}
   \end{figure}
 
@@ -168,10 +169,8 @@ Há apenas um estudo que analisa o impacto do passe livre adotado em 2022 na abs
 Entretanto, associada à forte afirmação sobre as políticas de redução de custos que vai na contramão da literatura teórica, há algumas pontos a serem levantados em relação à interpretação dos resultados. O primeiro comentário que deve ser feito se refere à afirmação sobre o aumento nos níveis de mobilidade. Os autores identificam que houve aumento de mobilidade nos municípios que adotaram o passe livre em relação aos que não adotaram -- efeito não encontrado para aumento do comparecimento --, mas a hipótese de identificação é bastante frágil nesta inferência. 
 
 \begin{figure}[!ht]
+  \caption{Mudança nos níveis de mobilidade nos municípios tratados nos domingos anterior e posterior e no dia do primeiro turno da eleição de 2022 em comparação aos níveis de mobilidade dos municípios do grupo de controle}
     \includegraphics[width = \linewidth]{relatorios/passe-livre/graficos/pereira_mob.png}
-    \caption{Mudança nos níveis de mobilidade nos municípios tratados nos domingos anterior e
-posterior e no dia do primeiro turno da eleição de 2022 em comparação aos níveis de
-mobilidade dos municípios do grupo de controle}
     \subcaption*{Fonte: \cite{pereira2023transporte}}
     \label{fig_pereira_mob}
 \end{figure}
@@ -179,11 +178,8 @@ mobilidade dos municípios do grupo de controle}
 Primeiramente porque no \textit{event study} apresentado (Figura \ref{fig_pereira_mob}), entre os quatro domingos anteriores, observou-se efeito significativo em um deles, mas não houve passe livre nesse domingo e os pesquisadores não comentaram nada sobre essa quebra de paralelismo no estudo. Em segundo, diferentemente do \textit{event study} para identificar efeito na abstenção, este \textit{event study} não compara o domingo de eleição com outros domingos de eleição, mas sim, com outros domingos do mês anterior. Isso é uma limitação, visto que o domingo de eleição funciona de maneira muito diferente de outros domingos e possivelmente os municípios dos grupos diferentes apresentam distintas tradições de mobilidade no dia da eleição. Nesse sentido, inclusive, que fica complicado comparar os resultados de mudança na mobilidade com mudança na abstenção, já que foram utilizados \textit{designs} diferentes no \textit{event study}.
 
 \begin{figure}[!ht]
+  \caption{Efeitos da política de passe livre no transporte público sobre: comparecimento eleitoral (A), parcela de votos para o PT (B), comparecimento em seções eleitorais com diferentes níveis socioeconômicos (C) e comparecimento em seções eleitorais em áreas com menor e maior densidade populacional (D)}
     \includegraphics[width = \linewidth]{relatorios/passe-livre/graficos/pereira_abst.png}
-    \caption{Efeitos da política de passe livre no transporte público sobre: comparecimento eleitoral
-(A), parcela de votos para o PT (B), comparecimento em seções eleitorais com diferentes
-níveis socioeconômicos (C) e comparecimento em seções eleitorais em áreas com menor
-e maior densidade populacional (D)}
     \subcaption*{Fonte: \cite{pereira2023transporte}}
     \label{fig_pereira_abst}
 \end{figure}
@@ -232,6 +228,7 @@ Como discutido e observado na Figura \ref{fig_staticA}, mudanças no custo afeta
 Considerando a endogeneidade discutida, o primeiro passo adotado foi fazer o \textit{Propensity Score Matchin}g (PSM). Na figura \ref{fig_balanceamento} é possível observar o suporte comum antes e depois de aplicar o método do PSM. O eixo $x$ dos gráficos se refere à probabilidade do município receber o tratamento, enquanto o $y$ se trata da densidade de probabilidade. Na figura \ref{fig_posPSM} identifica-se uma grande sobreposição nas probabilidades dos grupos de receber o tratamento, uma evidência de que os municípios que estão sendo comparados são muito semelhantes, menos em relação a receber o tratamento. O suporte comum é menos significativo no primeiro turno porque menos municípios foram tratados, então é mais difícil de encontrar vizinhos próximos.
 
 \begin{figure}[!ht]
+  \caption{Balanceamento dos grupos antes e depois do \textit{Propensity Score Matching} (PSM)}
     \begin{subfigure}[t]{0.49\linewidth}
       \includegraphics[width = \linewidth]{relatorios/passe-livre/graficos/pre-propensity.png}
       \caption{Antes do PSM}
@@ -243,7 +240,6 @@ Considerando a endogeneidade discutida, o primeiro passo adotado foi fazer o \te
       \caption{Depois do PSM}
       \label{fig_posPSM}
     \end{subfigure}
-    \caption{Balanceamento dos grupos antes e depois do \textit{Propensity Score Matching} (PSM)}
     \label{fig_balanceamento}
   \end{figure}
 
@@ -258,6 +254,7 @@ A partir dos resultados da tabela \ref{tab_eventStud}, a hipótese de identifica
 Com isso, foi feita uma análise de efeito heterogêneo de renda. Como descrito com melhor detalhe na seção \ref{subsec_revisLit} e na figura \ref{fig_static2}, uma redução no custo de votar afeta de formas diferentes cada município e uma variável importante que define essa diferença é o nível de renda do município. Portanto, foram separados os municípios em 4 quantis de renda e foi conduzido novamente o \textit{event study} separadamente para cada um desses grupos (Figura \ref{fig_eventStud}). 
 
 \begin{figure}[!ht]
+  \caption{Análise de efeito heterogêneo através de um \textit{event study}}
     \begin{subfigure}[t]{0.49\linewidth}
       \includegraphics[width = \linewidth]{relatorios/passe-livre/graficos/event_study_heter_1t.png}
       \caption{Primeiro Turno}
@@ -269,7 +266,7 @@ Com isso, foi feita uma análise de efeito heterogêneo de renda. Como descrito 
       \caption{Segundo Turno}
       \label{fig_eventStud2}
     \end{subfigure}
-    \caption{Análise de efeito heterogêneo através de um \textit{event study}}
+    
     \subcaption*{O quartil à esquerda se refere ao quartil mais pobre e o da direita, o mais rico}
 
     \label{fig_eventStud}

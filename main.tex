@@ -1,7 +1,7 @@
 \documentclass[
     10pt, 
     a4paper, 
-    draft
+    % draft
     ]{article}
 
 \input{settings/title}
@@ -10,6 +10,7 @@
 \input{settings/header}
 
 \addbibresource{citacoes.bib}
+% \addbibresource{relatiorios/passe-livre/citacoes.bib}
 % \addbibresource{relatiorios/macro/citacoes.bib}
 
 %-----------------------------------------------------------------
@@ -37,6 +38,14 @@
 
 \input{relatorios/consult/text}
 
+\relatorio{Predição de performance de modelos de crédito a partir de indicadores de estabildiade}
+    {André Corrêa Santos, Rafael Coca Leventhal}
+    {Serasa}
+    {\lipsum[1-1]}
+    {pc}
+
+\input{relatorios/serasa/text}
+
 \relatorio{Taxa de juros neutra para o Brasil e Estados Unidos}
     {.}
     {}
@@ -46,15 +55,12 @@
 \input{relatorios/macro/text}
 
 
-\relatorio{Predição de performance de modelos de crédito a partir de indicadores de estabildiade}
-    {André Corrêa Santos, Rafael Coca Leventhal}
-    {Serasa}
-    {\lipsum[1-1]}
-    {pc}
-
-\input{relatorios/serasa/text}
 
 
+\clearpage
+
+\nocite{*}
+% \cite{itau}
 
 \printbibliography
 
