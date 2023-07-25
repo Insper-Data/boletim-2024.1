@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[177] biber-MSWIN64:340> INFO - === 
-[222] Biber.pm:419> INFO - Reading 'main.bcf'
-[372] Biber.pm:979> INFO - Found 6 citekeys in bib section 0
-[391] Biber.pm:4419> INFO - Processing section 0
-[404] Biber.pm:4610> INFO - Looking for bibtex file 'citacoes.bib' for section 0
-[471] bibtex.pm:1713> INFO - LaTeX decoding ...
-[488] bibtex.pm:1519> INFO - Found BibTeX data source 'citacoes.bib'
-[565] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[566] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[566] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pt-PT'
-[566] Biber.pm:4245> INFO - No sort tailoring available for locale 'pt-PT'
-[575] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[580] bbl.pm:763> INFO - Output to main.bbl
+[375] biber-MSWIN64:340> INFO - === 
+[462] Biber.pm:419> INFO - Reading 'main.bcf'
+[615] Biber.pm:979> INFO - Found 6 citekeys in bib section 0
+[634] Biber.pm:4419> INFO - Processing section 0
+[670] Biber.pm:4610> INFO - Looking for bibtex file 'citacoes.bib' for section 0
+[774] bibtex.pm:1713> INFO - LaTeX decoding ...
+[801] bibtex.pm:1519> INFO - Found BibTeX data source 'citacoes.bib'
+[953] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[953] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[953] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pt-PT'
+[953] Biber.pm:4245> INFO - No sort tailoring available for locale 'pt-PT'
+[962] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[968] bbl.pm:763> INFO - Output to main.bbl

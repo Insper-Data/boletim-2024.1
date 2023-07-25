@@ -1,4 +1,4 @@
-\section{Introdu\c{c}\~{a}o e motiva\c{c}\~{a}o }
+\section*{Introdu\c{c}\~{a}o e motiva\c{c}\~{a}o }
 
  No presente trabalho, foi desenvolvido um m\'{e}todo para determinar a taxa de juros neutra de um pa\'{i}s atrav\'{e}s da Regra de Taylor (\textit{Taylor Rule}). A determina\c{c}\~{a}o da taxa de juros neutra ainda \'{e} um tema te\'{o}rico com aplica\c{c}\~{o}es diferentes no mundo atual por seus diferentes m\'{e}todos de determina\c{c}\~{a}o. Tal taxa consiste naquela capaz de fazer com que o PIB de um pa\'{i}s convirja ao seu potencial simultaneamente ancorando a pol\'{i}tica monet\'{a}ria. Visto isso, sua aplica\c{c}\~{a}o apresentada nesse trabalho, consistir\'{a} na compara\c{c}\~{a}o da taxa de juros real efetiva de um pa\'{i}s com a taxa neutra a fim de determinar distor\c{c}\~{o}es presentes nas economias apresentadas.
 
@@ -8,7 +8,7 @@ A maior motiva\c{c}\~{a}o para o desenvolvimento de dada pesquisa foi a disparid
 
  Como pode ser observado no Gr\'{a}fico 1, nesta compara\c{c}\~{a}o, o Brasil \'{e} o pa\'{i}s com a maior taxa de juros real no per\'{i}odo de 2012 a 2016. Dessa forma, o objetivo deste trabalho ser\'{a}, atrav\'{e}s de uma an\'{a}lise hist\'{o}rica de dados, observar distor\c{c}\~{o}es nas taxas de juros brasileiras e determinar hip\'{o}teses para tais ao compararmos com um pa\'{i}s com uma economia est\'{a}vel, como os Estados Unidos. Analogamente, ser\'{a} utilizado este pa\'{i}s como um ``grupo de controle'' a fim de estipularmos distor\c{c}\~{o}es. 
 
-\section{Dados e \textit{Taylor Rule} }
+\section*{Dados e \textit{Taylor Rule} }
 
  Primeiramente, necessita-se determinar uma f\'{o}rmula padr\~{a}o a fim de encontrarmos duas taxas de juros neutras, tanto para o Brasil como para os Estados Unidos. Para isso, foi utilizada a Regra de Taylor que consiste em um c\'{a}lculo para pol\'{i}tica macroecon\^{o}mica capaz de determinar a taxa de juros ideal para um pa\'{i}s em fun\c{c}\~{a}o da infla\c{c}\~{a}o e do volume da atividade econ\^{o}mica, com isso, um de seus \textit{inputs} \'{e} a taxa de juros real de equil\'{i}brio, somada \`{a} um pr\^{e}mio de risco que reflete as expectativas futuras de infla\c{c}\~{a}o e outros riscos. Para este trabalho em quest\~{a}o, tal taxa real de equil\'{i}brio, definida por Taylor como tal por representar o n\'{i}vel da taxa de juros necess\'{a}rio para manter a economia em seu pleno emprego e estabilidade de pre\c{c}os, ser\'{a} a nossa taxa neutra. 
 
@@ -37,7 +37,7 @@ Isolar r:
 
 A taxa de juros real definida acima por $i$, consiste na taxa efetiva de juros de determinado pa\'{i}s descontada a infla\c{c}\~{a}o, j\'{a} a taxa de juros nominal consiste na taxa de juros sem o desconto da infla\c{c}\~{a}o. 
 
-\section{Modelagem}
+\section*{Modelagem}
 
 Para realiza\c{c}\~{a}o do c\'{a}lculo temporal da taxa neutra pela f\'{o}rmula, foi importando cada vari\'{a}vel dos sites dos bancos centrais respectivos de cada pa\'{i}s, bastou apenas col\'{a}-los respectivamente na f\'{o}rmula estipulada e, atrav\'{e}s de uma planilha do Excel, construiu-se uma nova vari\'{a}vel temporal que pode ser incorporada nos gr\'{a}ficos a seguir. \'{E} importante ressaltar que para a meta infla\c{c}\~{a}o dos EUA foi utilizada a s\'{e}rie \textit{10-Year Breakeven Inflation Rate }que consiste na expectativa de infla\c{c}\~{a}o futura baseada no rendimento at\'{e} o vencimento de t\'{i}tulos do Tesouro de 10 anos. \textbf{}
 
@@ -45,7 +45,7 @@ Para realiza\c{c}\~{a}o do c\'{a}lculo temporal da taxa neutra pela f\'{o}rmula,
 
  J\'{a} para os Estados Unidos, o que foi adquirido foram as s\'{e}ries temporais de: ``\textit{Gross Domestic Product, Billions of Dollars, Quarterly, Seasonally Adjusted Annual Rate'' }(GDP), ``\textit{Real Potential Gross Domestic Product, Billions of Chained 2012 Dollars, Quarterly, Not Seasonally Adjusted'' }(GDPPOT), ``\textit{Federal Funds Effective Rate, Percent, Quarterly, Not Seasonally Adjusted''} (DFF), ``\textit{Sticky Price Consumer Price Index less Food and Energy, Percent Change from Year Ago, Quarterly, Seasonally Adjusted'' }(CORESTICKM159SFRBATL), \textit{``10-Year Breakeven Inflation Rate, Percent, Quarterly, Not Seasonally Adjusted''} (T10YIE). 
 
-\section{\textit{R Studio}}
+\section*{\textit{R Studio}}
 
  Diferentemente do que foi feito no Excel, no RStudio, o m\'{e}todo de estima\c{c}\~{a}o da vari\'{a}vel de interesse ser\'{a} de Vetor Autorregressivo (VAR).
 
@@ -58,15 +58,15 @@ Para realiza\c{c}\~{a}o do c\'{a}lculo temporal da taxa neutra pela f\'{o}rmula,
 
  Com isso, primeiro para se extrair o hiato do produto, foi utilizado o filtro Hodrick-Prescott (HP), para poder extrair a tend\^{e}ncia da s\'{e}rie, simbolizando o produto potencial, e os desvios da tend\^{e}ncia, os ciclos, que representam os hiatos do produto. 
 
-\section{Primeiros passos estima\c{c}\~{a}o}
+\section*{Primeiros passos estima\c{c}\~{a}o}
 
 \textit{ }Ap\'{o}s a consolida\c{c}\~{a}o das vari\'{a}veis de interesse, e realizando os devidos testes, entendeu-se que tomar a diferen\c{c}a do logaritmo da s\'{e}rie, para os \'{i}ndices de pre\c{c}o, transformando-os em infla\c{c}\~{a}o, seria o mais apropriado. 
 
  Ap\'{o}s a estima\c{c}\~{a}o do VAR, entende-se que, ap\'{o}s a verifica\c{c}\~{a}o da matriz de correla\c{c}\~{a}o dos res\'{i}duos, como os res\'{i}duos de cada equa\c{c}\~{a}o s\~{a}o correlacionados no mesmo espa\c{c}o de tempo, que os valores das matrizes de coeficientes n\~{a}o s\~{a}o interpret\'{a}veis. Por\'{e}m, como o intuito do trabalho n\~{a}o \'{e} verificar a intensidade das rela\c{c}\~{o}es das vari\'{a}veis entre si e sim apenas o n\'{i}vel dos juros isso n\~{a}o \'{e} um problema. 
 
-\section{Conclus\~{o}es e resultados }
+\section*{Conclus\~{o}es e resultados }
 
-\subsection{\textit{R Studio}}
+\subsection*{\textit{R Studio}}
 
 A respeito dos resultados do m\'{e}todo VAR, tem-se que o n\'{i}vel de juros dos \'{u}ltimos per\'{i}odos est\'{a} dentro do intervalo de confian\c{c}a observado, por\'{e}m, como os intervalos de confian\c{c}a possuem bandas muito largas, estes resultados s\~{a}o pouco conclusivos, tanto de maneira positiva quanto negativamente.
 
@@ -98,7 +98,7 @@ J\'{a} os resultados dos USA do R Studio:
 
 \noindent 
 
-\noindent \textbf{\textit{Excel}}
+\subsection*{\textit{Excel}}
 
 \noindent 
 
@@ -132,7 +132,7 @@ Tem-se como resultado uma clara disparidade entre a dist\^{a}ncia da taxa de jur
 
 \noindent 
 
-\noindent \textbf{Limita\c{c}\~{o}es }
+\section*{Limita\c{c}\~{o}es }
 
 \noindent 
 

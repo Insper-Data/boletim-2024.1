@@ -1,0 +1,24 @@
+\babel@toc {portuguese}{}\relax 
+\contentsline {part}{I\hspace {1em}Passe Livre e Voto}{1}{part.1}%
+\contentsline {section}{\numberline {1}Introdução}{2}{section.1}%
+\contentsline {section}{\numberline {2}Modelagem Teórica}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Revisão Literária}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Extensão do modelo e resultados teóricos}{5}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Modelagem Empírica}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Revisão da literatura empírica}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Dados}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Metodologia}{11}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Resultados empíricos}{11}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Limitações}{14}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Conclusão}{14}{section.4}%
+\contentsline {part}{II\hspace {1em}Estudo e Predição da Exposição de Liquidez de Capital}{15}{part.2}%
+\contentsline {section}{\numberline {1}Introdução}{16}{section.1}%
+\contentsline {section}{\numberline {2}Regressão}{17}{section.2}%
+\contentsline {section}{\numberline {3}Simulação da Carteira}{17}{section.3}%
+\contentsline {section}{\numberline {4}Resultados}{17}{section.4}%
+\contentsline {section}{\numberline {5}Conclusão}{18}{section.5}%
+\contentsline {part}{III\hspace {1em}Taxa de juros neutra para o Brasil e Estados Unidos}{18}{part.3}%
+\contentsline {part}{IV\hspace {1em}Predição de performance de modelos de crédito a partir de indicadores de estabildiade}{23}{part.4}%
+\contentsline {section}{\numberline {1}Introdução}{24}{section.1}%
+\contentsline {section}{\numberline {2}determinação das variáveis de instabilidade}{25}{section.2}%
+\contentsline {section}{\numberline {3}treinamento e avaliação dos modelos preditivos}{25}{section.3}%
