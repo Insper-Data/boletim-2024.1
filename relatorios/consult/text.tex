@@ -1,3 +1,13 @@
+\relatorio{Estudo e Predição da Exposição de Liquidez de Capital}
+    {
+        \noindent Pesquisadores: Gabriel Villaça, Giovanna Spirandelli , Thiago Hampl
+
+        \noindent Projeto de consultoria com DAO Capital
+    }
+    {O projeto desenvolvido em parceria com o fundo Dao Capital tem como objetivo principal responder à pergunta motivadora: é possível prever a tendência do Ibovespa a partir de indicadores macroeconômicos? Para responder essa pergunta, foi desenvolvido um backtesting robusto que balanceia uma carteira entre índice Ibovespa e a taxa DI (livre de risco). Dessa forma, a simulação da carteira varia a exposição da carteira entre esses dois ativos a partir de diferentes sinais macroeconômicos. Ao fim, não foi possível chegar a um resultado que previa perfeitamente as tendências do Ibovespa, porém houve um cuidado para que o código fosse o mais agnóstico possível, o que significa que não é muito difícil testar outras variáveis e estratégias. 
+    }
+    {Simulação, Fundo de Investimento, Macroeconomia, Momentum}
+    
 \section{Introdução}
 
 A equipe de Consultoria 1 do Insper Data trabalhou em conjunto com a gestora Dao Capital a fim de praticar um estudo prático sobre estratégias de variação da exposição de um fundo. A empresa é um fundo quantitativo que utiliza, majoritariamente, estratégias de Momentum na alocação do patrimônio. O orientador do projeto foi o Caio Castro, que auxiliou na execução do projeto em todas as etapas.
@@ -14,7 +24,9 @@ Ao final dessa etapa de validação, as variáveis escolhidas para serem usadas 
 
 As estratégias se resumiram à variação dos sinais macroeconômicos, assim como já descrito. Para calcular a exposição a partir desse sinal, foi utilizado um balanceamento de pesos para calcular a melhor carteira num mesmo período com a mesma variável. Esse peso define o quanto o sinal será relevante para a janela testada, e como unidade de comparação entre carteiras foi utilizado um Sharpe simplificado (retorno da carteira dividido pelo desvio padrão do retorno). 
 
- 
+\begin{equation*}
+    Exp = 1 - K \cdot \text{Sinal}
+\end{equation*}
 
 Além disso, o cálculo do retorno depende do valor da exposição. Em exposições maiores do que 1, o retorno diário é alavancado em Ibov e perde em DI. Em exposições entre 0 e 1, o retorno é calculado pela soma das duas partes. Já em exposições menores do que 0, o retorno é análogo ao maior do que 1: alavancado em DI e perdendo em Ibov.
 
@@ -24,20 +36,69 @@ Utilizando pesos 1, 2, 3 e uma janela de 10 dias, para calcular a exposição id
 
 A simulação feita no projeto utilizou uma janela de 180 dias e 30 pesos diferentes (de -3 a 3 com passo de 0.2). Existiam dados de 2007 a 2022 disponíveis para o executar o backtesting. Abaixo segue um exemplo de como os pesos são balanceados para calcular a exposição ideal com os parâmetros descritos acima, utilizando a variação do Câmbio dólar real como estratégia.
 
+\begin{figure}
+    \begin{subfigure}{0.45\linewidth}
+        \includegraphics[width = \textwidth]{relatorios/consult/imagens/Imagem1.jpg}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\linewidth}
+        \includegraphics[width = \textwidth]{relatorios/consult/imagens/Imagem2.jpg}
+    \end{subfigure}
+\end{figure}
+
 \section{Resultados}
 
 Os resultados do backtesting foram separados por período para facilitar o entendimento da performance da carteira em diferentes ciclos econômicos. Abaixo há um exemplo de resultado utilizando a estratégia do indicador de juros a longo prazo:
 
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.45\linewidth}
+        \includegraphics[width = \textwidth]{relatorios/consult/imagens/Imagem3.jpg}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\linewidth}
+        \includegraphics[width = \textwidth]{relatorios/consult/imagens/Imagem4.jpg}
+    \end{subfigure}
+    \begin{subfigure}{0.45\linewidth}
+        \includegraphics[width = \textwidth]{relatorios/consult/imagens/Imagem5.jpg}
+    \end{subfigure}   
+
+\end{figure}
+
 O gráfico de resultado possui duas curvas: a amarela representa a performance do Ibovespa no período, que serve de benchmark para esse projeto. A outra curva representa a performance da carteira variando a exposição a partir da estratégia. Para essa curva, a cor representa o valor da exposição: para exposições menores do que 0, vermelho; entre 0 e 1, azul; maior do que 1, cor verde.
 
 Foram gerados esses 3 gráficos nestes 3 períodos diferentes para todas as 6 variáveis, a fim de entender se a estratégia está realmente conseguindo prever o comportamento do Ibovespa e balanceando a exposição de forma a gerar uma boa performance, entendendo seu comportamento nesses períodos diversos. No entanto, para ter uma resposta plausível sobre a qualidade das estratégias é necessário simular para todo o período, de 2007 a 2022. Abaixo segue a tabela resumo das 6 variáveis, comparando-as com o benchmark.
- 
+
+\begin{figure}
+    \includegraphics[width = \linewidth]{relatorios/consult/imagens/tabela.png}
+\end{figure}
+
 É possível perceber que o retorno acumulado das estratégias não supera o próprio Ibovespa e, por isso, as estratégias não estão conseguindo prever o comportamento do índice. Mesmo que os resultados não sejam positivos, a ferramenta criada para a simulação do backtesting possui código versátil e adaptável, possibilitando pequenas mudanças para testar outras possibilidades de calcular a exposição. 
 Uma das possibilidades pensada pela equipe seria adicionar uma informação no cálculo da exposição: a última exposição calculada. Essa informação não é irrealista para o backtesting, já que ao calcular a exposição do dia seguinte, é esperado que a do dia anterior já tenha sido calculada. Com a última exposição, é possível tomar decisões em relação ao cálculo das exposições na janela. Um exemplo seria utilizar dois sinais em uma estratégia, e escolher qual sinal será usado para a janela a partir do valor da última exposição. 
 
 Um exemplo dessa possibilidade de carteira é utilizar o sinal do índice de ações de mercados emergentes para exposições anteriores menores do que 0 e o câmbio dólar real para exposições anteriores maiores que 0. Abaixo segue os resultados dessa estratégia para os períodos estudados anteriormente:
 
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.45\linewidth}
+        \includegraphics[width = \textwidth]{relatorios/consult/imagens/Imagem6.jpg}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\linewidth}
+        \includegraphics[width = \textwidth]{relatorios/consult/imagens/Imagem7.jpg}
+    \end{subfigure}
+    \begin{subfigure}{0.45\linewidth}
+        \includegraphics[width = \textwidth]{relatorios/consult/imagens/Imagem8.jpg}
+    \end{subfigure}   
+
+\end{figure}
+
 Além disso, foi construído o gráfico também da performance para todo o período de estudo simulando como seria investir nessa carteira a longo prazo.
+
+\begin{figure}
+    \includegraphics[width = \linewidth]{relatorios/consult/imagens/Imagem9.jpg}
+\end{figure}
+
 
 Para essa estratégia, que muda o sinal da janela dependendo da última exposição calculada, o retorno acumulado foi melhor que qualquer estratégia que utiliza apenas um sinal. 
 
