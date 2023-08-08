@@ -18,12 +18,10 @@
 \makeatletter
 
 % Define the function
-\newcommand{\relatorio}[5]{%
+\newcommand{\relatorio}[4]{%
     \part{#1}
 
-    \noindent Pesquisadores: #2
-
-    \noindent Orientado por: #3
+    #2
 
     \bigskip
 
@@ -32,7 +30,7 @@
         \begin{center}
             \begin{minipage}{0.95\textwidth}
                 \textbf{Resumo}
-                \par #4
+                \par #3
             \end{minipage}
         \end{center}
         \vspace{1pt}
@@ -40,7 +38,7 @@
 
     \bigskip
 
-    Palavras-chave: #5
+    Palavras-chave: #4
 }
 
 \makeatother
