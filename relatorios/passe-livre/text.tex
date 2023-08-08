@@ -1,3 +1,4 @@
+%Comentar basedosdados, removidos municipios q sempre tiveram passe livre, tone down 
 \section{Introdução}
 
 Nas eleições brasileiras de 2022, houve um grande movimento conhecido como Passe Livre pela Democracia, que lutou pela adoção do transporte público gratuito no dia da votação, para que mais pessoas votassem. O movimento enfrentou bastante resistência política e foi grande alvo de discussão. 
@@ -14,7 +15,7 @@ O objetivo deste estudo é identificar se a adoção do passe livre causa uma re
 \subsection{Revisão Literária}
 \label{subsec_revisLit}
 
-A discussão sobre abstenção é extensiva no campo da economia política e diversos autores contribuíram com o debate de seus determinantes. \textcite{downs1957economic} é um dos precursores do modelo microeconômico que é continuado por uma série de autores. Sua premissa é simples: os eleitores buscam maximizar suas utilidades, que são definidas pela Equação \ref{eq_downs}. A partir disso, é considerado racional o eleitor que vota quando sua utilidade esperada é maior que zero e, caso contrário, se abstém. 
+A discussão sobre abstenção é extensiva no campo da economia política e diversos autores contribuíram com o debate de seus determinantes. \textcite{downs1957economic} é um dos precursores do modelo microeconômico que é continuado por uma série de autores, que serão discutidos a seguir. Sua premissa é simples: os eleitores buscam maximizar suas utilidades, que são definidas pela Equação \ref{eq_downs}. A partir disso, é considerado racional o eleitor que vota quando sua utilidade esperada é maior que zero e, caso contrário, se abstém. 
 
 \begin{equation}
 \label{eq_downs}
@@ -74,20 +75,22 @@ Um desdobramento peculiar desse modelo é uma espécie de paradoxo, que inclusiv
 
 \subsection{Extensão do modelo e resultados teóricos}
 
-A partir do modelo apresentado é possível intuir o que aconteceria a nível agregado dada uma mudança em alguma das variáveis. Para tanto, é necessário estabelecer um sistema que determine a abstenção de equilíbrio -- a partir dele será possível analisar como o equilíbrio é deslocado. O equilíbrio de comparecimento $t_{eq}$ é dado quando todos os cidadãos elegíveis escolhem de forma a maximizarem suas utilidades, ou seja, aqueles que apresentam utilidade esperada maior que zero votam, caso contrário, se abstêm. Esse ponto se encontra na intersecção entre a função de benefício marginal do voto e custo marginal do voto (Equação \ref{eq_static}). 
+A partir do modelo apresentado é possível intuir o que aconteceria a nível agregado dada uma mudança em alguma das variáveis -- no caso deste estudo, a variável de interesse é o custo de votar. Para tanto, é necessário estabelecer um sistema que determine a abstenção de equilíbrio -- a partir dele será possível analisar como o equilíbrio é deslocado. O equilíbrio de comparecimento $t_{eq}$ é dado quando todos os cidadãos elegíveis escolhem de forma a maximizarem suas utilidades, ou seja, aqueles que apresentam utilidade esperada maior que zero votam, caso contrário, se abstêm. Esse ponto se encontra na intersecção entre a função de benefício marginal do voto e custo marginal do voto (Equação \ref{eq_static}). 
+
+\begin{equation}
+  \label{eq_static}
+  \begin{aligned}
+      C_{mg}&= B_{mg}\\
+      C &=\left(\frac{\alpha\cdot B_s\cdot N\cdot K}{E\cdot t_{eq}^e}\right)+D \\
+      t_{eq}^e&=\left(\frac{\alpha\cdot B_s\cdot N\cdot K}{E\cdot (C-D)}\right)
+  \end{aligned}
+  \end{equation}
 
 Na figura \ref{fig_static1} é possível observar para qualquer nível de comparecimento $t$ menor do que o comparecimento de equilíbrio $t_{eq}$, haveria eleitores que apresentariam utilidade esperada positiva de votar, o que torna a ação de votar uma escolha racional e, portanto, mais pessoas votariam deslocando o comparecimento ao equilíbrio. De maneira semelhante, caso fosse observado um comparecimento acima do equilíbrio, eleitores apresentam utilidade esperada de votar negativa, sendo racional que se abstenham. Com este modelo, é possível identificar de que forma o equilíbrio se desloca, dada uma variação em alguma das variáveis.
 
-\begin{equation}
-\label{eq_static}
-\begin{aligned}
-    C_{mg}&= B_{mg}\\
-    C &=\left(\frac{\alpha\cdot B_s\cdot N\cdot K}{E\cdot t_{eq}^e}\right)+D \\
-    t_{eq}^e&=\left(\frac{\alpha\cdot B_s\cdot N\cdot K}{E\cdot (C-D)}\right)
-\end{aligned}
-\end{equation}
 
-\begin{figure}[!ht]
+
+\begin{figure}
     \caption{Visualização do modelo microeconômico}
     \begin{subfigure}[t]{0.45\linewidth}
       \input{relatorios/passe-livre/graficos/static1}
@@ -127,7 +130,7 @@ Entretanto, um fator que não pode ser ignorado é de que estas variáveis todas
     t_{eq}^{e} = t_{eq} + \varepsilon
 \end{equation}
 
-Este componente permite analisar o efeito que a assimetria de informações pode causar. Na figura \ref{fig_static3} é possível observar como o comparecimento de equilíbrio se desloca quando há uma redução no custo sem que haja assimetria de informações. Entretanto, na figura \ref{fig_static4}, é anunciada uma redução no custo para todos os eleitores, mas no dia da eleição esta redução não ocorre, sem que as pessoas fossem avisadas. Neste caso, há uma assimetria de informações e os eleitores antecipam um número maior de eleitores por causa da redução do custo, que reduz a utilidade de seus votos via menor probabilidade dele ser decisivo, criando desincentivos para o voto. Dessa forma, há um aumento em $\varepsilon$, que desloca a curva de benefício marginal para baixo e se observa o comparecimento na intersecção da curva de custo marginal, que efetivamente não se desloca, com a nova curva de benefício marginal. Este equilíbrio, inclusive, é de um comparecimento menor do que tinha se não fosse anunciada a redução no custo.
+Este componente permite analisar o efeito que a assimetria de informações pode causar. Na figura \ref{fig_static3} é possível observar como o comparecimento de equilíbrio se desloca quando há uma redução no custo sem que haja assimetria de informações. Entretanto, na figura \ref{fig_static4}, é hipoteticamente anunciada uma redução no custo para todos os eleitores, mas no dia da eleição esta redução não ocorre, sem que as pessoas fossem avisadas. Neste caso, há uma assimetria de informações e os eleitores antecipam um número maior de eleitores por causa da redução do custo, que reduz a utilidade de seus votos via menor probabilidade dele ser decisivo, criando desincentivos para o voto. Dessa forma, há um aumento em $\varepsilon$, que desloca a curva de benefício marginal para baixo e se observa o comparecimento na intersecção da curva de custo marginal, que efetivamente não se desloca, com a nova curva de benefício marginal. Este equilíbrio, inclusive, é de um comparecimento menor do que tinha se não fosse anunciada a redução no custo.
 
 \begin{figure}[!ht]
   \caption{Estática comparativa e \textit{moral hazard}}
@@ -196,21 +199,23 @@ O passe livre foi uma medida adotada em nível municipal, então os dados foram 
 
 \input{relatorios/passe-livre/tabelas/descritiva}
 
-\textcite{smets2013embarrassment} conduziram uma meta análise de 90 estudos empíricos que foram publicados nos jornais de maior renome durante a década de 2000 que estudaram a abstenção de votos. Como variáveis a nível individual que foram consideradas relevantes, estão a idade, escolaridade e renda. Os dados do TSE são segmentados por faixa etária, gênero e escolaridade, mas o dado da escolaridade não é de qualidade, visto que não é atualizado regularmente - apenas quando há uma atualização do título de eleitor. Para contornar este problema, seria ideal analisar pela PNAD a média de anos de estudo na população, mas dessa forma não haveria cobertura de todos os municípios do Brasil. A \textit{proxy} adotada foi a nota do IDEB do município, um índice de educação básica calculado com base no Censo Escolar e desempenho no Sistema de Avaliação da Educação Básica (Saeb). Quanto aos dados de renda, os dados de PIB \textit{per capita} a nível municipal foram coletados do IBGE.
+\textcite{smets2013embarrassment} conduziram uma meta análise de 90 estudos empíricos que foram publicados em grandes jornais durante a década de 2000 que estudaram a abstenção de votos. Como variáveis a nível individual que foram consideradas relevantes, estão a idade, escolaridade e renda. Os dados do TSE são segmentados por faixa etária, gênero e escolaridade, mas o dado da escolaridade não é de qualidade, visto que não é atualizado regularmente - apenas quando há uma atualização do título de eleitor. Para contornar este problema, seria ideal analisar pela PNAD a média de anos de estudo na população, mas dessa forma não haveria cobertura de todos os municípios do Brasil. A \textit{proxy} adotada foi a nota do IDEB do município, um índice de educação básica calculado com base no Censo Escolar e desempenho no Sistema de Avaliação da Educação Básica (Saeb). Quanto aos dados de renda, os dados de PIB \textit{per capita} a nível municipal foram coletados do IBGE.
 
-Para fazer o balanceamento dos grupos, foram utilizadas algumas variáveis do censo de 2010. Apesar do censo estar bastante desatualizado, as variáveis se referem a fatores estruturais dos municípios, que não mudam muito ao longo do tempo, então o viés não é muito significativo.
+Para fazer o balanceamento dos grupos, foram utilizadas algumas variáveis do censo de 2010, descritas na tabela \ref{tab_variaveis-psm}. Apesar do censo estar bastante desatualizado, as variáveis se referem a fatores estruturais dos municípios, que não mudam muito ao longo do tempo, então o viés pode não ser muito significativo, como será discutido na próxima seção e analisado na figura \ref{fig_balanceamento}. Além das variáveis do senso, foi considerado o valor médio das variáveis de controle do modelo principal, considarando dados até 2018.
 
-Em relação às variáveis do modelo microeconômico, nem todos os componentes são observáveis. O $\alpha$ e $B_s$, por exemplo, são extremamente subjetivos, o que os torna praticamente imensuráveis. A literatura identificou alguns fatores que podem contribuir com o dever cívico do voto, $D$, como a participação da população em organizações políticas, filiação partidária, número de funcionários públicos, etc. A maioria desses fatores são invariantes no tempo e são relacionados à cultura do município. Uma variável de controle adotada foi a participação do governo no PIB municipal, também obtida através do IBGE. 
+\input{relatorios/passe-livre/tabelas/variaveis-psm.tex}
 
-Em relação ao custo de votar, muitos componentes estão envolvidos. Entre eles, o custo do transporte, a distância às urnas, demora e filas, chuvas fortes, etc. Pela dificuldade de mensurar esses fatores, foi adotada apenas uma variável mensurável, que é o número de eleitores por urna - pode indicar se há grandes filas. Foram coletados os dados históricos pluviométricos disponibilizados pelo INMET para identificar se choveu no dia da eleição, mas há muitos dados faltantes, o que pode prejudicar a análise, inviabilizando a utilização desses dados. Já os componentes $K, E, N, t$ são obtidos ou calculados através dos dados do TSE e IBGE.
+Em relação às variáveis do modelo microeconômico, nem todos os componentes são observáveis. O $\alpha$ e $B_s$, por exemplo, são extremamente subjetivos, o que os torna praticamente imensuráveis. A literatura identificou alguns fatores que podem contribuir com o dever cívico do voto, $D$, como a participação da população em organizações políticas, filiação partidária, número de funcionários públicos, etc. A maioria desses fatores são invariantes no tempo e são relacionados à cultura do município. Em relação ao custo de votar, muitos componentes estão envolvidos. Entre eles, o custo do transporte, a distância às urnas, demora e filas, chuvas fortes, etc. Pela dificuldade de mensurar esses fatores,
+\footnote{Entre outras tentativas de adotar mais variáveis, foram coletados os dados históricos pluviométricos disponibilizados pelo INMET para identificar se choveu no dia da eleição, mas há muitos dados faltantes, o que pode prejudicar a análise, inviabilizando a utilização desses dados.}
+foi adotada apenas uma variável mensurável, que é o número de eleitores por urna - pode indicar se há grandes filas.  Já os componentes $K, E, N, t$ são obtidos ou calculados através dos dados do TSE e IBGE. A descrição mais detalhada das variáveis adotadas se encontra na tabela \ref{tab_variaveis}.
 
-A descrição mais detalhada das variáveis adotadas se encontra na tabela \ref{tab_variaveis}.
+\input{relatorios/passe-livre/tabelas/variaveis-dd.tex}
 
-\input{relatorios/passe-livre/tabelas/variaveis.tex}
+No Brasil, 52 municípios apresentam transporte público gratuito, que se configurariam como municípios que receberam tratamento. Entretanto, estes municípios receberam tratamento também em eleições anteriores, além de terem uma dinâmica de mobilidade diferente, então foram removidos da base de dados.
 
 \subsection{Metodologia}
 
-A estratégia adotada foi de realizar um \textit{diff-in-diff} com efeitos fixos de tempo e município no qual o grupo de tratamento é composto pelos municípios que adotaram o passe livre e o de controle, pelos que não adotaram. A hipótese de identificação é de que os grupos apresentam trajetórias de abstenção paralelas ao longo das eleições e, portanto, caso a diferença entre os grupos mude apenas no ano de tratamento, isso é consequência do tratamento.
+A estratégia adotada foi de realizar um \textit{diff-in-diff} com efeitos fixos de tempo e município no qual o grupo de tratamento é composto pelos municípios que adotaram o passe livre e o de controle, pelos que não adotaram. A hipótese de identificação é de que os grupos apresentam trajetórias de abstenção paralelas na ausência de tratamento ao longo das eleições e, portanto, caso a diferença entre os grupos mude apenas no ano de tratamento, isso é consequência do tratamento.
 
 \begin{equation}
 \label{eq_econometric}
@@ -221,7 +226,7 @@ Na equação \ref{eq_econometric}, $y_{ti}$ representa a abstenção no ano $t$ 
 
 A variável passe livre é endógena, já que não foi decidido de forma aleatória qual município adotaria o passe livre. Portanto, a hipótese de identificação não se sustenta, pois os grupos de controle e tratamento são muito diferentes e não podem ser comparados diretamente. Para lidar com essa questão, foi utilizado o método do \textit{Propensity Score Matching}, no qual calcula-se a probabilidade do passe livre ser adotado e compara-se municípios com propensões a ser tratados parecidas. O PSM foi calculado a partir do \textit{Nearest Neighbor} ou ``vizinho mais próximo'' com reposição.
 
-Como discutido e observado na Figura \ref{fig_staticA}, mudanças no custo afetam de forma diferente municípios que apresentam diferentes faixas de abstenção. Nesse sentido, a modelagem da abstenção em termos logarítmicos lineariza essa relação, diminuindo o viés oriundo da heterogeneidade. 
+Como discutido e observado na Figura \ref{fig_staticA}, mudanças no custo afetam de forma diferente municípios que apresentam diferentes faixas de abstenção. Nesse sentido, a modelagem da abstenção em termos logarítmicos lineariza essa relação.
 
 \subsection{Resultados empíricos}
 
@@ -291,3 +296,9 @@ Pelas limitações e dificuldades apresentadas, os resultados empíricos em rela
 Por outro lado, o que a teoria indica é que se um município adotar o passe livre de maneira eficiente, a abstenção será reduzida. Na medida em que a adoção é mais ineficiente, têm-se um \textit{moral hazard} e, como discutido na figura \ref{fig_static4}, o efeito do passe livre pode ser atenuado ou pode até acabar sendo o efeito contrário em um caso extremo. 
 
 Nesse sentido, caso seja adotada a medida, há alguns pontos importantes para serem levados em conta. Primeiramente, é muito importante garantir que os canais de comunicação do governo trabalhem de forma a fazer a notícia chegar em todos, principalmente aqueles que usufruem do sistema de transporte público. Em segundo, no dia da eleição a capacidade e qualidade do transporte entregues devem ser igual ou melhor do que o prometido, para evitar que aconteça o \textit{moral hazard}.
+
+\section{Notas Finais}
+
+\subsection{Agenda de pesquisa}
+
+\subsection{Agradecimentos}
