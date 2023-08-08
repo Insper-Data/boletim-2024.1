@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1691532272 "main.bcf" "main.bbl" "main" 1691532299 0
+["biber main"] 1691533461 "main.bcf" "main.bbl" "main" 1691533477 0
   "./citacoes.bib" 1690308334 2601 eeb00ad60f66023e611a7588d6a142c6 ""
-  "main.bcf" 1691532299 108981 5ef03003cc99c5df2050c13a8de827f7 "pdflatex"
+  "main.bcf" 1691533476 108981 5ef03003cc99c5df2050c13a8de827f7 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1691532287 "d:/git/boletim-data/main.tex" "main.pdf" "main" 1691532299 0
+["pdflatex"] 1691533470 "d:/git/boletim-data/main.tex" "main.pdf" "main" 1691533477 0
   "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1691520061 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1689363044 11548 06ddebdca3b3ce04a091cec3c866e25c ""
   "C:/Users/Usuario/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1689307548 24119856 9620448182ff4afddb2aee22c9572b56 ""
@@ -36,6 +36,7 @@
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy9.tfm" 1136765053 1116 25a7bf822c58caf309a702ef79f4afbb ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti10.tfm" 1136765053 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti9.tfm" 1136765053 1476 cccc6cc4935c18ec3d5623b77ecb8b74 ""
+  "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmtt10.tfm" 1136765053 768 1321e9409b4137d6fb428ac9dc956269 ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247596666 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb" 1247596667 36554 b67dc2cfa451409e100b3fcf5f506509 ""
@@ -58,6 +59,7 @@
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1247596666 32716 08e384dc442464e7285e891af9f45947 ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1247596667 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb" 1247596667 36310 f5ddc6715cc60deb16d9db5ded6a9391 ""
+  "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1247596667 31099 342ef5a582aacbd3346f3cf4579679fa ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb" 1247596653 11493 4f5ed183a47d3197cf8cd322325db6de ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -310,14 +312,13 @@
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "capa/capa.pdf" 1691519951 30565 f0732db3d37f091621ff799668d918cf ""
-  "d:/git/boletim-data/main.tex" 1691532259 804 e5bc829eb4286861efd33cb5cedb38e8 ""
+  "d:/git/boletim-data/main.tex" 1691533454 835 0e9dee1abe15d4364e219b0ea366df90 ""
   "logo/hlogo.png" 1689272166 26890 b35519a4c3aa3f03b81f1db4a8de5885 ""
-  "main.aux" 1691532299 14883 6f39aa3cb679a898a6ce75696c4dd681 "pdflatex"
-  "main.bbl" 1691532275 15918 a248871780c3960453fb3d317bc69e8f "biber main"
-  "main.out" 1691532289 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.run.xml" 1691532299 2312 3fd293cdc1d33399683d4ae411deda00 "pdflatex"
-  "main.tex" 1691532259 804 e5bc829eb4286861efd33cb5cedb38e8 ""
-  "main.toc" 1691532299 2376 99427da9e8b9aca8ee87a7f937d9c512 "pdflatex"
+  "main.aux" 1691533476 15383 5c9fa9cc8f652746b4127ca23c1f890f "pdflatex"
+  "main.bbl" 1691533464 15918 a248871780c3960453fb3d317bc69e8f "biber main"
+  "main.run.xml" 1691533476 2312 3fd293cdc1d33399683d4ae411deda00 "pdflatex"
+  "main.tex" 1691533454 835 0e9dee1abe15d4364e219b0ea366df90 ""
+  "main.toc" 1691533476 2711 056e86ddb86daeeb6e89ef3c1135ea37 "pdflatex"
   "relatorios/consult/imagens/Imagem1.jpg" 1691531214 10281 4ebbbd0e431fd5e1cb35c24ad5b8ea60 ""
   "relatorios/consult/imagens/Imagem2.jpg" 1691531241 16316 722a1ccade97c62e1c4e8924ce182103 ""
   "relatorios/consult/imagens/Imagem3.jpg" 1691531253 10645 7df2bc18caa31922f38ca91971021358 ""
@@ -357,6 +358,7 @@
   "relatorios/passe-livre/tabelas/variaveis-psm.tex" 1691472374 1491 57448f1e21ac0df03299b31aedbcea77 ""
   "relatorios/passe-livre/text.tex" 1691531864 37430 600eb3825864728f2bbaa33d227fa8db ""
   "relatorios/serasa/text.tex" 1691531914 12287 d32576a83b0ee890d2e930fe7a0856eb ""
+  "relatorios/stf/text.tex" 1691533431 10587 0f2c1a3f988f41124645bb1887605dc3 ""
   "settings/header.tex" 1690216241 324 40e3f279efb20f65a3fd721258079b36 ""
   "settings/misc.tex" 1691531717 1522 db019e1ee37165f3c9b4cbb83a8aa6b1 ""
   "settings/plots.tex" 1690216241 597 aca92c3b3567b4e140b6b90ca34d94e7 ""
@@ -365,7 +367,6 @@
   "main.aux"
   "main.bcf"
   "main.log"
-  "main.out"
   "main.pdf"
   "main.run.xml"
   "main.toc"
