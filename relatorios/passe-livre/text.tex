@@ -6,19 +6,26 @@
         \noindent Orientado por: Adriano Borges Costa e Bianca Tavolari
     }
     {
-        Nas eleições de 2022, mais de 400 municípios adotaram o passe livre para os modais de transporte público no dia da eleição com o objetivo de democratizar o acesso ao voto. A literatura e teoria microeconômicas indicam que, caso uma medida de redução de ``custos de votar'' seja implementada de maneira eficiente, é esperado um efeito positivo no comparecimento. Por outro lado, caso seja implementada com ineficiência, pode haver efeitos adversos, que se configuram como um \textit{moral hazard}. Apesar de validar alguns resultados teóricos esperados, os resultados empíricos deste estudo se demonstraram inconclusivos na identificação da magnitude do efeito do passe livre no comparecimento eleitoral. 
+        Nas eleições de 2022, cerca de 400 municípios adotaram o passe livre para os modais de transporte público no dia da eleição com o objetivo de democratizar o acesso ao voto. A literatura e teoria microeconômicas indicam que, caso uma medida de redução de ``custos de votar'' seja implementada de maneira eficiente, é esperado um efeito positivo no comparecimento. Por outro lado, caso seja implementada com ineficiência, pode haver efeitos adversos, que se configuram como um \textit{moral hazard}. Apesar de validar alguns resultados teóricos esperados, os resultados empíricos deste estudo se demonstraram inconclusivos na identificação da magnitude do efeito do passe livre no comparecimento eleitoral. 
     }
     {Comparecimento eleitoral, Microeconomia, Mobilidade, Ciência Política}
 
 \section{Introdução}
 
-Nas eleições brasileiras de 2022, houve um grande movimento conhecido como Passe Livre pela Democracia, que lutou pela adoção do transporte público gratuito no dia da votação, para que mais pessoas votassem. O movimento enfrentou bastante resistência política e foi grande alvo de discussão. 
+Nas eleições brasileiras de 2022, houve um grande movimento conhecido como Passe Livre pela Democracia\footnote{Mais informações disponíveis em \url{https://www.passelivrepelademocracia.org}}, que lutou pela adoção do transporte público gratuito no dia da votação, para que mais pessoas votassem. O movimento enfrentou bastante resistência política e foi grande alvo de discussão. 
 
-Essa medida tem seu mérito divido em dois aspectos, o primeiro deles sendo normativo, considerando a mobilidade como um direito e a dificuldade de uma pessoa se locomover à urna como uma possível barreira monetária ao exercício democrático de votar. O segundo aspecto se refere aos incentivos econômicos do voto, sendo que um estímulo monetário influencia a decisão das pessoas e pode ser decisivo para ``convencer'' um cidadão a votar.
+Essa medida tem seu mérito divido em dois aspectos, o primeiro deles sendo normativo, considerando a mobilidade como um direito e a dificuldade de uma pessoa se locomover à urna como uma possível barreira monetária ao exercício democrático de votar. O segundo aspecto se refere aos incentivos econômicos do voto, sendo que um estímulo monetário influencia a decisão das pessoas e pode ser decisivo para ``convencer'' um cidadão a votar. A literatura microeconômica indica que, mesmo sendo um pequeno incentivo, é esperado um aumento também pequeno no comparecimento.
 
-Entretanto, esta medida pode ser um tanto quanto custosa e não há garantias de que as pessoas que usufruem do passe livre efetivamente estão aproveitando a medida para votar ou para realizar outras atividades. \textcite{pereira2023transporte} conduzem um estudo na tentativa de identificar essa hipótese, e seus resultados serão discutidos no tópico \ref{subsec_revisao}. Ademais, o conturbado cenário político complicou a execução da medida, visto que a comunicação dos governos municipais pode não ter sido eficiente e possivelmente a população não estava plenamente ciente da adoção do passe livre. 
+\begin{quote}
+  ``À primeira vista, todos esses custos podem parecer triviais, e os viéses na capacidade de suportá-los parecem irrelevantes. No entanto, os retornos do ato de votar geralmente são tão baixos que variações mínimas em seu custo podem ter efeitos enormes na distribuição do poder político. Esse fato explica por que práticas tão simples como realizar eleições em feriados, manter os locais de votação abertos até mais tarde, revogar pequenos impostos eleitorais\footnote{No período que foi escrito este livro, havia um imposto para votar nos Estados Unidos, medida que hoje é considerada uma ferramenta discriminatória que viola os direitos civis.} 
+  e oferecer transporte gratuito para os locais de votação podem afetar de maneira marcante os resultados das eleições.'', \textcite{downs1957economic}, traduzido pelo autor.
+\end{quote}
 
-O objetivo deste estudo é identificar se a adoção do passe livre causa uma redução na abstenção. Na seção \ref{sec_teor} é discutido o que é estabelecido na teoria de ciência política com um olhar microeconômico, bem como é feita uma adaptação dos modelos da literatura para o caso do passe livre. Na seção \ref{sec_modEmp} é feita uma tentativa empírica de medir o efeito do passe livre a partir de um \textit{diff-in-diff} pareado com efeitos fixos e um \textit{event study} para testes de robustez.
+Pesquisas empíricas como a conduzida por \textcite{haspel2005location} demonstram que a mobilidade é um elemento crucial para o comparecimento eleitoral. No estudo, identificam que quanto mais longe a residência de uma pessoa se encontra de sua respectiva urna, menor é sua probabilidade de votar. Os autores também concluem que acesso a um veículo atenua esse efeito da distância. Utilizando esse arsenal e outras referências da literatura, outro estudo conduzido por \textcite{konishi2010examination} simula quanto seria o comparecimento eleitoral em uma cidade no Japão, dados diferentes valores para o número de urnas, considerando simulações com e sem acesso a ônibus. O artigo conclui que oferecer ônibus de graça pode ter impacto significativo no dispêndio de votar.
+
+Entretanto, adotar o passe livre pode ser um tanto quanto custoso e não há garantias de que as pessoas que usufruem do passe livre efetivamente estão aproveitando a medida para votar ou para realizar outras atividades. \textcite{pereira2023transporte} conduziram um estudo na tentativa de identificar essa hipótese para as eleições brasileiras de 2022, e seus resultados serão discutidos no tópico \ref{subsec_revisao}. Ademais, o conturbado cenário político complicou a execução da medida, visto que a comunicação dos governos municipais pode não ter sido eficiente e possivelmente a população não estava plenamente ciente da adoção do passe livre. 
+
+O objetivo deste estudo é identificar se a adoção do passe livre causa uma redução na abstenção. Na seção \ref{sec_teor} é discutido o que é estabelecido na teoria de ciência política com um olhar microeconômico, bem como é feita uma adaptação dos modelos da literatura para o caso do passe livre. Na seção \ref{sec_modEmp} é feita uma tentativa empírica de medir o efeito do passe livre nas eleições de 2022 a partir de um \textit{diff-in-diff} pareado com efeitos fixos e um \textit{event study} para testes de robustez.
 
 \section{Modelagem Teórica}
 \label{sec_teor}
@@ -37,8 +44,7 @@ Na equação, $\mathbb{E}(U_i)$ representa a utilidade esperada do cidadão $i$ 
 
 O modelo apresenta uma série de complicações, que são inclusive discutidas de forma descritiva por Downs. Um eleitor indiferente entre os candidatos neste modelo apresenta benefício zero e não votaria para qualquer valor de $C$ positivo, então não seria racional votar branco. Além disso, em eleições de grande escala, como é o caso das eleições federais que apresentam mais de 150 milhões de votantes, a probabilidade do voto ser decisivo é muito próxima a zero. Nesses casos, caso o custo seja positivo, a utilidade do voto seria sempre negativa e ninguém votaria.
 
-Para endereçar estes problemas, \textcite{riker1968theory} introduzem, entre outras contribuições, mais um componente autônomo da utilidade
-\footnote{É considerado um componente autônomo aquele que não está relacionado à abstenção. Considerando que a probabilidade do voto ser decisivo é dada por $P = 1/v$, no qual v é o número de votantes, quanto maior for a abstenção, maior é a probabilidade do voto ser decisivo}
+Para endereçar estes problemas, \textcite{riker1968theory} introduzem, entre outras contribuições, mais um componente autônomo da utilidade\footnote{É considerado um componente autônomo aquele que não está relacionado à abstenção. Considerando que a probabilidade do voto ser decisivo é dada por $P = 1/v$, no qual v é o número de votantes, quanto maior for a abstenção, maior é a probabilidade do voto ser decisivo}
 $D$. Este se refere ao dever cívico de votar, que não está relacionado à probabilidade do voto ser decisivo. O autor argumenta que há um ganho de utilidade ao contribuir com o sistema democrático, bem como pode haver o sentimento de arrependimento caso o sujeito se abstenha. Além disso, considera votar um ato político, relacionado à tradição. Por outro lado, reconhece que para a maior parte das pessoas $D<C$ e, portanto, ainda não seria racional votar em grandes eleições.
 
 \begin{equation}
@@ -130,8 +136,7 @@ Na figura \ref{fig_static1} é possível observar para qualquer nível de compar
     \frac{\partial{(t_{eq}^e})}{\partial C} = -\left(\frac{\alpha\cdot B_s\cdot N\cdot K}{E\cdot (C-D)^2}\right)
 \end{equation}
 
-A equação \ref{eq_parcial} apresenta a derivada parcial do equilíbrio de comparecimento em relação ao custo do voto. Na medida em que o custo aumenta, \textit{ceteris paribus}, o comparecimento reduz. Na figura \ref{fig_static2} é possível observar qual é o impacto de um $\Delta C$ no comparecimento, visto que a área pintada abaixo do gráfico representa a quantidade de pessoas que foram "convencidas"\  a votar por conta da redução do custo e, caso houvesse um aumento, representaria a quantidade de pessoas que desistiram de votar. Um ponto importante é que um $\Delta C$ impacta de maneira heterogênea localidades com níveis de comparecimento diferentes: em municípios cujo comparecimento é baixo, um $\Delta C$ surte efeito diminuto, enquanto em um município com comparecimento alto, um $\Delta C$ pequeno pode causar diferenças significativas. Isso ocorre, pois a função de benefício marginal é recíproca
-\footnote{A função do benefício marginal $(B_{mg}=\frac{Z}{t_{eq}} + D)$, na qual $Z$ representa todas as variáveis que multiplicam $t_{eq}$ é recíproca, já que depende inversamente do comparecimento de equilíbrio} 
+A equação \ref{eq_parcial} apresenta a derivada parcial do equilíbrio de comparecimento em relação ao custo do voto. Na medida em que o custo aumenta, \textit{ceteris paribus}, o comparecimento reduz. Na figura \ref{fig_static2} é possível observar qual é o impacto de um $\Delta C$ no comparecimento, visto que a área pintada abaixo do gráfico representa a quantidade de pessoas que foram "convencidas"\  a votar por conta da redução do custo e, caso houvesse um aumento, representaria a quantidade de pessoas que desistiram de votar. Um ponto importante é que um $\Delta C$ impacta de maneira heterogênea localidades com níveis de comparecimento diferentes: em municípios cujo comparecimento é baixo, um $\Delta C$ surte efeito diminuto, enquanto em um município com comparecimento alto, um $\Delta C$ pequeno pode causar diferenças significativas. Isso ocorre, pois a função de benefício marginal é recíproca\footnote{A função do benefício marginal $(B_{mg}=\frac{Z}{t_{eq}} + D)$, na qual $Z$ representa todas as variáveis que multiplicam $t_{eq}$ é recíproca, já que depende inversamente do comparecimento de equilíbrio} 
 e assintótica em $D$, ou seja, na medida em que o comparecimento aumenta, o benefício marginal se aproxima de $D$, o dever cívico do voto. Nesse sentido, quando o comparecimento é muito alto, o principal fator que define o equilíbrio é a diferença entre $C$ e $D$.
 
 Entretanto, um fator que não pode ser ignorado é de que estas variáveis todas se referem às expectativas das pessoas. A competitividade da eleição, por exemplo, é dada pela percepção dos eleitores com base nas pesquisas eleitorais, conteúdo da mídia e interações com seus conhecidos. Nesse sentido, o comparecimento de equilíbrio é dado por expectativas prévias à eleição, que não necessariamente se confirmam no dia da votação. Na equação \ref{eq_expectativas}, tem-se que o comparecimento esperado de equilíbrio é dado pelo verdadeiro equilíbrio $t_{eq}$, mais um erro de expectativas oriundo de assimetria de informações $\varepsilon$. Substituindo a equação \ref{eq_expectativas} em \ref{eq_static}, incorpora-se um componente de expectativas na estática comparativa.
@@ -185,7 +190,7 @@ Entretanto, há algumas pontos a serem levantados em relação à interpretaçã
 \begin{figure}[!ht]
   \caption{Mudança nos níveis de mobilidade nos municípios tratados nos domingos anterior e posterior e no dia do primeiro turno da eleição de 2022 em comparação aos níveis de mobilidade dos municípios do grupo de controle}
     \includegraphics[width = \linewidth]{relatorios/passe-livre/graficos/pereira_mob.png}
-    \subcaption*{Fonte: \cite{pereira2023transporte}}
+    \subcaption*{\textbf{Fonte:} \cite{pereira2023transporte}}
     \label{fig_pereira_mob}
 \end{figure}
 
@@ -194,7 +199,7 @@ Em segundo, diferentemente do \textit{event study} para identificar efeito na ab
 \begin{figure}[!ht]
   \caption{Efeitos da política de passe livre no transporte público sobre: comparecimento eleitoral (A), parcela de votos para o PT (B), comparecimento em seções eleitorais com diferentes níveis socioeconômicos (C) e comparecimento em seções eleitorais em áreas com menor e maior densidade populacional (D)}
     \includegraphics[width = \linewidth]{relatorios/passe-livre/graficos/pereira_abst.png}
-    \subcaption*{Fonte: \cite{pereira2023transporte}}
+    \subcaption*{\textbf{Fonte:} \cite{pereira2023transporte}}
     \label{fig_pereira_abst}
 \end{figure}
 
@@ -210,17 +215,25 @@ O passe livre foi uma medida adotada em nível municipal, então os dados foram 
 
 \textcite{smets2013embarrassment} conduziram uma meta análise de 90 estudos empíricos que foram publicados em grandes jornais durante a década de 2000 que estudaram a abstenção de votos. Como variáveis a nível individual que foram consideradas relevantes, estão a idade, escolaridade e renda. Os dados do TSE são segmentados por faixa etária, gênero e escolaridade, mas o dado da escolaridade não é de qualidade, visto que não é atualizado regularmente - apenas quando há uma atualização do título de eleitor. Para contornar este problema, seria ideal analisar pela PNAD a média de anos de estudo na população, mas dessa forma não haveria cobertura de todos os municípios do Brasil. A \textit{proxy} adotada foi a nota do IDEB do município, um índice de educação básica calculado com base no Censo Escolar e desempenho no Sistema de Avaliação da Educação Básica (Saeb). Quanto aos dados de renda, os dados de PIB \textit{per capita} a nível municipal foram coletados do IBGE.
 
-Para fazer o balanceamento dos grupos, foram utilizadas algumas variáveis do censo de 2010, descritas na tabela \ref{tab_variaveis-psm}. Apesar do censo estar bastante desatualizado, as variáveis se referem a fatores estruturais dos municípios, que não mudam muito ao longo do tempo, então o viés pode não ser muito significativo, como será discutido na próxima seção e analisado na figura \ref{fig_balanceamento}. Além das variáveis do senso, foi considerado o valor médio das variáveis de controle do modelo principal, considarando dados até 2018.
+Para fazer o balanceamento dos grupos, foram utilizadas algumas variáveis do censo de 2010, descritas na tabela \ref{tab_variaveis-psm}, que se encontra no Anexo (Seção \ref{sec_anex}). Apesar do censo estar bastante desatualizado, as variáveis se referem a fatores estruturais dos municípios, que não mudam muito ao longo do tempo, então o viés pode não ser muito significativo, como será discutido na próxima seção e analisado na figura \ref{fig_balanceamento}. Além das variáveis do senso, foi considerado o valor médio das variáveis de controle do modelo principal, considarando dados até 2018.
 
-\input{relatorios/passe-livre/tabelas/variaveis-psm.tex}
 
-Em relação às variáveis do modelo microeconômico, nem todos os componentes são observáveis. O $\alpha$ e $B_s$, por exemplo, são extremamente subjetivos, o que os torna praticamente imensuráveis. A literatura identificou alguns fatores que podem contribuir com o dever cívico do voto, $D$, como a participação da população em organizações políticas, filiação partidária, número de funcionários públicos, etc. A maioria desses fatores são invariantes no tempo e são relacionados à cultura do município. Em relação ao custo de votar, muitos componentes estão envolvidos. Entre eles, o custo do transporte, a distância às urnas, demora e filas, chuvas fortes, etc. Pela dificuldade de mensurar esses fatores,
-\footnote{Entre outras tentativas de adotar mais variáveis, foram coletados os dados históricos pluviométricos disponibilizados pelo INMET para identificar se choveu no dia da eleição, mas há muitos dados faltantes, o que pode prejudicar a análise, inviabilizando a utilização desses dados.}
-foi adotada apenas uma variável mensurável, que é o número de eleitores por urna - pode indicar se há grandes filas.  Já os componentes $K, E, N, t$ são obtidos ou calculados através dos dados do TSE e IBGE. A descrição mais detalhada das variáveis adotadas se encontra na tabela \ref{tab_variaveis}.
+Em relação às variáveis do modelo microeconômico, nem todos os componentes são observáveis. O $\alpha$ e $B_s$, por exemplo, são extremamente subjetivos, o que os torna praticamente imensuráveis. A literatura identificou alguns fatores que podem contribuir com o dever cívico do voto, $D$, como a participação da população em organizações políticas, filiação partidária, número de funcionários públicos, etc. A maioria desses fatores são invariantes no tempo e são relacionados à cultura do município. Em relação ao custo de votar, muitos componentes estão envolvidos. Entre eles, o custo do transporte, a distância às urnas, demora e filas, chuvas fortes, etc. Pela dificuldade de mensurar esses fatores\footnote{Entre outras tentativas de adotar mais variáveis, foram coletados os dados históricos pluviométricos disponibilizados pelo INMET para identificar se choveu no dia da eleição, mas há muitos dados faltantes, o que pode prejudicar a análise, inviabilizando a utilização desses dados.},
+foi adotada apenas uma variável mensurável, que é o número de eleitores por urna - pode indicar se há grandes filas.  Já os componentes $K, E, N, t$ são obtidos ou calculados através dos dados do TSE e IBGE. A descrição mais detalhada das variáveis adotadas se encontra na tabela \ref{tab_variaveis}, no Anexo (Seção \ref{sec_anex}).
 
-\input{relatorios/passe-livre/tabelas/variaveis-dd.tex}
 
-No Brasil, 52 municípios apresentam transporte público gratuito, que se configurariam como municípios que receberam tratamento. Entretanto, estes municípios receberam tratamento também em eleições anteriores, além de terem uma dinâmica de mobilidade diferente, então foram removidos da base de dados.
+Segundo um levantamento do IDEC, no Brasil, 52 municípios apresentam transporte público gratuito, que se configurariam como municípios que receberam tratamento. Entretanto, estes municípios receberam tratamento também em ao longo do ano e eleições anteriores, então foram removidos da base de dados. Entretanto, é importante destacar uma preocupação levantada pelo próprio IDEC na coleta dos dados:
+
+\begin{quote}
+  ``A prática de conceder subsídio, sem mencionar qual o valor do recurso, se mostrou recorrente nos
+  municípios analisados. No universo total pesquisado (100 maiores cidades + cidades menores em
+  que há informações sobre subsídios), há 122 cidades em que foi implementado algum tipo de
+  subsídio. Em 46 cidades, ou 38\% do universo pesquisado, não houve divulgação de valores
+  específicos, seja em sites oficiais ou entrevistas na imprensa.''
+\end{quote}
+
+Essa dificuldade enfrentada pelo IDEC na pesquisa de municípios que já adotavam o passe livre antes da eleição se aplica também para o passe livre na eleição. Como a medida foi adotada em nível municipal, cada município teve liberadade para executá-lo de formas diferentes, como foi o caso da prefeitura de Rio Branco, que ``decidiu conceder a gratuidade apenas na volta do eleitor da zona eleitoral. Para evitar o pagamento da passagem, o usuário do transporte público deverá apresentar o comprovante do voto''\footnote{Trecho retirado da notícia da Uol \url{http://bit.ly/3YzDykk}, }.
+Todos os municípios que tiveram qualquer tipo de subsídio no dia da eleição foram considerados municípios tratados.
 
 \subsection{Metodologia}
 
@@ -300,14 +313,24 @@ A cobertura do sistema de transporte público do município determina quantas pe
 
 \section{Conclusão}
 
-Pelas limitações e dificuldades apresentadas, os resultados empíricos em relação ao efeito do passe livre na abstenção são inconclusivos. Nesse sentido, o único resultado que pode ser validado é o teórico. O que a teoria microeconômica indica é que, assumindo as premissas do modelo, uma redução no custo do voto leva a um maior comparecimento quando não há assimetria de informação, mesmo que muito pequeno. Entretanto, não há evidências de que o passe livre foi adotado de maneira eficiente \footnote{Eficiente se refere à uma maneira que todos os habitantes estão cientes da medida e que ela não gere assimetria de informação. Neste caso, os eleitores antecipariam de maneira correta a quantidade de pessoas que seriam ``convencidas'' a votar, mesmo que seja apenas 1 pessoa}, então pode ser que a medida realmente não tenha apresentado efeito de reduzir a abstenção em 2022.
+Pelas limitações e dificuldades apresentadas, os resultados empíricos em relação ao efeito do passe livre na abstenção são inconclusivos. Nesse sentido, o único resultado que pode ser validado é o teórico. É importante destacar que todas as premissas teóricas que foram mensuradas empiricamente tiveram sua intuição validada, o que vai de acordo com a literatura amplamente aceita. 
 
-Por outro lado, o que a teoria indica é que se um município adotar o passe livre de maneira eficiente, a abstenção será reduzida. Na medida em que a adoção é mais ineficiente, têm-se um \textit{moral hazard} e, como discutido na figura \ref{fig_static4}, o efeito do passe livre pode ser atenuado ou pode até acabar sendo o efeito contrário em um caso extremo. 
+O que a teoria microeconômica indica é que, assumindo as premissas do modelo, uma redução no custo do voto leva a um maior comparecimento quando não há assimetria de informação, mesmo que muito pequeno. Entretanto, não há evidências de que o passe livre foi adotado de maneira eficiente, então pode ser que a medida realmente não tenha apresentado efeito de reduzir a abstenção em 2022. Eficiente se refere à uma maneira que todos os habitantes estão cientes da medida e que ela não gere assimetria de informação. Neste caso, os eleitores antecipariam de maneira correta a quantidade de pessoas que seriam ``convencidas'' a votar, mesmo que seja apenas 1 pessoa
 
-Nesse sentido, caso seja adotada a medida, há alguns pontos importantes para serem levados em conta. Primeiramente, é muito importante garantir que os canais de comunicação do governo trabalhem de forma a fazer a notícia chegar em todos, principalmente aqueles que usufruem do sistema de transporte público. Em segundo, no dia da eleição a capacidade e qualidade do transporte entregues devem ser igual ou melhor do que o prometido, para evitar que aconteça o \textit{moral hazard}.
+Por outro lado, o que a teoria indica é que se um município adotar o passe livre de maneira eficiente, a abstenção será reduzida. Na medida em que a adoção é mais ineficiente, têm-se um \textit{moral hazard} e, como discutido na figura \ref{fig_static4}, o efeito do passe livre pode ser atenuado ou pode até acabar sendo o efeito contrário em um caso extremo. De maneira realística, é impossível que não haja nenhum grau de assimetria de informação, o ponto é que sua magnitude pode ser determinante do fracasso de uma medida de redução de custo.
+
+Portanto, caso seja adotada a medida, há alguns pontos importantes para serem levados em conta. Primeiramente, é muito importante garantir que os canais de comunicação do governo trabalhem de forma a fazer a notícia chegar em todos, principalmente aqueles que usufruem do sistema de transporte público. Em segundo, no dia da eleição a capacidade e qualidade do transporte entregues devem ser igual ou melhor do que o prometido, para evitar que aconteça o \textit{moral hazard}. Por fim, uma boa estimativa de quantas pessoas usariam o transporte público para votar é relevante não apenas para diminuir a assimetria de informação, mas também para ajudar na decisão de adotar ou não o passe livre, considerando que pode ser uma política muito custosa que apenas poucas pessoas usem.
 
 \section{Notas Finais}
 
 \subsection{Agenda de pesquisa}
 
 \subsection{Agradecimentos}
+
+\clearpage
+\section{Anexo}
+\label{sec_anex}
+
+\input{relatorios/passe-livre/tabelas/variaveis-psm.tex}
+
+\input{relatorios/passe-livre/tabelas/variaveis-dd.tex}

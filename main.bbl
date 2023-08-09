@@ -166,6 +166,44 @@
       \field{pages}{674\bibrangedash 683}
       \range{pages}{10}
     \endentry
+    \entry{haspel2005location}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=12a4abe2be48bb2e1c5af65dbbcca379}{%
+           family={Haspel},
+           familyi={H\bibinitperiod},
+           given={Moshe},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63489baedfbfa7b2b4c0063c47a51a8a}{%
+           family={Knotts},
+           familyi={K\bibinitperiod},
+           given={H\bibnamedelima Gibbs},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press New York, USA}%
+      }
+      \strng{namehash}{07527be21a8863af3cd4f72777b396b0}
+      \strng{fullhash}{07527be21a8863af3cd4f72777b396b0}
+      \strng{bibnamehash}{07527be21a8863af3cd4f72777b396b0}
+      \strng{authorbibnamehash}{07527be21a8863af3cd4f72777b396b0}
+      \strng{authornamehash}{07527be21a8863af3cd4f72777b396b0}
+      \strng{authorfullhash}{07527be21a8863af3cd4f72777b396b0}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Politics}
+      \field{number}{2}
+      \field{title}{Location, location, location: Precinct placement and the costs of voting}
+      \field{volume}{67}
+      \field{year}{2005}
+      \field{pages}{560\bibrangedash 573}
+      \range{pages}{14}
+    \endentry
     \entry{istrefi2014economic}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b8961bbedd94ef4bfba198168e9d9220}{%
@@ -220,6 +258,42 @@
       \field{labeltitlesource}{title}
       \field{title}{Taxa neutra de juros no Brasil.}
       \field{year}{2017}
+    \endentry
+    \entry{konishi2010examination}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=479d96fc2306c9c77679716895af73df}{%
+           family={Konishi},
+           familyi={K\bibinitperiod},
+           given={Kenta},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2be3ebaaf67a0c682f904c9a9efd8d48}{%
+           family={Murata},
+           familyi={M\bibinitperiod},
+           given={Tadahiko},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{472e49c72111098b85ebe00edcd88545}
+      \strng{fullhash}{472e49c72111098b85ebe00edcd88545}
+      \strng{bibnamehash}{472e49c72111098b85ebe00edcd88545}
+      \strng{authorbibnamehash}{472e49c72111098b85ebe00edcd88545}
+      \strng{authornamehash}{472e49c72111098b85ebe00edcd88545}
+      \strng{authorfullhash}{472e49c72111098b85ebe00edcd88545}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2010 2nd International Symposium on Aware Computing}
+      \field{title}{Examination of effect of free bus service in election using computer simulation}
+      \field{year}{2010}
+      \field{pages}{263\bibrangedash 268}
+      \range{pages}{6}
     \endentry
     \entry{laubach2001measuring}{misc}{}
       \name{author}{2}{}{%
