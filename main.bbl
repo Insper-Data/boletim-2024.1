@@ -258,6 +258,7 @@
       \field{labeltitlesource}{title}
       \field{title}{Taxa neutra de juros no Brasil.}
       \field{year}{2017}
+      \true{nocite}
     \endentry
     \entry{konishi2010examination}{inproceedings}{}
       \name{author}{2}{}{%
