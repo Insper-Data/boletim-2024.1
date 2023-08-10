@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1691696928 "main.bcf" "main.bbl" "main" 1691696953 0
-  "./citacoes.bib" 1691687629 3242 d91d15184771c9216386ab55de6722f9 ""
-  "main.bcf" 1691696952 109086 04e78524b27c63b4cfdfb7636cd5459a "pdflatex"
+["biber main"] 1691706581 "main.bcf" "main.bbl" "main" 1691710977 0
+  "./citacoes.bib" 1691706580 3294 8eee7d197957e7493469c0aaee6a96e4 ""
+  "main.bcf" 1691710975 109086 04e78524b27c63b4cfdfb7636cd5459a "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1691696942 "c:/git/boltim-2023.2/main.tex" "main.pdf" "main" 1691696953 0
+["pdflatex"] 1691710961 "c:/git/boltim-2023.2/main.tex" "main.pdf" "main" 1691710977 0
   "C:/Users/gumac/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1691693087 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/gumac/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1689621839 24118912 2933618e379a1e218fd36a2d29ca5672 ""
   "C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -309,14 +309,15 @@
   "C:/Users/gumac/AppData/Local/Programs/MiKTeX/tex/latex/trimspaces/trimspaces.sty" 1253169183 1380 971a51b00a14503ddf754cab24c3f209 ""
   "C:/Users/gumac/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/gumac/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "c:/git/boltim-2023.2/main.tex" 1691696918 845 34467dc103ccc501bba56c2d0652655b ""
+  "c:/git/boltim-2023.2/main.tex" 1691710806 847 0f5b984bf9d492fc7c1967e324267c82 ""
   "capa/capa.pdf" 1691687629 30565 f0732db3d37f091621ff799668d918cf ""
   "logo/hlogo.png" 1689727467 26890 b35519a4c3aa3f03b81f1db4a8de5885 ""
-  "main.aux" 1691696952 13063 78032027f2034cadc368e512cb1f541e "pdflatex"
-  "main.bbl" 1691696934 19053 eaa93875276df495844139b8035f24c0 "biber main"
-  "main.run.xml" 1691696952 2312 3fd293cdc1d33399683d4ae411deda00 "pdflatex"
-  "main.tex" 1691696918 845 34467dc103ccc501bba56c2d0652655b ""
-  "main.toc" 1691696952 1352 8de7af77d65268e876dd6fb2029bf60b "pdflatex"
+  "main.aux" 1691710975 12805 078403d1f36241a7b7f9daa489c4808f "pdflatex"
+  "main.bbl" 1691706585 13590 db6f48f0cf7bbaa0217c040bde16a99e "biber main"
+  "main.out" 1691710965 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1691710975 2312 3fd293cdc1d33399683d4ae411deda00 "pdflatex"
+  "main.tex" 1691710806 847 0f5b984bf9d492fc7c1967e324267c82 ""
+  "main.toc" 1691710975 1436 5af8814af4a9b35fd5be278223974f03 "pdflatex"
   "relatorios/passe-livre/graficos/cycle.tex" 1689727468 1116 abb33b51efd88ea3f8390c736de2b6b6 ""
   "relatorios/passe-livre/graficos/event_study_heter_1t.png" 1689727468 163471 12b673847930e29c98e064a00dfe52d6 ""
   "relatorios/passe-livre/graficos/event_study_heter_2t.png" 1689727468 155270 987cca5ad95955b866e678a612447e45 ""
@@ -332,7 +333,7 @@
   "relatorios/passe-livre/tabelas/event_study.tex" 1691687629 2017 42d245f72012125add765ca04f43981b ""
   "relatorios/passe-livre/tabelas/variaveis-dd.tex" 1691687629 2295 61a8f8dfbecd8f063b58b972f2269f82 ""
   "relatorios/passe-livre/tabelas/variaveis-psm.tex" 1691687629 1494 043917a14105c510b0f2edac2a5ee2cf ""
-  "relatorios/passe-livre/text.tex" 1691687629 41552 addfc78b1f1caa6bbd7387b465b3e5f6 ""
+  "relatorios/passe-livre/text.tex" 1691710958 46947 20dd9d7bf5afc7e6e80abc8108e202ef ""
   "settings/header.tex" 1689733930 324 40e3f279efb20f65a3fd721258079b36 ""
   "settings/misc.tex" 1691687629 1522 db019e1ee37165f3c9b4cbb83a8aa6b1 ""
   "settings/plots.tex" 1689736552 597 aca92c3b3567b4e140b6b90ca34d94e7 ""
@@ -341,6 +342,7 @@
   "main.aux"
   "main.bcf"
   "main.log"
+  "main.out"
   "main.pdf"
   "main.run.xml"
   "main.toc"

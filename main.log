@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.17)  10 AUG 2023 16:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.17)  10 AUG 2023 20:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -745,7 +745,6 @@ File: puenc.def 2023-06-25 v7.01a Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `draft' set `true' on input line 4050.
 Package hyperref Info: Hyper figures OFF on input line 4167.
 Package hyperref Info: Link nesting OFF on input line 4172.
 Package hyperref Info: Hyper index ON on input line 4175.
@@ -1164,13 +1163,14 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-
-Package hyperref Warning: Draft mode on.
-
 Package hyperref Info: Link coloring OFF on input line 18.
+ (main.out) (main.out)
+\@outlinefile=\write6
+\openout6 = `main.out'.
+
 Package biblatex Info: Trying to load language 'portuguese'...
 Package biblatex Info: ... file 'portuguese.lbx' found.
-(C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\portuguese.lbx
+ (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\portuguese.lbx
 File: portuguese.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -1186,40 +1186,72 @@ Package biblatex Info: Reference segment=0 on input line 18.
 
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-<capa/capa.pdf, id=4, 597.73312pt x 845.40843pt>
-<capa/capa.pdf, id=7, page=1, 597.73312pt x 845.40843pt>
+<capa/capa.pdf, id=6, 597.73312pt x 845.40843pt>
+File: capa/capa.pdf Graphic file (type pdf)
+<use capa/capa.pdf>
+Package pdftex.def Info: capa/capa.pdf  used on input line 20.
+(pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
+File: capa/capa.pdf Graphic file (type pdf)
+<use capa/capa.pdf>
+Package pdftex.def Info: capa/capa.pdf  used on input line 20.
+(pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
+<capa/capa.pdf, id=9, page=1, 597.73312pt x 845.40843pt>
+File: capa/capa.pdf Graphic file (type pdf)
+<use capa/capa.pdf, page 1>
+Package pdftex.def Info: capa/capa.pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
+File: capa/capa.pdf Graphic file (type pdf)
+<use capa/capa.pdf, page 1>
+Package pdftex.def Info: capa/capa.pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
+File: capa/capa.pdf Graphic file (type pdf)
+<use capa/capa.pdf, page 1>
+Package pdftex.def Info: capa/capa.pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
+File: capa/capa.pdf Graphic file (type pdf)
+<use capa/capa.pdf, page 1>
+Package pdftex.def Info: capa/capa.pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <149.37697> not available
 (Font)              size <24.88> substituted on input line 20.
 
+File: capa/capa.pdf Graphic file (type pdf)
+<use capa/capa.pdf, page 1>
+Package pdftex.def Info: capa/capa.pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
 [1{C:/Users/gumac/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
-] (main.toc)
-\tf@toc=\write6
-\openout6 = `main.toc'.
+ <./capa/capa.pdf>] (main.toc)
+\tf@toc=\write7
+\openout7 = `main.toc'.
 
  (relatorios/passe-livre/text.tex
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <149.37697> not available
-(Font)              size <24.88> substituted on input line 11.
+(Font)              size <24.88> substituted on input line 12.
 
 [2]
-<logo/hlogo.png, id=19, 957.8184pt x 172.0026pt>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+<logo/hlogo.png, id=40, 957.8184pt x 172.0026pt>
+File: logo/hlogo.png Graphic file (type png)
+<use logo/hlogo.png>
+Package pdftex.def Info: logo/hlogo.png  used on input line 12.
+(pdftex.def)             Requested size: 113.24197pt x 20.33496pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
  (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
  (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (6.0pt too wide) in paragraph at lines 11--11
-[][][][][][] |
+Overfull \hbox (6.0pt too wide) in paragraph at lines 12--12
+[][][][][][] 
  []
 
 [3
 
-] [4] [5] (relatorios/passe-livre/graficos/cycle.tex) [6] (relatorios/passe-livre/graficos/static1.tex
+ <./logo/hlogo.png>] [4] [5] (relatorios/passe-livre/graficos/cycle.tex) [6] (relatorios/passe-livre/graficos/static1.tex
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
 Missing character: There is no . in font nullfont!
 Missing character: There is no 0 in font nullfont!
@@ -1251,7 +1283,7 @@ Package pgfplots info on input line 28: fill between: activating layered graphic
 Package pgfplots info on input line 28: Setting layers 'axis background,axis grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis foreground'...
 
 Overfull \hbox (3.18376pt too wide) in paragraph at lines 29--30
-[][] |
+[][] 
  []
 
 ) (relatorios/passe-livre/graficos/static2.tex
@@ -1268,19 +1300,19 @@ Missing character: There is no t in font nullfont!
 Package pgfplots info on input line 41: fill between: activating layered graphics
 Package pgfplots info on input line 41: Setting layers 'axis background,axis grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis foreground'...
 )
-Underfull \hbox (badness 4859) in paragraph at lines 120--120
+Underfull \hbox (badness 4859) in paragraph at lines 123--123
 []\OT1/cmr/m/n/9 (b) |De-ri-vada par-cial do com-pa-re-ci-mento de
  []
 
 [7] (relatorios/passe-livre/graficos/static3.tex
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
 )
-Overfull \hbox (3.18376pt too wide) in paragraph at lines 34--155
-[][]|
+Overfull \hbox (3.18376pt too wide) in paragraph at lines 34--158
+[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--155
+Underfull \hbox (badness 10000) in paragraph at lines 34--158
 
  []
 
@@ -1288,68 +1320,92 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--155
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
 )
-Overfull \hbox (3.18376pt too wide) in paragraph at lines 41--161
-[][]|
+Overfull \hbox (3.18376pt too wide) in paragraph at lines 41--164
+[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--161
+Underfull \hbox (badness 10000) in paragraph at lines 41--164
 
  []
 
 [8]
-<relatorios/passe-livre/graficos/pereira_mob.png, id=58, 1384.74483pt x 382.85893pt>
+<relatorios/passe-livre/graficos/pereira_mob.png, id=156, 1384.74483pt x 382.85893pt>
+File: relatorios/passe-livre/graficos/pereira_mob.png Graphic file (type png)
+<use relatorios/passe-livre/graficos/pereira_mob.png>
+Package pdftex.def Info: relatorios/passe-livre/graficos/pereira_mob.png  used on input line 195.
+(pdftex.def)             Requested size: 452.9679pt x 125.2397pt.
 
 
 Package caption Warning: \setcaptionsubtype
-(caption)                outside box or environment on input line 193.
+(caption)                outside box or environment on input line 196.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 193.
+(caption)                outside box or environment on input line 196.
 See the caption package documentation for explanation.
 
-<relatorios/passe-livre/graficos/pereira_abst.png, id=59, 1362.80571pt x 334.67892pt>
+<relatorios/passe-livre/graficos/pereira_abst.png, id=159, 1362.80571pt x 334.67892pt>
+File: relatorios/passe-livre/graficos/pereira_abst.png Graphic file (type png)
+<use relatorios/passe-livre/graficos/pereira_abst.png>
+Package pdftex.def Info: relatorios/passe-livre/graficos/pereira_abst.png  used on input line 204.
+(pdftex.def)             Requested size: 452.9679pt x 111.24104pt.
 
 Package caption Warning: \setcaptionsubtype
-(caption)                outside box or environment on input line 202.
+(caption)                outside box or environment on input line 205.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 202.
+(caption)                outside box or environment on input line 205.
 See the caption package documentation for explanation.
 
 [9] (relatorios/passe-livre/tabelas/descritiva.tex
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [10] [11]
-<relatorios/passe-livre/graficos/pre-propensity.png, id=70, 633.8079pt x 333.04425pt>
-<relatorios/passe-livre/graficos/pos-propensity.png, id=71, 633.8079pt x 333.04425pt>
+) [10 <./relatorios/passe-livre/graficos/pereira_mob.png> <./relatorios/passe-livre/graficos/pereira_abst.png>] [11]
+<relatorios/passe-livre/graficos/pre-propensity.png, id=200, 633.8079pt x 333.04425pt>
+File: relatorios/passe-livre/graficos/pre-propensity.png Graphic file (type png)
+<use relatorios/passe-livre/graficos/pre-propensity.png>
+Package pdftex.def Info: relatorios/passe-livre/graficos/pre-propensity.png  used on input line 262.
+(pdftex.def)             Requested size: 221.95676pt x 116.6282pt.
+<relatorios/passe-livre/graficos/pos-propensity.png, id=201, 633.8079pt x 333.04425pt>
+File: relatorios/passe-livre/graficos/pos-propensity.png Graphic file (type png)
+<use relatorios/passe-livre/graficos/pos-propensity.png>
+Package pdftex.def Info: relatorios/passe-livre/graficos/pos-propensity.png  used on input line 268.
+(pdftex.def)             Requested size: 221.95676pt x 116.6282pt.
  [12] (relatorios/passe-livre/tabelas/event_study.tex
 Overfull \hbox (10.14424pt too wide) in paragraph at lines 4--30
- [][] |
+ [][] 
  []
 
 )
-<relatorios/passe-livre/graficos/event_study_heter_1t.png, id=75, 577.4373pt x 327.624pt>
-<relatorios/passe-livre/graficos/event_study_heter_2t.png, id=76, 577.4373pt x 327.624pt>
+<relatorios/passe-livre/graficos/event_study_heter_1t.png, id=217, 577.4373pt x 327.624pt>
+File: relatorios/passe-livre/graficos/event_study_heter_1t.png Graphic file (type png)
+<use relatorios/passe-livre/graficos/event_study_heter_1t.png>
+Package pdftex.def Info: relatorios/passe-livre/graficos/event_study_heter_1t.png  used on input line 288.
+(pdftex.def)             Requested size: 221.95676pt x 125.93315pt.
+<relatorios/passe-livre/graficos/event_study_heter_2t.png, id=218, 577.4373pt x 327.624pt>
+File: relatorios/passe-livre/graficos/event_study_heter_2t.png Graphic file (type png)
+<use relatorios/passe-livre/graficos/event_study_heter_2t.png>
+Package pdftex.def Info: relatorios/passe-livre/graficos/event_study_heter_2t.png  used on input line 294.
+(pdftex.def)             Requested size: 221.95676pt x 125.93315pt.
 
 
 Package caption Warning: \setcaptionsubtype
-(caption)                outside box or environment on input line 297.
+(caption)                outside box or environment on input line 299.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 297.
+(caption)                outside box or environment on input line 299.
 See the caption package documentation for explanation.
 
-[13] [14] [15] [16] (relatorios/passe-livre/tabelas/variaveis-psm.tex) (relatorios/passe-livre/tabelas/variaveis-dd.tex)) [17
+[13 <./relatorios/passe-livre/graficos/pre-propensity.png> <./relatorios/passe-livre/graficos/pos-propensity.png>] [14] [15 <./relatorios/passe-livre/graficos/event_study_heter_1t.png> <./relatorios/passe-livre/graficos/event_study_heter_2t.png>] [16] [17] (relatorios/passe-livre/tabelas/variaveis-psm.tex) (relatorios/passe-livre/tabelas/variaveis-dd.tex)) [18
 
-] [18] [19
+] [19] [20
 
 ] (main.aux)
  ***********
@@ -1361,22 +1417,27 @@ L3 programming layer <2023-06-30>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 124.49696pt have occurred.
 
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59165 strings out of 475550
- 1446791 string characters out of 5762533
- 2372561 words of memory out of 5000000
- 79567 multiletter control sequences out of 15000+600000
+ 59240 strings out of 475550
+ 1447587 string characters out of 5762533
+ 2376480 words of memory out of 5000000
+ 79560 multiletter control sequences out of 15000+600000
  568478 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,18n,116p,1623b,2414s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist, replaced by a fixed one
+
 <C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (19 pages, 356164 bytes).
+Output written on main.pdf (20 pages, 1852107 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
+ 396 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
  68 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -19,51 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
-    \entry{berument2005missing}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=4b9fdbb54b63e4e0f797ac35f4cf77ef}{%
-           family={Berument},
-           familyi={B\bibinitperiod},
-           given={Hakan},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8dc3cd6d1ca9228531c67d69e75ee91f}{%
-           family={Kilinc},
-           familyi={K\bibinitperiod},
-           given={Zubeyir},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=394af701a6b797d81f15fdb443187d9e}{%
-           family={Ozlale},
-           familyi={O\bibinitperiod},
-           given={Umit},
-           giveni={U\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley Online Library}%
-      }
-      \strng{namehash}{3b85469d17d6b6e1c1a990dc2bae0715}
-      \strng{fullhash}{3b85469d17d6b6e1c1a990dc2bae0715}
-      \strng{bibnamehash}{3b85469d17d6b6e1c1a990dc2bae0715}
-      \strng{authorbibnamehash}{3b85469d17d6b6e1c1a990dc2bae0715}
-      \strng{authornamehash}{3b85469d17d6b6e1c1a990dc2bae0715}
-      \strng{authorfullhash}{3b85469d17d6b6e1c1a990dc2bae0715}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Scottish Journal of Political Economy}
-      \field{number}{2}
-      \field{title}{The missing link between inflation uncertainty and interest rates}
-      \field{volume}{52}
-      \field{year}{2005}
-      \true{nocite}
-      \field{pages}{222\bibrangedash 241}
-      \range{pages}{20}
-    \endentry
     \entry{downs1957economic}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=edbc744b7095af3d7da169d97b58101d}{%
@@ -204,62 +159,6 @@
       \field{pages}{560\bibrangedash 573}
       \range{pages}{14}
     \endentry
-    \entry{istrefi2014economic}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=b8961bbedd94ef4bfba198168e9d9220}{%
-           family={Istrefi},
-           familyi={I\bibinitperiod},
-           given={Klodiana},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=fa8371393da8d31aaabd6b0779bed84b}{%
-           family={Piloiu},
-           familyi={P\bibinitperiod},
-           given={Anamaria},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Banque de France Working Paper}%
-      }
-      \strng{namehash}{18b4b8b1ffd12844c22d1acff670e809}
-      \strng{fullhash}{18b4b8b1ffd12844c22d1acff670e809}
-      \strng{bibnamehash}{18b4b8b1ffd12844c22d1acff670e809}
-      \strng{authorbibnamehash}{18b4b8b1ffd12844c22d1acff670e809}
-      \strng{authornamehash}{18b4b8b1ffd12844c22d1acff670e809}
-      \strng{authorfullhash}{18b4b8b1ffd12844c22d1acff670e809}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Economic policy uncertainty and inflation expectations}
-      \field{year}{2014}
-      \true{nocite}
-    \endentry
-    \entry{itau}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=ef88f19a0d50158ea00d7cc8f19f227c}{%
-           family={{Itaú Asset Management}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{ef88f19a0d50158ea00d7cc8f19f227c}
-      \strng{fullhash}{ef88f19a0d50158ea00d7cc8f19f227c}
-      \strng{bibnamehash}{ef88f19a0d50158ea00d7cc8f19f227c}
-      \strng{authorbibnamehash}{ef88f19a0d50158ea00d7cc8f19f227c}
-      \strng{authornamehash}{ef88f19a0d50158ea00d7cc8f19f227c}
-      \strng{authorfullhash}{ef88f19a0d50158ea00d7cc8f19f227c}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Taxa neutra de juros no Brasil.}
-      \field{year}{2017}
-      \true{nocite}
-    \endentry
     \entry{konishi2010examination}{inproceedings}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=479d96fc2306c9c77679716895af73df}{%
@@ -295,37 +194,6 @@
       \field{year}{2010}
       \field{pages}{263\bibrangedash 268}
       \range{pages}{6}
-    \endentry
-    \entry{laubach2001measuring}{misc}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=64d4407b57e11e9bc6753016c1688595}{%
-           family={Laubach},
-           familyi={L\bibinitperiod},
-           given={T},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bbb4ed7e37ee338b1d7f610370ee5b62}{%
-           family={Williams},
-           familyi={W\bibinitperiod},
-           given={J},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{24ea5524e17c96fc4436ac62e5780cf1}
-      \strng{fullhash}{24ea5524e17c96fc4436ac62e5780cf1}
-      \strng{bibnamehash}{24ea5524e17c96fc4436ac62e5780cf1}
-      \strng{authorbibnamehash}{24ea5524e17c96fc4436ac62e5780cf1}
-      \strng{authornamehash}{24ea5524e17c96fc4436ac62e5780cf1}
-      \strng{authorfullhash}{24ea5524e17c96fc4436ac62e5780cf1}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Measuring the Natural Rate of Interest. Board of Governors of the Federal Reserve System (US)}
-      \field{year}{2001}
-      \true{nocite}
     \endentry
     \entry{pereira2023transporte}{article}{}
       \true{moreauthor}
