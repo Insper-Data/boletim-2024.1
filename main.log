@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.17)  11 AUG 2023 14:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.14)  11 AUG 2023 16:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/git/boltim-2023.2/main.tex
-(c:/git/boltim-2023.2/main.tex
+**d:/git/boletim-data/main.tex
+(d:/git/boletim-data/main.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
-(C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
@@ -23,7 +23,7 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (settings/title.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+) (settings/title.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box51
 \beforetitleunit=\skip50
@@ -34,14 +34,14 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidth=\dimen143
 \titlewidthlast=\dimen144
 \titlewidthfirst=\dimen145
-)) (settings/misc.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+)) (settings/misc.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count193
@@ -56,71 +56,71 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen152
 \Gm@layoutvoffset=\dimen153
 \Gm@dimlist=\toks19
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2023/06/26 v3.90 The Babel package
 \babel@savecnt=\count196
 \U@D=\dimen154
 \l@unhyphenated=\language79
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count197
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\portuguese.ldf
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\portuguese.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Making " an active character on input line 143.
-)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/pt\babel-portuguese.tex
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/pt\babel-portuguese.tex
 Package babel Info: Importing font and identification data for portuguese
 (babel)             from babel-pt.ini. Reported on input line 11.
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/draftwatermark\draftwatermark.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/draftwatermark\draftwatermark.sty
 Package: draftwatermark 2020/12/08 3.0 Put a gray textual watermark on document pages
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen155
 \Gin@req@width=\dimen156
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks20
 \pgfutil@tempdima=\dimen157
 \pgfutil@tempdimb=\dimen158
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box52
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks21
 \pgfkeys@temptoks=\toks22
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks23
 ))
 \pgf@x=\dimen159
@@ -143,28 +143,28 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \t@pgf@tokb=\toks25
 \t@pgf@tokc=\toks26
 \pgf@sys@id@count=\count268
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-))) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+))) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@smallbuffer@items=\count269
 \pgfsyssoftpath@bigbuffer@items=\count270
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 LaTeX Info: Redefining \color on input line 711.
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -174,18 +174,18 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen169
 \pgfmath@count=\count271
 \pgfmath@box=\box53
 \pgfmath@toks=\toks27
 \pgfmath@stack@operand=\toks28
 \pgfmath@stack@operation=\toks29
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count272
-)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen170
 \pgf@picmaxx=\dimen171
@@ -201,75 +201,75 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yy=\dimen181
 \pgf@zx=\dimen182
 \pgf@zy=\dimen183
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@path@lastx=\dimen184
 \pgf@path@lasty=\dimen185
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@end@additional=\dimen186
 \pgf@shorten@start@additional=\dimen187
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box54
 \pgf@hbox=\box55
 \pgf@layerbox@main=\box56
 \pgf@picture@serial@count=\count273
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen188
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@pt@x=\dimen189
 \pgf@pt@y=\dimen190
 \pgf@pt@temp=\dimen191
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowsep=\dimen192
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen193
 \pgf@sys@shading@range@num=\count274
 \pgf@shadingcount=\count275
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box57
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+))) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box58
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 \pgf@nodesepstart=\dimen194
 \pgf@nodesepend=\dimen195
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen196
 \pgffor@skip=\dimen197
 \pgffor@stack=\toks30
 \pgffor@toks=\toks31
-)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count276
 \pgfplotmarksize=\dimen198
@@ -290,27 +290,27 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikznumberofchildren=\count278
 \tikznumberofcurrentchild=\count279
 \tikz@fig@count=\count280
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfmatrixcurrentrow=\count281
 \pgfmatrixcurrentcolumn=\count282
 \pgf@matrix@numberofcolumns=\count283
 )
 \tikz@expandcount=\count284
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfit.code.tex
+))) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfit.code.tex
 File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \arrowsize=\dimen263
-)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryautomata.code.tex
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryautomata.code.tex
 File: tikzlibraryautomata.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.multipart.code.tex
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.multipart.code.tex
 File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.multipart.code.tex
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodepartlowerbox=\box63
 \pgfnodeparttwobox=\box64
@@ -332,11 +332,11 @@ File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodepartsevenbox=\box80
 \pgfnodepartsixbox=\box81
 \pgfnodepartfivebox=\box82
-))) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
+))) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen264
 \pgfdecoratedremainingdistance=\dimen265
 \pgfdecoratedinputsegmentcompleteddistance=\dimen266
@@ -347,15 +347,15 @@ File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfdecorationsegmentlength=\dimen270
 )
 \tikz@lib@dec@box=\box83
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/spath3\tikzlibrarycalligraphy.code.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/spath3\spath3.sty (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/spath3\tikzlibrarycalligraphy.code.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/spath3\spath3.sty (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2023-06-30 L3 programming layer (loader) 
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count286
 \l__pdf_internal_box=\box84
 ))
 Package: spath3 2022/08/24 v2.7 Functions for manipulating PGF soft paths
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
 Package: xparse 2023-02-02 L3 Experimental document command parser
 )
 \g__spath_output_int=\count287
@@ -383,45 +383,45 @@ Package: xparse 2023-02-02 L3 Experimental document command parser
 \l__cal_tmph_dim=\dimen284
 \l__cal_taper_width_dim=\dimen285
 \l__cal_line_width_dim=\dimen286
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/forest\forest.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/forest\forest.sty
 Package: forest 2017/07/14 v2.1.5 Drawing (linguistic) trees
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.code.tex
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.code.tex
 File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
-File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.misc.code.tex
-File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.misc.code.tex
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.misc.code.tex
 File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.symbols.code.tex
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.symbols.code.tex
 File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.symbols.code.tex
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.symbols.code.tex
 File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.arrows.code.tex
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.arrows.code.tex
 File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.arrows.code.tex
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.arrows.code.tex
 File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.callouts.code.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.callouts.code.tex))) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryintersections.code.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.callouts.code.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.callouts.code.tex))) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryintersections.code.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
 \pgf@intersect@solutions=\count295
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/pgfopts\pgfopts.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgfopts\pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 \pgfopts@list@add@a@toks=\toks32
 \pgfopts@list@add@b@toks=\toks33
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count296
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/elocalloc\elocalloc.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/elocalloc\elocalloc.sty
 Package: elocalloc 2016/12/15 v0.03 local allocation for LaTeX 2015+ (DPC)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 \@envbody=\toks34
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/inlinedef\inlinedef.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/inlinedef\inlinedef.sty
 Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
 \ID@toks=\toks35
 \ID@count=\count297
@@ -472,23 +472,23 @@ Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
 \forest@copy@out=\write4
 \forest@externalize@max@outer@n=\count322
 \forest@externalize@inner@n=\count323
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/forest\forest-lib-edges.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/forest\forest-lib-edges.sty
 Package: forest-lib-edges 2016/12/05 v0.1.1
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks47
 \ex@=\dimen293
-)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen294
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count324
@@ -538,18 +538,18 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks51
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen302
 \lightrulewidth=\dimen303
@@ -568,17 +568,17 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count338
 \@lastruleclass=\count339
 \@thisrulewidth=\dimen314
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2023-06-12 v3.2.6 A comprehensive (SI) units package
 \l__siunitx_angle_tmp_dim=\dimen315
 \l__siunitx_angle_marker_box=\box88
 \l__siunitx_angle_unit_box=\box89
 \l__siunitx_compound_count_int=\count340
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -607,7 +607,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 \l__siunitx_unit_tmp_int=\count350
 \l__siunitx_unit_position_int=\count351
 \l__siunitx_unit_total_int=\count352
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen320
 \ar@mcellbox=\box96
@@ -616,7 +616,7 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \extratabsurround=\skip55
 \backup@length=\skip56
 \ar@cellbox=\box97
-)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
 \csq@reset=\count353
 \csq@gtype=\count354
@@ -625,18 +625,18 @@ Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
 \csq@maxlvl=\count357
 \csq@tshold=\count358
 \csq@ltx@everypar=\toks53
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
 File: csquotes.cfg 
-)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/03/12 v3.6j Customizing captions (AR)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
 \caption@tempdima=\dimen322
 \captionmargin=\dimen323
@@ -655,25 +655,25 @@ Package caption Info: New subtype `subfigure' on input line 239.
 \c@subfigure=\count361
 Package caption Info: New subtype `subtable' on input line 239.
 \c@subtable=\count362
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/changepage\changepage.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/changepage\changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
 \c@cp@cntr=\count363
 \cp@tempcnt=\count364
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count365
 \float@exts=\toks54
 \float@box=\box98
 \@float@everytoks=\toks55
 \@floatcapt=\box99
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\threeparttable.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box100
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count366
 \calc@Bcount=\count367
@@ -685,7 +685,7 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count368
 \calc@Cskip=\skip59
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \ESO@tempdima=\dimen332
 \ESO@tempdimb=\dimen333
@@ -693,7 +693,7 @@ Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \AM@pagewidth=\dimen334
 \AM@pageheight=\dimen335
 \AM@fboxrule=\dimen336
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 )
 \pdfpages@includegraphics@status=\count369
@@ -704,27 +704,27 @@ File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 \AM@lof@heading=\toks58
 \c@AM@survey=\count371
 \AM@templatesizebox=\box102
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\subfiles.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
 Package: import 2020/04/01  v 6.2
-)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2023-06-25 v7.01a Hypertext links for LaTeX
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2023-06-18 v2.52 Cross-referencing by name of section
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count372
@@ -732,20 +732,19 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 \@linkdim=\dimen337
 \Hy@linkcounter=\count373
 \Hy@pagecounter=\count374
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-06-25 v7.01a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count375
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-06-25 v7.01a Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `draft' set `true' on input line 4050.
 Package hyperref Info: Hyper figures OFF on input line 4167.
 Package hyperref Info: Link nesting OFF on input line 4172.
 Package hyperref Info: Hyper index ON on input line 4175.
@@ -754,15 +753,15 @@ Package hyperref Info: Backreferencing OFF on input line 4187.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4434.
 \c@Hy@tempcnt=\count376
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4772.
 \XeTeXLinkMargin=\dimen338
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count377
@@ -775,7 +774,7 @@ Package hyperref Info: backreferencing OFF on input line 6066.
 Package hyperref Info: Link coloring OFF on input line 6071.
 Package hyperref Info: Link coloring with OCG OFF on input line 6076.
 Package hyperref Info: PDF/A mode OFF on input line 6081.
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -784,28 +783,28 @@ package with kernel methods
 \c@Hfootnote=\count380
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2023-06-25 v7.01a Hyperref driver for pdfTeX
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
 \Fld@listcount=\count381
 \c@bookmark@seq@number=\count382
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip60
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count383
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
 \c@tabx@nest=\count384
@@ -867,7 +866,7 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \c@mincompwidth=\count429
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
@@ -958,12 +957,12 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorteditorwidth=\skip82
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
 File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 \c@textcitecount=\count498
 \c@textcitetotal=\count499
@@ -981,18 +980,18 @@ File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\authoryear.bbx
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\authoryear.bbx
 File: authoryear.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count507
 \c@bbx:relatedtotal=\count508
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\authoryear.cbx
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\authoryear.cbx
 File: authoryear.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -1004,7 +1003,7 @@ Package biblatex Info: Redefining '\textcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -1013,37 +1012,37 @@ Package biblatex Info: ... and expl3
 (biblatex)             2023-06-30 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
-)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
 Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count509
 \l__lipsum_a_int=\count510
 \l__lipsum_b_int=\count511
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))) (settings/plots.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))) (settings/plots.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
 \t@pgfplots@toka=\toks59
 \t@pgfplots@tokb=\toks60
 \t@pgfplots@tokc=\toks61
 \pgfplots@tmpa=\dimen341
 \c@pgfplots@coordindex=\count512
 \c@pgfplots@scanlineindex=\count513
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks62
 \t@pgf@tokb=\toks63
 \t@pgf@tokc=\toks64
-(C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
 \c@pgfplotsarray@tmp=\count514
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
 \c@pgfplotstable@counta=\count515
 \t@pgfplotstable@a=\toks65
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
 \c@pgfplotslibrarysurf@no=\count516
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
 \pgfplots@numplots=\count517
 \pgfplots@xmin@reg=\dimen342
 \pgfplots@xmax@reg=\dimen343
@@ -1051,11 +1050,11 @@ Package pgfplots: loading complementary utilities for your pgf version...
 \pgfplots@ymax@reg=\dimen345
 \pgfplots@zmin@reg=\dimen346
 \pgfplots@zmax@reg=\dimen347
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.statistics.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.fillbetween.code.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/pgfcontrib\tikzlibraryfillbetween.code.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryintersections.code.tex) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/pgfcontrib\tikzlibrarydecorations.softclip.code.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/pgfcontrib\pgflibraryfillbetween.code.tex))) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.decorations.softclip.code.tex))) (settings/header.tex (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+))) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.statistics.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.fillbetween.code.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/pgfcontrib\tikzlibraryfillbetween.code.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryintersections.code.tex) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/pgfcontrib\tikzlibrarydecorations.softclip.code.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/pgfcontrib\pgflibraryfillbetween.code.tex))) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.decorations.softclip.code.tex))) (settings/header.tex (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip83
 \f@nch@O@elh=\skip84
@@ -1127,7 +1126,7 @@ LaTeX Font Info:    ... okay on input line 18.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count518
 \scratchdimen=\dimen348
@@ -1140,10 +1139,10 @@ LaTeX Font Info:    ... okay on input line 18.
 \MPnumerator=\count522
 \makeMPintoPDFobject=\count523
 \everyMPtoPDFconversion=\toks67
-) (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package translations Info: no dictionary file `translations-basic-dictionary-portuges.trsl' found. on input line 18.
@@ -1155,22 +1154,23 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-
-Package hyperref Warning: Draft mode on.
-
 Package hyperref Info: Link coloring OFF on input line 18.
+ (main.out) (main.out)
+\@outlinefile=\write6
+\openout6 = `main.out'.
+
 Package biblatex Info: Trying to load language 'portuguese'...
 Package biblatex Info: ... file 'portuguese.lbx' found.
-(C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\portuguese.lbx
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\portuguese.lbx
 File: portuguese.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -1186,40 +1186,72 @@ Package biblatex Info: Reference segment=0 on input line 18.
 
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-<capa/capa.pdf, id=4, 597.73312pt x 845.40843pt>
-<capa/capa.pdf, id=7, page=1, 597.73312pt x 845.40843pt>
+<capa/capa.pdf, id=6, 597.73312pt x 845.40843pt>
+File: capa/capa.pdf Graphic file (type pdf)
+<use capa/capa.pdf>
+Package pdftex.def Info: capa/capa.pdf  used on input line 20.
+(pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
+File: capa/capa.pdf Graphic file (type pdf)
+<use capa/capa.pdf>
+Package pdftex.def Info: capa/capa.pdf  used on input line 20.
+(pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
+<capa/capa.pdf, id=9, page=1, 597.73312pt x 845.40843pt>
+File: capa/capa.pdf Graphic file (type pdf)
+<use capa/capa.pdf, page 1>
+Package pdftex.def Info: capa/capa.pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
+File: capa/capa.pdf Graphic file (type pdf)
+<use capa/capa.pdf, page 1>
+Package pdftex.def Info: capa/capa.pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
+File: capa/capa.pdf Graphic file (type pdf)
+<use capa/capa.pdf, page 1>
+Package pdftex.def Info: capa/capa.pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
+File: capa/capa.pdf Graphic file (type pdf)
+<use capa/capa.pdf, page 1>
+Package pdftex.def Info: capa/capa.pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <149.37697> not available
 (Font)              size <24.88> substituted on input line 20.
 
-[1{C:/Users/gumac/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+File: capa/capa.pdf Graphic file (type pdf)
+<use capa/capa.pdf, page 1>
+Package pdftex.def Info: capa/capa.pdf , page1 used on input line 20.
+(pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
+[1{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
-] (main.toc)
-\tf@toc=\write6
-\openout6 = `main.toc'.
+ <./capa/capa.pdf>] (main.toc)
+\tf@toc=\write7
+\openout7 = `main.toc'.
 
  (relatorios/passe-livre/text.tex
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <149.37697> not available
-(Font)              size <24.88> substituted on input line 12.
+(Font)              size <24.88> substituted on input line 14.
 
 [2]
-<logo/hlogo.png, id=19, 957.8184pt x 172.0026pt>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+<logo/hlogo.png, id=52, 957.8184pt x 172.0026pt>
+File: logo/hlogo.png Graphic file (type png)
+<use logo/hlogo.png>
+Package pdftex.def Info: logo/hlogo.png  used on input line 14.
+(pdftex.def)             Requested size: 113.24197pt x 20.33496pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
- (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (6.0pt too wide) in paragraph at lines 12--12
-[][][][][][] |
+Overfull \hbox (6.0pt too wide) in paragraph at lines 14--14
+[][][][][][] 
  []
 
 [3
 
-] [4] [5] (relatorios/passe-livre/graficos/cycle.tex) [6] (relatorios/passe-livre/graficos/static1.tex
+ <./logo/hlogo.png>] [4] [5] (relatorios/passe-livre/graficos/cycle.tex) [6] (relatorios/passe-livre/graficos/static1.tex
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
 Missing character: There is no . in font nullfont!
 Missing character: There is no 0 in font nullfont!
@@ -1251,7 +1283,7 @@ Package pgfplots info on input line 28: fill between: activating layered graphic
 Package pgfplots info on input line 28: Setting layers 'axis background,axis grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis foreground'...
 
 Overfull \hbox (3.18376pt too wide) in paragraph at lines 29--30
-[][] |
+[][] 
  []
 
 ) (relatorios/passe-livre/graficos/static2.tex
@@ -1268,19 +1300,19 @@ Missing character: There is no t in font nullfont!
 Package pgfplots info on input line 41: fill between: activating layered graphics
 Package pgfplots info on input line 41: Setting layers 'axis background,axis grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis foreground'...
 )
-Underfull \hbox (badness 4859) in paragraph at lines 121--121
+Underfull \hbox (badness 4859) in paragraph at lines 123--123
 []\OT1/cmr/m/n/9 (b) |De-ri-vada par-cial do com-pa-re-ci-mento de
  []
 
 [7] (relatorios/passe-livre/graficos/static3.tex
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
 )
-Overfull \hbox (3.18376pt too wide) in paragraph at lines 34--156
-[][]|
+Overfull \hbox (3.18376pt too wide) in paragraph at lines 34--158
+[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--156
+Underfull \hbox (badness 10000) in paragraph at lines 34--158
 
  []
 
@@ -1288,68 +1320,332 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--156
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
 )
-Overfull \hbox (3.18376pt too wide) in paragraph at lines 41--162
-[][]|
+Overfull \hbox (3.18376pt too wide) in paragraph at lines 41--164
+[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--162
+Underfull \hbox (badness 10000) in paragraph at lines 41--164
 
  []
 
 [8]
-<relatorios/passe-livre/graficos/pereira_mob.png, id=58, 1384.74483pt x 382.85893pt>
+<relatorios/passe-livre/graficos/pereira_mob.png, id=168, 1384.74483pt x 382.85893pt>
+File: relatorios/passe-livre/graficos/pereira_mob.png Graphic file (type png)
+<use relatorios/passe-livre/graficos/pereira_mob.png>
+Package pdftex.def Info: relatorios/passe-livre/graficos/pereira_mob.png  used on input line 195.
+(pdftex.def)             Requested size: 452.9679pt x 125.2397pt.
 
 
 Package caption Warning: \setcaptionsubtype
-(caption)                outside box or environment on input line 194.
+(caption)                outside box or environment on input line 196.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 194.
+(caption)                outside box or environment on input line 196.
 See the caption package documentation for explanation.
 
-<relatorios/passe-livre/graficos/pereira_abst.png, id=59, 1362.80571pt x 334.67892pt>
+<relatorios/passe-livre/graficos/pereira_abst.png, id=171, 1362.80571pt x 334.67892pt>
+File: relatorios/passe-livre/graficos/pereira_abst.png Graphic file (type png)
+<use relatorios/passe-livre/graficos/pereira_abst.png>
+Package pdftex.def Info: relatorios/passe-livre/graficos/pereira_abst.png  used on input line 204.
+(pdftex.def)             Requested size: 452.9679pt x 111.24104pt.
 
 Package caption Warning: \setcaptionsubtype
-(caption)                outside box or environment on input line 203.
+(caption)                outside box or environment on input line 205.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 203.
+(caption)                outside box or environment on input line 205.
 See the caption package documentation for explanation.
 
 [9] (relatorios/passe-livre/tabelas/descritiva.tex
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [10] [11] [12]
-<relatorios/passe-livre/graficos/pre-propensity.png, id=73, 633.8079pt x 333.04425pt>
-<relatorios/passe-livre/graficos/pos-propensity.png, id=74, 633.8079pt x 333.04425pt>
+) [10 <./relatorios/passe-livre/graficos/pereira_mob.png> <./relatorios/passe-livre/graficos/pereira_abst.png>] [11] [12]
+<relatorios/passe-livre/graficos/pre-propensity.png, id=221, 633.8079pt x 333.04425pt>
+File: relatorios/passe-livre/graficos/pre-propensity.png Graphic file (type png)
+<use relatorios/passe-livre/graficos/pre-propensity.png>
+Package pdftex.def Info: relatorios/passe-livre/graficos/pre-propensity.png  used on input line 263.
+(pdftex.def)             Requested size: 221.95676pt x 116.6282pt.
+<relatorios/passe-livre/graficos/pos-propensity.png, id=222, 633.8079pt x 333.04425pt>
+File: relatorios/passe-livre/graficos/pos-propensity.png Graphic file (type png)
+<use relatorios/passe-livre/graficos/pos-propensity.png>
+Package pdftex.def Info: relatorios/passe-livre/graficos/pos-propensity.png  used on input line 269.
+(pdftex.def)             Requested size: 221.95676pt x 116.6282pt.
  (relatorios/passe-livre/tabelas/event_study.tex
 Overfull \hbox (10.14424pt too wide) in paragraph at lines 4--30
- [][] |
+ [][] 
  []
 
 )
-<relatorios/passe-livre/graficos/event_study_heter_1t.png, id=75, 577.4373pt x 327.624pt>
-<relatorios/passe-livre/graficos/event_study_heter_2t.png, id=76, 577.4373pt x 327.624pt>
+<relatorios/passe-livre/graficos/event_study_heter_1t.png, id=229, 577.4373pt x 327.624pt>
+File: relatorios/passe-livre/graficos/event_study_heter_1t.png Graphic file (type png)
+<use relatorios/passe-livre/graficos/event_study_heter_1t.png>
+Package pdftex.def Info: relatorios/passe-livre/graficos/event_study_heter_1t.png  used on input line 289.
+(pdftex.def)             Requested size: 221.95676pt x 125.93315pt.
+<relatorios/passe-livre/graficos/event_study_heter_2t.png, id=230, 577.4373pt x 327.624pt>
+File: relatorios/passe-livre/graficos/event_study_heter_2t.png Graphic file (type png)
+<use relatorios/passe-livre/graficos/event_study_heter_2t.png>
+Package pdftex.def Info: relatorios/passe-livre/graficos/event_study_heter_2t.png  used on input line 295.
+(pdftex.def)             Requested size: 221.95676pt x 125.93315pt.
 
 
 Package caption Warning: \setcaptionsubtype
-(caption)                outside box or environment on input line 297.
+(caption)                outside box or environment on input line 300.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: \subcaption
-(caption)                outside box or environment on input line 297.
+(caption)                outside box or environment on input line 300.
 See the caption package documentation for explanation.
 
-[13] [14] [15] [16] [17] (relatorios/passe-livre/tabelas/variaveis-psm.tex) (relatorios/passe-livre/tabelas/variaveis-dd.tex)) [18
+[13 <./relatorios/passe-livre/graficos/pre-propensity.png> <./relatorios/passe-livre/graficos/pos-propensity.png>] [14] [15 <./relatorios/passe-livre/graficos/event_study_heter_1t.png> <./relatorios/passe-livre/graficos/event_study_heter_2t.png>] [16] [17] [18] (relatorios/passe-livre/tabelas/variaveis-psm.tex) (relatorios/passe-livre/tabelas/variaveis-dd.tex)) (relatorios/consult/text.tex [19
 
-] [19] [20
+] [20]
+File: logo/hlogo.png Graphic file (type png)
+<use logo/hlogo.png>
+Package pdftex.def Info: logo/hlogo.png  used on input line 9.
+(pdftex.def)             Requested size: 113.24197pt x 20.33496pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 9--9
+[][][][][][] 
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.11 \section{Introdução}
+                           
+pdfTeX warning (ext4): destination with the same identifier (name{section.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.18 \section{Regressão}
+                          [21
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{section.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 \section{Simulação da Carteira}
+                                      
+<relatorios/consult/imagens/Imagem1.jpg, id=293, 285.065pt x 224.84pt>
+File: relatorios/consult/imagens/Imagem1.jpg Graphic file (type jpg)
+<use relatorios/consult/imagens/Imagem1.jpg>
+Package pdftex.def Info: relatorios/consult/imagens/Imagem1.jpg  used on input line 41.
+(pdftex.def)             Requested size: 203.83417pt x 160.76967pt.
+<relatorios/consult/imagens/Imagem2.jpg, id=294, 281.05pt x 212.795pt>
+File: relatorios/consult/imagens/Imagem2.jpg Graphic file (type jpg)
+<use relatorios/consult/imagens/Imagem2.jpg>
+Package pdftex.def Info: relatorios/consult/imagens/Imagem2.jpg  used on input line 45.
+(pdftex.def)             Requested size: 203.83417pt x 154.33247pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.49 \section{Resultados}
+                          [22]
+<relatorios/consult/imagens/Imagem3.jpg, id=299, 287.0725pt x 229.85875pt>
+File: relatorios/consult/imagens/Imagem3.jpg Graphic file (type jpg)
+<use relatorios/consult/imagens/Imagem3.jpg>
+Package pdftex.def Info: relatorios/consult/imagens/Imagem3.jpg  used on input line 56.
+(pdftex.def)             Requested size: 203.83417pt x 163.21486pt.
+<relatorios/consult/imagens/Imagem4.jpg, id=300, 286.06876pt x 229.85875pt>
+File: relatorios/consult/imagens/Imagem4.jpg Graphic file (type jpg)
+<use relatorios/consult/imagens/Imagem4.jpg>
+Package pdftex.def Info: relatorios/consult/imagens/Imagem4.jpg  used on input line 60.
+(pdftex.def)             Requested size: 203.83417pt x 163.78305pt.
+<relatorios/consult/imagens/Imagem5.jpg, id=301, 287.0725pt x 229.85875pt>
+File: relatorios/consult/imagens/Imagem5.jpg Graphic file (type jpg)
+<use relatorios/consult/imagens/Imagem5.jpg>
+Package pdftex.def Info: relatorios/consult/imagens/Imagem5.jpg  used on input line 63.
+(pdftex.def)             Requested size: 203.83417pt x 163.21486pt.
+ [23 <./relatorios/consult/imagens/Imagem1.jpg> <./relatorios/consult/imagens/Imagem2.jpg> <./relatorios/consult/imagens/Imagem3.jpg> <./relatorios/consult/imagens/Imagem4.jpg> <./relatorios/consult/imagens/Imagem5.jpg>]
+<relatorios/consult/imagens/tabela.png, id=308, 447.17062pt x 146.79843pt>
+File: relatorios/consult/imagens/tabela.png Graphic file (type png)
+<use relatorios/consult/imagens/tabela.png>
+Package pdftex.def Info: relatorios/consult/imagens/tabela.png  used on input line 73.
+(pdftex.def)             Requested size: 452.9679pt x 148.70427pt.
+<relatorios/consult/imagens/Imagem6.jpg, id=309, 301.125pt x 240.9pt>
+File: relatorios/consult/imagens/Imagem6.jpg Graphic file (type jpg)
+<use relatorios/consult/imagens/Imagem6.jpg>
+Package pdftex.def Info: relatorios/consult/imagens/Imagem6.jpg  used on input line 84.
+(pdftex.def)             Requested size: 203.83417pt x 163.07465pt.
+<relatorios/consult/imagens/Imagem7.jpg, id=310, 301.125pt x 239.89626pt>
+File: relatorios/consult/imagens/Imagem7.jpg Graphic file (type jpg)
+<use relatorios/consult/imagens/Imagem7.jpg>
+Package pdftex.def Info: relatorios/consult/imagens/Imagem7.jpg  used on input line 88.
+(pdftex.def)             Requested size: 203.83417pt x 162.39519pt.
+<relatorios/consult/imagens/Imagem8.jpg, id=311, 301.125pt x 240.9pt>
+File: relatorios/consult/imagens/Imagem8.jpg Graphic file (type jpg)
+<use relatorios/consult/imagens/Imagem8.jpg>
+Package pdftex.def Info: relatorios/consult/imagens/Imagem8.jpg  used on input line 91.
+(pdftex.def)             Requested size: 203.83417pt x 163.07465pt.
+ [24 <./relatorios/consult/imagens/tabela.png>]
+<relatorios/consult/imagens/Imagem9.jpg, id=318, 382.42876pt x 306.14375pt>
+File: relatorios/consult/imagens/Imagem9.jpg Graphic file (type jpg)
+<use relatorios/consult/imagens/Imagem9.jpg>
+Package pdftex.def Info: relatorios/consult/imagens/Imagem9.jpg  used on input line 99.
+(pdftex.def)             Requested size: 452.9679pt x 362.62921pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.105 \section{Conclusão}
+                          ) (relatorios/serasa/text.tex [25 <./relatorios/consult/imagens/Imagem6.jpg> <./relatorios/consult/imagens/Imagem7.jpg> <./relatorios/consult/imagens/Imagem8.jpg>] [26 <./relatorios/consult/imagens/Imagem9.jpg>]
+File: logo/hlogo.png Graphic file (type png)
+<use logo/hlogo.png>
+Package pdftex.def Info: logo/hlogo.png  used on input line 8.
+(pdftex.def)             Requested size: 113.24197pt x 20.33496pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 8--8
+[][][][][][] 
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \section{Introdução}
+                            [27
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{section.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.20 ...minação das variáveis de instabilidade}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{section.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.38 ...ento e avaliação dos modelos preditivos}
+                                                   [28]
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 91.
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
+File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 91.
+ [29]) (relatorios/stf/text.tex [30]
+File: logo/hlogo.png Graphic file (type png)
+<use logo/hlogo.png>
+Package pdftex.def Info: logo/hlogo.png  used on input line 9.
+(pdftex.def)             Requested size: 113.24197pt x 20.33496pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 9--9
+[][][][][][] 
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.12 \section{Introdução (Motivação)}
+                                          [31
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{section.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.24 \section{Metodologia aplicada}
+                                    [32]
+pdfTeX warning (ext4): destination with the same identifier (name{section.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.58 \section{Resultados}
+                          [33]) (relatorios/macro/text.tex [34]
+File: logo/hlogo.png Graphic file (type png)
+<use logo/hlogo.png>
+Package pdftex.def Info: logo/hlogo.png  used on input line 5.
+(pdftex.def)             Requested size: 113.24197pt x 20.33496pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 5--5
+[][][][][][] 
+ []
+
+<relatorios/macro/imagens/grafico1.png, id=375, 1468.62964pt x 707.21358pt>
+File: relatorios/macro/imagens/grafico1.png Graphic file (type png)
+<use relatorios/macro/imagens/grafico1.png>
+Package pdftex.def Info: relatorios/macro/imagens/grafico1.png  used on input line 16.
+(pdftex.def)             Requested size: 452.9679pt x 218.12245pt.
+
+Package caption Warning: \setcaptionsubtype
+(caption)                outside box or environment on input line 17.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: \subcaption
+(caption)                outside box or environment on input line 17.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Citation 'itau' on page 35 undefined on input line 17.
+
+
+LaTeX Warning: Citation 'itau' on page 35 undefined on input line 17.
+
+[35
+
+] [36 <./relatorios/macro/imagens/grafico1.png>] [37]
+<relatorios/macro/imagens/grafico2.png, id=393, 928.75554pt x 502.01839pt>
+File: relatorios/macro/imagens/grafico2.png Graphic file (type png)
+<use relatorios/macro/imagens/grafico2.png>
+Package pdftex.def Info: relatorios/macro/imagens/grafico2.png  used on input line 89.
+(pdftex.def)             Requested size: 339.72592pt x 183.62968pt.
+<relatorios/macro/imagens/grafico3.png, id=394, 1037.16054pt x 516.64447pt>
+File: relatorios/macro/imagens/grafico3.png Graphic file (type png)
+<use relatorios/macro/imagens/grafico3.png>
+Package pdftex.def Info: relatorios/macro/imagens/grafico3.png  used on input line 99.
+(pdftex.def)             Requested size: 339.72592pt x 169.22398pt.
+ [38 <./relatorios/macro/imagens/grafico2.png> <./relatorios/macro/imagens/grafico3.png>]
+<relatorios/macro/imagens/grafico4.png, id=403, 1152.4484pt x 650.86018pt>
+File: relatorios/macro/imagens/grafico4.png Graphic file (type png)
+<use relatorios/macro/imagens/grafico4.png>
+Package pdftex.def Info: relatorios/macro/imagens/grafico4.png  used on input line 114.
+(pdftex.def)             Requested size: 407.66833pt x 230.2277pt.
+<relatorios/macro/imagens/grafico5.png, id=404, 1152.87857pt x 630.21161pt>
+File: relatorios/macro/imagens/grafico5.png Graphic file (type png)
+<use relatorios/macro/imagens/grafico5.png>
+Package pdftex.def Info: relatorios/macro/imagens/grafico5.png  used on input line 120.
+(pdftex.def)             Requested size: 407.66833pt x 222.8468pt.
+ [39 <./relatorios/macro/imagens/grafico4.png>]) [40 <./relatorios/macro/imagens/grafico5.png>] (relatorios/lounge/texto.tex [41]
+File: logo/hlogo.png Graphic file (type png)
+<use logo/hlogo.png>
+Package pdftex.def Info: logo/hlogo.png  used on input line 9.
+(pdftex.def)             Requested size: 113.24197pt x 20.33496pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 9--9
+[][][][][][] 
+ []
+
+[42
+
+] [43]
+<relatorios/lounge/imagens/1.jpg, id=431, 1131.22626pt x 673.51625pt>
+File: relatorios/lounge/imagens/1.jpg Graphic file (type jpg)
+<use relatorios/lounge/imagens/1.jpg>
+Package pdftex.def Info: relatorios/lounge/imagens/1.jpg  used on input line 106.
+(pdftex.def)             Requested size: 221.95676pt x 132.14188pt.
+<relatorios/lounge/imagens/2.jpg, id=432, 1131.22626pt x 674.52pt>
+File: relatorios/lounge/imagens/2.jpg Graphic file (type jpg)
+<use relatorios/lounge/imagens/2.jpg>
+Package pdftex.def Info: relatorios/lounge/imagens/2.jpg  used on input line 110.
+(pdftex.def)             Requested size: 221.95676pt x 132.33882pt.
+<relatorios/lounge/imagens/3.jpg, id=433, 1131.22626pt x 674.52pt>
+File: relatorios/lounge/imagens/3.jpg Graphic file (type jpg)
+<use relatorios/lounge/imagens/3.jpg>
+Package pdftex.def Info: relatorios/lounge/imagens/3.jpg  used on input line 113.
+(pdftex.def)             Requested size: 221.95676pt x 132.33882pt.
+<relatorios/lounge/imagens/4.jpg, id=434, 1136.245pt x 673.51625pt>
+File: relatorios/lounge/imagens/4.jpg Graphic file (type jpg)
+<use relatorios/lounge/imagens/4.jpg>
+Package pdftex.def Info: relatorios/lounge/imagens/4.jpg  used on input line 117.
+(pdftex.def)             Requested size: 221.95676pt x 131.56636pt.
+ [44 <./relatorios/lounge/imagens/1.jpg> <./relatorios/lounge/imagens/2.jpg> <./relatorios/lounge/imagens/3.jpg> <./relatorios/lounge/imagens/4.jpg>]) [45] [46
 
 ] (main.aux)
  ***********
@@ -1361,22 +1657,35 @@ L3 programming layer <2023-06-30>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 124.49696pt have occurred.
 
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59149 strings out of 475550
- 1446169 string characters out of 5762533
- 2375471 words of memory out of 5000000
- 79551 multiletter control sequences out of 15000+600000
- 568478 words of font info for 76 fonts, out of 8000000 for 9000
+ 59547 strings out of 475550
+ 1458337 string characters out of 5761589
+ 2377578 words of memory out of 5000000
+ 79786 multiletter control sequences out of 15000+600000
+ 569531 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,18n,116p,1623b,2414s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (20 pages, 363717 bytes).
+ 89i,18n,116p,1622b,2414s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist, replaced by a fixed one
+
+ <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (46 pages, 4026864 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 593 PDF objects out of 1000 (max. 8388607)
+ 132 named destinations out of 1000 (max. 500000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 
