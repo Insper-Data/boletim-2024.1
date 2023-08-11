@@ -484,14 +484,6 @@ INPUT C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape
 INPUT C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
 INPUT C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
 INPUT C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
-INPUT .\main.out
-INPUT .\main.out
-INPUT main.out
-INPUT main.out
-INPUT .\main.out
-INPUT .\main.out
-OUTPUT main.out
-OUTPUT main.pdf
 INPUT C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\portuguese.lbx
 INPUT C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\portuguese.lbx
 INPUT C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\portuguese.lbx
@@ -504,8 +496,10 @@ INPUT main.bbl
 INPUT .\capa\capa.pdf
 INPUT .\capa\capa.pdf
 INPUT .\capa\capa.pdf
+OUTPUT main.pdf
 INPUT .\capa\capa.pdf
 INPUT .\capa\capa.pdf
+INPUT C:\Users\gumac\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
 INPUT .\capa\capa.pdf
 INPUT .\capa\capa.pdf
 INPUT .\capa\capa.pdf
@@ -651,7 +645,6 @@ INPUT .\relatorios\passe-livre\graficos\event_study_heter_2t.png
 INPUT .\relatorios\passe-livre\graficos\event_study_heter_2t.png
 INPUT .\relatorios\passe-livre\graficos\event_study_heter_2t.png
 INPUT .\relatorios\passe-livre\graficos\event_study_heter_2t.png
-INPUT C:\Users\gumac\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
 INPUT .\relatorios\passe-livre\tabelas\variaveis-psm.tex
 INPUT .\relatorios\passe-livre\tabelas\variaveis-psm.tex
 INPUT relatorios\passe-livre\tabelas\variaveis-psm.tex
@@ -665,8 +658,6 @@ INPUT C:\Users\gumac\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\gumac\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\gumac\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti9.tfm
 INPUT main.aux
-INPUT .\main.out
-INPUT .\main.out
 INPUT main.run.xml
 OUTPUT main.run.xml
 INPUT C:\Users\gumac\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
