@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1691780591 "main.bcf" "main.bbl" "main" 1691780646 0
-  "./citacoes.bib" 1691719466 3294 8eee7d197957e7493469c0aaee6a96e4 ""
-  "main.bcf" 1691780645 109206 f87803cebbcda06596f03eaca7a1eba8 "pdflatex"
+["biber main"] 1691781478 "main.bcf" "main.bbl" "main" 1691781517 0
+  "./citacoes.bib" 1691781477 3242 d91d15184771c9216386ab55de6722f9 ""
+  "main.bcf" 1691781517 109206 f87803cebbcda06596f03eaca7a1eba8 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1691780633 "d:/git/boletim-data/main.tex" "main.pdf" "main" 1691780646 0
+["pdflatex"] 1691781505 "d:/git/boletim-data/main.tex" "main.pdf" "main" 1691781517 0
   "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1691520061 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1689363044 11548 06ddebdca3b3ce04a091cec3c866e25c ""
   "C:/Users/Usuario/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1689307548 24119856 9620448182ff4afddb2aee22c9572b56 ""
@@ -318,12 +318,12 @@
   "capa/capa.pdf" 1691519951 30565 f0732db3d37f091621ff799668d918cf ""
   "d:/git/boletim-data/main.tex" 1691780620 837 28f038202ee5e17fcbeb4c4673fcf6f8 ""
   "logo/hlogo.png" 1689272166 26890 b35519a4c3aa3f03b81f1db4a8de5885 ""
-  "main.aux" 1691780645 15949 91ea003d1005ae4c4c1a6ed02b7137a8 "pdflatex"
-  "main.bbl" 1691780594 13590 db6f48f0cf7bbaa0217c040bde16a99e "biber main"
-  "main.out" 1691780635 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.run.xml" 1691780645 2312 d1a4930a3dd9e57d4ec2169ce54dd368 "pdflatex"
+  "main.aux" 1691781517 16312 7c21aa618b5c6387e5098f5aaee7f92a "pdflatex"
+  "main.bbl" 1691781480 19032 d8e906205b5a998f45e78e1aae074cb0 "biber main"
+  "main.out" 1691781507 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1691781517 2312 3fd293cdc1d33399683d4ae411deda00 "pdflatex"
   "main.tex" 1691780620 837 28f038202ee5e17fcbeb4c4673fcf6f8 ""
-  "main.toc" 1691780645 2873 04b5cee2b12ab768ead49bac302472e1 "pdflatex"
+  "main.toc" 1691781517 2873 04b5cee2b12ab768ead49bac302472e1 "pdflatex"
   "relatorios/consult/imagens/Imagem1.jpg" 1691531214 10281 4ebbbd0e431fd5e1cb35c24ad5b8ea60 ""
   "relatorios/consult/imagens/Imagem2.jpg" 1691531241 16316 722a1ccade97c62e1c4e8924ce182103 ""
   "relatorios/consult/imagens/Imagem3.jpg" 1691531253 10645 7df2bc18caa31922f38ca91971021358 ""
@@ -339,7 +339,8 @@
   "relatorios/lounge/imagens/2.jpg" 1690482967 228480 8687b8eb50095ee26a2f4b3b0a48dcc9 ""
   "relatorios/lounge/imagens/3.jpg" 1690482967 229463 ffe1996e3c5408031fe77f1e8785e671 ""
   "relatorios/lounge/imagens/4.jpg" 1690482967 231100 b8b29a509c2ec48bb3a44139a48c99e9 ""
-  "relatorios/lounge/texto.tex" 1691531955 7988 f6e9d94f0d676e5559d44b069bcea6b3 ""
+  "relatorios/lounge/imagens/img.jpg" 1691538985 108198 aaea07fc4eaec6f568880a7000e71335 ""
+  "relatorios/lounge/texto.tex" 1691780857 8089 1103e49bd4c74b13fd558b15425da6f6 ""
   "relatorios/macro/imagens/grafico1.png" 1690305526 132902 013662278cf0953fb8fc197293f7fac0 ""
   "relatorios/macro/imagens/grafico2.png" 1690308672 253724 5e98cf0233b394fe7f49c40030029c09 ""
   "relatorios/macro/imagens/grafico3.png" 1690308700 373848 89aa7b03c75771b69847a62f60263326 ""
@@ -362,7 +363,7 @@
   "relatorios/passe-livre/tabelas/variaveis-dd.tex" 1691605207 2295 61a8f8dfbecd8f063b58b972f2269f82 ""
   "relatorios/passe-livre/tabelas/variaveis-psm.tex" 1691607467 1494 043917a14105c510b0f2edac2a5ee2cf ""
   "relatorios/passe-livre/text.tex" 1691780451 48736 865ed650264c700308c33ae3920cc7dd ""
-  "relatorios/serasa/text.tex" 1691531914 12287 d32576a83b0ee890d2e930fe7a0856eb ""
+  "relatorios/serasa/text.tex" 1691781385 13964 10b32d5ad8dd37f90e53c623158c2af1 ""
   "relatorios/stf/text.tex" 1691719466 10604 dcf5833e9a09b45c7d2cdd7a7c8d3f74 ""
   "settings/header.tex" 1690216241 324 40e3f279efb20f65a3fd721258079b36 ""
   "settings/misc.tex" 1691780565 1522 db019e1ee37165f3c9b4cbb83a8aa6b1 ""

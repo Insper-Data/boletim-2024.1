@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.14)  11 AUG 2023 16:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.14)  11 AUG 2023 16:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1511,25 +1511,25 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.1}) ha
 <to be read again> 
                    \relax 
 l.10 \section{Introdução}
-                            [27
-
-]
+                           
 pdfTeX warning (ext4): destination with the same identifier (name{section.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.20 ...minação das variáveis de instabilidade}
-                                                  
+                                                   [27
+
+]
 pdfTeX warning (ext4): destination with the same identifier (name{section.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 ...ento e avaliação dos modelos preditivos}
+l.46 ...ento e avaliação dos modelos preditivos}
                                                    [28]
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 91.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 99.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
 File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 91.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 99.
  [29]) (relatorios/stf/text.tex [30]
 File: logo/hlogo.png Graphic file (type png)
 <use logo/hlogo.png>
@@ -1582,32 +1582,26 @@ Package caption Warning: \subcaption
 (caption)                outside box or environment on input line 17.
 See the caption package documentation for explanation.
 
-
-LaTeX Warning: Citation 'itau' on page 35 undefined on input line 17.
-
-
-LaTeX Warning: Citation 'itau' on page 35 undefined on input line 17.
-
 [35
 
 ] [36 <./relatorios/macro/imagens/grafico1.png>] [37]
-<relatorios/macro/imagens/grafico2.png, id=393, 928.75554pt x 502.01839pt>
+<relatorios/macro/imagens/grafico2.png, id=396, 928.75554pt x 502.01839pt>
 File: relatorios/macro/imagens/grafico2.png Graphic file (type png)
 <use relatorios/macro/imagens/grafico2.png>
 Package pdftex.def Info: relatorios/macro/imagens/grafico2.png  used on input line 89.
 (pdftex.def)             Requested size: 339.72592pt x 183.62968pt.
-<relatorios/macro/imagens/grafico3.png, id=394, 1037.16054pt x 516.64447pt>
+<relatorios/macro/imagens/grafico3.png, id=397, 1037.16054pt x 516.64447pt>
 File: relatorios/macro/imagens/grafico3.png Graphic file (type png)
 <use relatorios/macro/imagens/grafico3.png>
 Package pdftex.def Info: relatorios/macro/imagens/grafico3.png  used on input line 99.
 (pdftex.def)             Requested size: 339.72592pt x 169.22398pt.
  [38 <./relatorios/macro/imagens/grafico2.png> <./relatorios/macro/imagens/grafico3.png>]
-<relatorios/macro/imagens/grafico4.png, id=403, 1152.4484pt x 650.86018pt>
+<relatorios/macro/imagens/grafico4.png, id=406, 1152.4484pt x 650.86018pt>
 File: relatorios/macro/imagens/grafico4.png Graphic file (type png)
 <use relatorios/macro/imagens/grafico4.png>
 Package pdftex.def Info: relatorios/macro/imagens/grafico4.png  used on input line 114.
 (pdftex.def)             Requested size: 407.66833pt x 230.2277pt.
-<relatorios/macro/imagens/grafico5.png, id=404, 1152.87857pt x 630.21161pt>
+<relatorios/macro/imagens/grafico5.png, id=407, 1152.87857pt x 630.21161pt>
 File: relatorios/macro/imagens/grafico5.png Graphic file (type png)
 <use relatorios/macro/imagens/grafico5.png>
 Package pdftex.def Info: relatorios/macro/imagens/grafico5.png  used on input line 120.
@@ -1625,27 +1619,32 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 9--9
 [42
 
 ] [43]
-<relatorios/lounge/imagens/1.jpg, id=431, 1131.22626pt x 673.51625pt>
+<relatorios/lounge/imagens/img.jpg, id=434, 889.3225pt x 454.69875pt>
+File: relatorios/lounge/imagens/img.jpg Graphic file (type jpg)
+<use relatorios/lounge/imagens/img.jpg>
+Package pdftex.def Info: relatorios/lounge/imagens/img.jpg  used on input line 99.
+(pdftex.def)             Requested size: 407.66833pt x 208.43546pt.
+<relatorios/lounge/imagens/1.jpg, id=435, 1131.22626pt x 673.51625pt>
 File: relatorios/lounge/imagens/1.jpg Graphic file (type jpg)
 <use relatorios/lounge/imagens/1.jpg>
-Package pdftex.def Info: relatorios/lounge/imagens/1.jpg  used on input line 106.
+Package pdftex.def Info: relatorios/lounge/imagens/1.jpg  used on input line 112.
 (pdftex.def)             Requested size: 221.95676pt x 132.14188pt.
-<relatorios/lounge/imagens/2.jpg, id=432, 1131.22626pt x 674.52pt>
+<relatorios/lounge/imagens/2.jpg, id=436, 1131.22626pt x 674.52pt>
 File: relatorios/lounge/imagens/2.jpg Graphic file (type jpg)
 <use relatorios/lounge/imagens/2.jpg>
-Package pdftex.def Info: relatorios/lounge/imagens/2.jpg  used on input line 110.
+Package pdftex.def Info: relatorios/lounge/imagens/2.jpg  used on input line 116.
 (pdftex.def)             Requested size: 221.95676pt x 132.33882pt.
-<relatorios/lounge/imagens/3.jpg, id=433, 1131.22626pt x 674.52pt>
+<relatorios/lounge/imagens/3.jpg, id=437, 1131.22626pt x 674.52pt>
 File: relatorios/lounge/imagens/3.jpg Graphic file (type jpg)
 <use relatorios/lounge/imagens/3.jpg>
-Package pdftex.def Info: relatorios/lounge/imagens/3.jpg  used on input line 113.
+Package pdftex.def Info: relatorios/lounge/imagens/3.jpg  used on input line 119.
 (pdftex.def)             Requested size: 221.95676pt x 132.33882pt.
-<relatorios/lounge/imagens/4.jpg, id=434, 1136.245pt x 673.51625pt>
+<relatorios/lounge/imagens/4.jpg, id=438, 1136.245pt x 673.51625pt>
 File: relatorios/lounge/imagens/4.jpg Graphic file (type jpg)
 <use relatorios/lounge/imagens/4.jpg>
-Package pdftex.def Info: relatorios/lounge/imagens/4.jpg  used on input line 117.
+Package pdftex.def Info: relatorios/lounge/imagens/4.jpg  used on input line 123.
 (pdftex.def)             Requested size: 221.95676pt x 131.56636pt.
- [44 <./relatorios/lounge/imagens/1.jpg> <./relatorios/lounge/imagens/2.jpg> <./relatorios/lounge/imagens/3.jpg> <./relatorios/lounge/imagens/4.jpg>]) [45] [46
+ [44 <./relatorios/lounge/imagens/1.jpg> <./relatorios/lounge/imagens/2.jpg> <./relatorios/lounge/imagens/3.jpg> <./relatorios/lounge/imagens/4.jpg> <./relatorios/lounge/imagens/img.jpg>]) [45] [46
 
 ] (main.aux)
  ***********
@@ -1657,25 +1656,17 @@ L3 programming layer <2023-06-30>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 124.49696pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59547 strings out of 475550
- 1458337 string characters out of 5761589
- 2377578 words of memory out of 5000000
- 79786 multiletter control sequences out of 15000+600000
+ 59575 strings out of 475550
+ 1459345 string characters out of 5761589
+ 2377706 words of memory out of 5000000
+ 79810 multiletter control sequences out of 15000+600000
  569531 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,18n,116p,1622b,2414s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1683,9 +1674,9 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist, replaced by a fixed one
 
  <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (46 pages, 4026864 bytes).
+Output written on main.pdf (46 pages, 4138319 bytes).
 PDF statistics:
- 593 PDF objects out of 1000 (max. 8388607)
- 132 named destinations out of 1000 (max. 500000)
- 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 601 PDF objects out of 1000 (max. 8388607)
+ 136 named destinations out of 1000 (max. 500000)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
 
