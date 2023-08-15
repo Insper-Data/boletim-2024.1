@@ -5,7 +5,7 @@
         \noindent Projeto de consultoria com Serasa
     }
     {Neste projeto, propõe-se o desenvolvimento de um modelo preditivo para estimar a performance de modelos de crédito com base em métricas de instabilidade disponíveis mensalmente. Foram utilizados três tipos de modelos (regressão logística, regressão linear e rede neural) e métricas como erro absoluto médio (MAE) e erro quadrático médio (MSE) para avaliação. A limitação dos dados trabalhados tornou-se evidente, destacando a necessidade de abordagens futuras que considerem a inclusão de variáveis macroeconômicas para explicar as variações do KS2 ao longo do tempo.}
-    {-}
+    {Modelos de crédito}
 
 \section{Introdução}
 Um modelo de crédito consiste em uma ferramenta estatística que relaciona variáveis cadastrais com um resultado, chamado de score, capaz de informar a chance de determinado indivíduo pagar o crédito.
@@ -17,7 +17,7 @@ O objetivo do projeto consiste em tentar estimar a variável de performance (KS2
 
 Para estimar o KS2, primeiramente os dados referentes à instabilidade e performance de modelos de crédito foram tratados e, em seguida, três tipos de modelos diferentes foram treinados com as variáveis de instabilidade como entrada e a variável de performance como \emph{"target"}.
     
-\section{determinação das variáveis de instabilidade}
+\section{Determinação das variáveis de instabilidade}
 
 Essa etapa consiste na extração das métricas de instabilidade que serão utilizadas nas etapas de  treinamento e validação do modelo. Existem duas métricas de instabilidade principais, o KS1 e o PSI. O KS1 (também conhecido como KS one)  é calculado a partir dos “scores” produzidos pelo modelo de crédito para cada segmento separadamente e para o modelo de crédito inteiro. O PSI é calculado para as mesmas instâncias do KS1 e também para cada variável do modelo de crédito. Também calcula-se um PSI geral que considera todas variáveis e segmentos. Por fim, o KS2 (o \emph{"target"}) é calculado a partir de 90 dias do início da execução do modelo e ele é obtido em função de todos os segmentos. Vale ressaltar que esses indicadores foram calculados por safra.
 
@@ -43,7 +43,7 @@ Finalmente, o KS2 é uma métrica de performance que avalia a capacidade do mode
 
 Nas equações acima o termo \emph{“Obtida”} diz respeito à distribuição do “score” do modelo em um determinado segmento e safra do modelo de crédito. Já o termo “Esperada” é a distribuição para esse mesmo segmento nos dados de treinamento do modelo de crédito.
 
-\section{treinamento e avaliação dos modelos preditivos}
+\section{Treinamento e avaliação dos modelos preditivos}
 
 Uma vez calculadas as métricas de instabilidade supracitadas, uma série de modelos foram treinados e avaliados visando estimar KS2 geral de cada safra em função dos dados de cada segmento de modelo.
 	Porque cada modelo de crédito recebido possui um número variável de segmentos e variáveis cadastrais, não foi possível a construção de um modelo agnóstico, isto é, um modelo capaz de receber métricas de instabilidades oriundas de qualquer modelo de crédito. Dessa forma, os dados para treinamento e avaliação dos modelos de modelos foram produzidos a partir da primeira base de dados recebida pelo grupo. Essa base contém dados de um modelo de crédito baseado em regressão logística.	

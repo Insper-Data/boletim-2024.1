@@ -16,19 +16,19 @@
 \contentsline {subsection}{\numberline {5.2}Agradecimentos}{17}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Reprodutibilidade}{18}{subsection.5.3}%
 \contentsline {section}{\numberline {6}Anexo}{19}{section.6}%
-\contentsline {part}{II\hspace {1em}Estudo e Predição da Exposição de Liquidez de Capital}{19}{part.2}%
-\contentsline {section}{\numberline {1}Introdução}{21}{section.1}%
-\contentsline {section}{\numberline {2}Regressão}{22}{section.2}%
-\contentsline {section}{\numberline {3}Simulação da Carteira}{22}{section.3}%
-\contentsline {section}{\numberline {4}Resultados}{23}{section.4}%
-\contentsline {section}{\numberline {5}Conclusão}{25}{section.5}%
-\contentsline {part}{III\hspace {1em}Predição de performance de modelos de crédito a partir de indicadores de estabildiade}{25}{part.3}%
-\contentsline {section}{\numberline {1}Introdução}{27}{section.1}%
-\contentsline {section}{\numberline {2}determinação das variáveis de instabilidade}{28}{section.2}%
-\contentsline {section}{\numberline {3}treinamento e avaliação dos modelos preditivos}{28}{section.3}%
-\contentsline {part}{IV\hspace {1em}Transparência no cenário político: coleta e tratamento de dados do STF}{30}{part.4}%
-\contentsline {section}{\numberline {1}Introdução (Motivação)}{31}{section.1}%
-\contentsline {section}{\numberline {2}Metodologia aplicada}{32}{section.2}%
-\contentsline {section}{\numberline {3}Resultados}{34}{section.3}%
-\contentsline {part}{V\hspace {1em}Taxa de juros neutra para o Brasil e Estados Unidos}{34}{part.5}%
+\contentsline {part}{II\hspace {1em}Transparência no cenário político: coleta e tratamento de dados do STF}{19}{part.2}%
+\contentsline {section}{\numberline {1}Introdução (Motivação)}{21}{section.1}%
+\contentsline {section}{\numberline {2}Metodologia aplicada}{22}{section.2}%
+\contentsline {section}{\numberline {3}Resultados}{24}{section.3}%
+\contentsline {part}{III\hspace {1em}Predição de performance de modelos de crédito a partir de indicadores de estabildiade}{24}{part.3}%
+\contentsline {section}{\numberline {1}Introdução}{25}{section.1}%
+\contentsline {section}{\numberline {2}Determinação das variáveis de instabilidade}{26}{section.2}%
+\contentsline {section}{\numberline {3}Treinamento e avaliação dos modelos preditivos}{26}{section.3}%
+\contentsline {part}{IV\hspace {1em}Estudo e Predição da Exposição de Liquidez de Capital}{28}{part.4}%
+\contentsline {section}{\numberline {1}Introdução}{29}{section.1}%
+\contentsline {section}{\numberline {2}Regressão}{30}{section.2}%
+\contentsline {section}{\numberline {3}Simulação da Carteira}{30}{section.3}%
+\contentsline {section}{\numberline {4}Resultados}{31}{section.4}%
+\contentsline {section}{\numberline {5}Conclusão}{33}{section.5}%
+\contentsline {part}{V\hspace {1em}Taxa de juros neutra para o Brasil e Estados Unidos}{33}{part.5}%
 \contentsline {part}{VI\hspace {1em}Modelagem preditiva sobre Preços de imóveis em São Paulo}{41}{part.6}%

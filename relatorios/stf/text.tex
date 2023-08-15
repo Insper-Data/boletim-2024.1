@@ -11,15 +11,20 @@
 
 \section{Introdução (Motivação)}
 
-	A tripartição dos poderes é uma das características centrais no sistema político brasileiro, e presente em boa parte do mundo, com eleições regulares para os representantes do legislativo e do executivo. O terceiro poder, o judiciário, apresenta uma importância tão grande como os demais, entretanto, diferente dos dois primeiros os interesses e padrões de decisão não são tão claros.
-    
-	Aliado a isso, os dados acerca de processos são públicos, porém de difícil acesso para realizar análises de grande porte, haja vista que a suprema corte brasileira é ímpar em relação ao número de processos anuais, como pode ser visualizado na figura 1. A única suprema corte com mais processos é a Índia, porém existem 30 ministros e a população é quase sete vezes superior, ao passo que o Brasil tem apenas 11 ministros. Até então, pesquisas sobre os padrões de decisão de ministros (clustering) eram realizadas com uma pequena parcela do total. 
+A tripartição dos poderes é uma das características centrais no sistema político brasileiro, e presente em boa parte do mundo, com eleições regulares para os representantes do legislativo e do executivo. O terceiro poder, o judiciário, apresenta uma importância tão grande como os demais, entretanto, diferente dos dois primeiros os interesses e padrões de decisão não são tão claros.
 
-Fig. 1: Número de processos de supremas cortes em 2019.
+Aliado a isso, os dados acerca de processos são públicos, porém de difícil acesso para realizar análises de grande porte, haja vista que a suprema corte brasileira é ímpar em relação ao número de processos anuais, como pode ser visualizado na figura \ref{fig_1}. A única suprema corte com mais processos é a Índia, porém existem 30 ministros e a população é quase sete vezes superior, ao passo que o Brasil tem apenas 11 ministros. Até então, pesquisas sobre os padrões de decisão de ministros (clustering) eram realizadas com uma pequena parcela do total. 
 
-	Além disso, não há dados estruturados sobre quais foram as decisões, de modo que, a análise de como cada ministro votou se dá em um processo artesanal de leitura do texto da decisão e saber quais ministros estavam presentes à época. Isso torna uma análise geral inviável. Contudo, dado que a informação de quais ministros compunham o rol de magistrados do supremo na data da decisão esteja disponível, o texto da decisão possibilita a utilização de um algoritmo que se baseia em expressões regulares (RegEx), e tem por objetivo a classificação dos votos dos ministros em cada decisão analisada.
+\begin{figure}
+    \centering
+    \caption{}
+    \includegraphics[width = .9\linewidth]{relatorios/stf/imagens/img2.png}
+    \label{fig_1}
+\end{figure}
 
-	Nesse sentido, o presente projeto tinha como objetivo inicial responder a pergunta “Como votam os ministros do STF?”, tentando compreender se existem agrupamentos de ministros e quais os fatores que levam as suas decisões (ideologia, influências políticas, confiança no relator, etc.). O projeto focou na criação de um banco de dados público, com pelo menos 95\% dos dados dos processos do STF, presentes no site (https://portal.stf.jus.br/), sendo uma primeira etapa de 3 para responder a pergunta proposta. 
+Além disso, não há dados estruturados sobre quais foram as decisões, de modo que, a análise de como cada ministro votou se dá em um processo artesanal de leitura do texto da decisão e saber quais ministros estavam presentes à época. Isso torna uma análise geral inviável. Contudo, dado que a informação de quais ministros compunham o rol de magistrados do supremo na data da decisão esteja disponível, o texto da decisão possibilita a utilização de um algoritmo que se baseia em expressões regulares (RegEx), e tem por objetivo a classificação dos votos dos ministros em cada decisão analisada.
+
+Nesse sentido, o presente projeto tinha como objetivo inicial responder a pergunta “Como votam os ministros do STF?”, tentando compreender se existem agrupamentos de ministros e quais os fatores que levam as suas decisões (ideologia, influências políticas, confiança no relator, etc.). O projeto focou na criação de um banco de dados público, com pelo menos 95\% dos dados dos processos do STF, presentes no site (https://portal.stf.jus.br/), sendo uma primeira etapa de 3 para responder a pergunta proposta. 
 
 \section{Metodologia aplicada}
 
@@ -57,9 +62,16 @@ A partir disso, a segunda arquitetura foi posta em prática, que consiste em con
 	
 \section{Resultados}
 
-	Na primeira coleta foram levantados cerca de 1.490.986. Os valores por ano dos processos coletados são apresentados na imagem a seguir:
+Na primeira coleta foram levantados cerca de 1.490.986. Os valores por ano dos processos coletados são apresentados na imagem \ref{fig_2}.
 
-	A segunda coleta coletou 2.356.676 processos. A partir da contagem de processos que falharam chega-se à conclusão que esse valor representa cerca de 99,96\% do total de processos existentes no intervalo considerado. Os dados serão disponibilizados para acessos online, com auxilio do time de Ciência de dados do Insper, a partir da disponibilização de uma máquina virtual para hospedar os dados.  
+\begin{figure}
+    \centering
+    \caption{}
+    \includegraphics[width = .5\linewidth]{relatorios/stf/imagens/img1.png}
+    \label{fig_2}
+\end{figure}
+
+A segunda coleta coletou 2.356.676 processos. A partir da contagem de processos que falharam chega-se à conclusão que esse valor representa cerca de 99,96\% do total de processos existentes no intervalo considerado. Os dados serão disponibilizados para acessos online, com auxilio do time de Ciência de dados do Insper, a partir da disponibilização de uma máquina virtual para hospedar os dados.  
 
 
 

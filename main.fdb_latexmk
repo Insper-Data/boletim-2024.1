@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1691781478 "main.bcf" "main.bbl" "main" 1691781517 0
+["biber main"] 1692118640 "main.bcf" "main.bbl" "main" 1692118950 0
   "./citacoes.bib" 1691781477 3242 d91d15184771c9216386ab55de6722f9 ""
-  "main.bcf" 1691781517 109206 f87803cebbcda06596f03eaca7a1eba8 "pdflatex"
+  "main.bcf" 1692118949 109206 f87803cebbcda06596f03eaca7a1eba8 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1691781505 "d:/git/boletim-data/main.tex" "main.pdf" "main" 1691781517 0
+["pdflatex"] 1692118938 "d:/git/boletim-data/main.tex" "main.pdf" "main" 1692118950 0
   "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1691520061 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1689363044 11548 06ddebdca3b3ce04a091cec3c866e25c ""
   "C:/Users/Usuario/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1689307548 24119856 9620448182ff4afddb2aee22c9572b56 ""
@@ -316,14 +316,14 @@
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "capa/capa.pdf" 1691519951 30565 f0732db3d37f091621ff799668d918cf ""
-  "d:/git/boletim-data/main.tex" 1691780620 837 28f038202ee5e17fcbeb4c4673fcf6f8 ""
+  "d:/git/boletim-data/main.tex" 1692118627 835 2e0d27777921c3ebe44deb07e92771b6 ""
   "logo/hlogo.png" 1689272166 26890 b35519a4c3aa3f03b81f1db4a8de5885 ""
-  "main.aux" 1691781517 16312 7c21aa618b5c6387e5098f5aaee7f92a "pdflatex"
-  "main.bbl" 1691781480 19032 d8e906205b5a998f45e78e1aae074cb0 "biber main"
-  "main.out" 1691781507 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.run.xml" 1691781517 2312 3fd293cdc1d33399683d4ae411deda00 "pdflatex"
-  "main.tex" 1691780620 837 28f038202ee5e17fcbeb4c4673fcf6f8 ""
-  "main.toc" 1691781517 2873 04b5cee2b12ab768ead49bac302472e1 "pdflatex"
+  "main.aux" 1692118949 16675 9dd5323b10b73a6084a845770513ec5d "pdflatex"
+  "main.bbl" 1692118643 19032 d8e906205b5a998f45e78e1aae074cb0 "biber main"
+  "main.out" 1692118940 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1692118949 2312 3fd293cdc1d33399683d4ae411deda00 "pdflatex"
+  "main.tex" 1692118627 835 2e0d27777921c3ebe44deb07e92771b6 ""
+  "main.toc" 1692118949 2873 6c62a57483eefab04bd5f5261bb52cad "pdflatex"
   "relatorios/consult/imagens/Imagem1.jpg" 1691531214 10281 4ebbbd0e431fd5e1cb35c24ad5b8ea60 ""
   "relatorios/consult/imagens/Imagem2.jpg" 1691531241 16316 722a1ccade97c62e1c4e8924ce182103 ""
   "relatorios/consult/imagens/Imagem3.jpg" 1691531253 10645 7df2bc18caa31922f38ca91971021358 ""
@@ -363,12 +363,14 @@
   "relatorios/passe-livre/tabelas/variaveis-dd.tex" 1691605207 2295 61a8f8dfbecd8f063b58b972f2269f82 ""
   "relatorios/passe-livre/tabelas/variaveis-psm.tex" 1691607467 1494 043917a14105c510b0f2edac2a5ee2cf ""
   "relatorios/passe-livre/text.tex" 1691780451 48736 865ed650264c700308c33ae3920cc7dd ""
-  "relatorios/serasa/text.tex" 1691781385 13964 10b32d5ad8dd37f90e53c623158c2af1 ""
-  "relatorios/stf/text.tex" 1691719466 10604 dcf5833e9a09b45c7d2cdd7a7c8d3f74 ""
+  "relatorios/serasa/text.tex" 1692118730 13982 d449119575debef3e9e8c0c61acfb6be ""
+  "relatorios/stf/imagens/img1.png" 1692117633 25477 218ce64a8cc2bba41da8703869d3e27f ""
+  "relatorios/stf/imagens/img2.png" 1692117637 43819 dc9213805d3e9804b4cdda7469ceea10 ""
+  "relatorios/stf/text.tex" 1692118913 10867 5d5cea1c68bdfdcda299af160ca94a6b ""
   "settings/header.tex" 1690216241 324 40e3f279efb20f65a3fd721258079b36 ""
   "settings/misc.tex" 1691780565 1522 db019e1ee37165f3c9b4cbb83a8aa6b1 ""
   "settings/plots.tex" 1690216241 597 aca92c3b3567b4e140b6b90ca34d94e7 ""
-  "settings/title.tex" 1691520580 799 84f86d9c5ede1ff372f0d5bbb284de49 ""
+  "settings/title.tex" 1692118799 821 f603e4913357ab9965cefe856c8ffd15 ""
   (generated)
   "main.aux"
   "main.bcf"
