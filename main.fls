@@ -460,6 +460,11 @@ INPUT .\settings\header.tex
 INPUT settings\header.tex
 INPUT C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
 INPUT C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT .\settings\bibliography.tex
+INPUT .\settings\bibliography.tex
+INPUT .\settings\bibliography.tex
+INPUT .\settings\bibliography.tex
+INPUT settings\bibliography.tex
 INPUT .\main.aux
 INPUT .\main.aux
 INPUT main.aux

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.17)  16 AUG 2023 07:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.17)  16 AUG 2023 11:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1056,7 +1056,7 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@erf=\skip89
 \f@nch@O@olf=\skip90
 \f@nch@O@orf=\skip91
-))
+)) (settings/bibliography.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1064,24 +1064,24 @@ Package csquotes Info: Redefining alias 'default' -> 'portuguese'.
  (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1136,7 +1136,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\gumac\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package translations Info: no dictionary file `translations-basic-dictionary-portuges.trsl' found. on input line 18.
+Package translations Info: no dictionary file `translations-basic-dictionary-portuges.trsl' found. on input line 19.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: changepage package is loaded.
 \caption@adjustwidth@hsize=\dimen350
@@ -1154,7 +1154,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring OFF on input line 18.
+Package hyperref Info: Link coloring OFF on input line 19.
  (main.out) (main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
@@ -1172,40 +1172,40 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 18.
-Package biblatex Info: Reference segment=0 on input line 18.
+Package biblatex Info: Reference section=0 on input line 19.
+Package biblatex Info: Reference segment=0 on input line 19.
 
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 <capa/capa.pdf, id=6, 597.73312pt x 845.40843pt>
 File: capa/capa.pdf Graphic file (type pdf)
 <use capa/capa.pdf>
-Package pdftex.def Info: capa/capa.pdf  used on input line 20.
+Package pdftex.def Info: capa/capa.pdf  used on input line 21.
 (pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
 File: capa/capa.pdf Graphic file (type pdf)
 <use capa/capa.pdf>
-Package pdftex.def Info: capa/capa.pdf  used on input line 20.
+Package pdftex.def Info: capa/capa.pdf  used on input line 21.
 (pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
 <capa/capa.pdf, id=9, page=1, 597.73312pt x 845.40843pt>
 File: capa/capa.pdf Graphic file (type pdf)
 <use capa/capa.pdf, page 1>
-Package pdftex.def Info: capa/capa.pdf , page1 used on input line 20.
+Package pdftex.def Info: capa/capa.pdf , page1 used on input line 21.
 (pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
 File: capa/capa.pdf Graphic file (type pdf)
 <use capa/capa.pdf, page 1>
-Package pdftex.def Info: capa/capa.pdf , page1 used on input line 20.
+Package pdftex.def Info: capa/capa.pdf , page1 used on input line 21.
 (pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
 File: capa/capa.pdf Graphic file (type pdf)
 <use capa/capa.pdf, page 1>
-Package pdftex.def Info: capa/capa.pdf , page1 used on input line 20.
+Package pdftex.def Info: capa/capa.pdf , page1 used on input line 21.
 (pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
 File: capa/capa.pdf Graphic file (type pdf)
 <use capa/capa.pdf, page 1>
-Package pdftex.def Info: capa/capa.pdf , page1 used on input line 20.
+Package pdftex.def Info: capa/capa.pdf , page1 used on input line 21.
 (pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
 File: capa/capa.pdf Graphic file (type pdf)
 <use capa/capa.pdf, page 1>
-Package pdftex.def Info: capa/capa.pdf , page1 used on input line 20.
+Package pdftex.def Info: capa/capa.pdf , page1 used on input line 21.
 (pdftex.def)             Requested size: 597.75902pt x 845.44505pt.
 [1
 
@@ -1403,7 +1403,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.1}) ha
                    \relax 
 l.12 \section{Introdução (Motivação)}
                                          
-<relatorios/stf/imagens/img2.png, id=288, 859.2903pt x 426.393pt>
+<relatorios/stf/imagens/img2.png, id=289, 859.2903pt x 426.393pt>
 File: relatorios/stf/imagens/img2.png Graphic file (type png)
 <use relatorios/stf/imagens/img2.png>
 Package pdftex.def Info: relatorios/stf/imagens/img2.png  used on input line 21.
@@ -1421,7 +1421,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.3}) ha
                    \relax 
 l.63 \section{Resultados}
                          
-<relatorios/stf/imagens/img1.png, id=306, 436.5108pt x 344.0052pt>
+<relatorios/stf/imagens/img1.png, id=307, 436.5108pt x 344.0052pt>
 File: relatorios/stf/imagens/img1.png Graphic file (type png)
 <use relatorios/stf/imagens/img1.png>
 Package pdftex.def Info: relatorios/stf/imagens/img1.png  used on input line 70.
@@ -1488,12 +1488,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.3}) ha
                    \relax 
 l.23 \section{Simulação da Carteira}
                                       
-<relatorios/consult/imagens/Imagem1.jpg, id=345, 285.065pt x 224.84pt>
+<relatorios/consult/imagens/Imagem1.jpg, id=346, 285.065pt x 224.84pt>
 File: relatorios/consult/imagens/Imagem1.jpg Graphic file (type jpg)
 <use relatorios/consult/imagens/Imagem1.jpg>
 Package pdftex.def Info: relatorios/consult/imagens/Imagem1.jpg  used on input line 41.
 (pdftex.def)             Requested size: 203.83417pt x 160.76967pt.
-<relatorios/consult/imagens/Imagem2.jpg, id=346, 281.05pt x 212.795pt>
+<relatorios/consult/imagens/Imagem2.jpg, id=347, 281.05pt x 212.795pt>
 File: relatorios/consult/imagens/Imagem2.jpg Graphic file (type jpg)
 <use relatorios/consult/imagens/Imagem2.jpg>
 Package pdftex.def Info: relatorios/consult/imagens/Imagem2.jpg  used on input line 45.
@@ -1504,44 +1504,44 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.4}) ha
                    \relax 
 l.49 \section{Resultados}
                           [30]
-<relatorios/consult/imagens/Imagem3.jpg, id=351, 287.0725pt x 229.85875pt>
+<relatorios/consult/imagens/Imagem3.jpg, id=352, 287.0725pt x 229.85875pt>
 File: relatorios/consult/imagens/Imagem3.jpg Graphic file (type jpg)
 <use relatorios/consult/imagens/Imagem3.jpg>
 Package pdftex.def Info: relatorios/consult/imagens/Imagem3.jpg  used on input line 56.
 (pdftex.def)             Requested size: 203.83417pt x 163.21486pt.
-<relatorios/consult/imagens/Imagem4.jpg, id=352, 286.06876pt x 229.85875pt>
+<relatorios/consult/imagens/Imagem4.jpg, id=353, 286.06876pt x 229.85875pt>
 File: relatorios/consult/imagens/Imagem4.jpg Graphic file (type jpg)
 <use relatorios/consult/imagens/Imagem4.jpg>
 Package pdftex.def Info: relatorios/consult/imagens/Imagem4.jpg  used on input line 60.
 (pdftex.def)             Requested size: 203.83417pt x 163.78305pt.
-<relatorios/consult/imagens/Imagem5.jpg, id=353, 287.0725pt x 229.85875pt>
+<relatorios/consult/imagens/Imagem5.jpg, id=354, 287.0725pt x 229.85875pt>
 File: relatorios/consult/imagens/Imagem5.jpg Graphic file (type jpg)
 <use relatorios/consult/imagens/Imagem5.jpg>
 Package pdftex.def Info: relatorios/consult/imagens/Imagem5.jpg  used on input line 63.
 (pdftex.def)             Requested size: 203.83417pt x 163.21486pt.
  [31 <./relatorios/consult/imagens/Imagem1.jpg> <./relatorios/consult/imagens/Imagem2.jpg> <./relatorios/consult/imagens/Imagem3.jpg> <./relatorios/consult/imagens/Imagem4.jpg> <./relatorios/consult/imagens/Imagem5.jpg>]
-<relatorios/consult/imagens/tabela.png, id=361, 447.17062pt x 146.79843pt>
+<relatorios/consult/imagens/tabela.png, id=362, 447.17062pt x 146.79843pt>
 File: relatorios/consult/imagens/tabela.png Graphic file (type png)
 <use relatorios/consult/imagens/tabela.png>
 Package pdftex.def Info: relatorios/consult/imagens/tabela.png  used on input line 73.
 (pdftex.def)             Requested size: 452.9679pt x 148.70427pt.
-<relatorios/consult/imagens/Imagem6.jpg, id=362, 301.125pt x 240.9pt>
+<relatorios/consult/imagens/Imagem6.jpg, id=363, 301.125pt x 240.9pt>
 File: relatorios/consult/imagens/Imagem6.jpg Graphic file (type jpg)
 <use relatorios/consult/imagens/Imagem6.jpg>
 Package pdftex.def Info: relatorios/consult/imagens/Imagem6.jpg  used on input line 84.
 (pdftex.def)             Requested size: 203.83417pt x 163.07465pt.
-<relatorios/consult/imagens/Imagem7.jpg, id=363, 301.125pt x 239.89626pt>
+<relatorios/consult/imagens/Imagem7.jpg, id=364, 301.125pt x 239.89626pt>
 File: relatorios/consult/imagens/Imagem7.jpg Graphic file (type jpg)
 <use relatorios/consult/imagens/Imagem7.jpg>
 Package pdftex.def Info: relatorios/consult/imagens/Imagem7.jpg  used on input line 88.
 (pdftex.def)             Requested size: 203.83417pt x 162.39519pt.
-<relatorios/consult/imagens/Imagem8.jpg, id=364, 301.125pt x 240.9pt>
+<relatorios/consult/imagens/Imagem8.jpg, id=365, 301.125pt x 240.9pt>
 File: relatorios/consult/imagens/Imagem8.jpg Graphic file (type jpg)
 <use relatorios/consult/imagens/Imagem8.jpg>
 Package pdftex.def Info: relatorios/consult/imagens/Imagem8.jpg  used on input line 91.
 (pdftex.def)             Requested size: 203.83417pt x 163.07465pt.
  [32 <./relatorios/consult/imagens/tabela.png>]
-<relatorios/consult/imagens/Imagem9.jpg, id=371, 382.42876pt x 306.14375pt>
+<relatorios/consult/imagens/Imagem9.jpg, id=372, 382.42876pt x 306.14375pt>
 File: relatorios/consult/imagens/Imagem9.jpg Graphic file (type jpg)
 <use relatorios/consult/imagens/Imagem9.jpg>
 Package pdftex.def Info: relatorios/consult/imagens/Imagem9.jpg  used on input line 99.
@@ -1561,7 +1561,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 5--5
 [][][][][][] 
  []
 
-<relatorios/macro/imagens/grafico1.png, id=382, 1468.62964pt x 707.21358pt>
+<relatorios/macro/imagens/grafico1.png, id=383, 1468.62964pt x 707.21358pt>
 File: relatorios/macro/imagens/grafico1.png Graphic file (type png)
 <use relatorios/macro/imagens/grafico1.png>
 Package pdftex.def Info: relatorios/macro/imagens/grafico1.png  used on input line 16.
@@ -1579,28 +1579,28 @@ See the caption package documentation for explanation.
 [35
 
 ] [36 <./relatorios/macro/imagens/grafico1.png>] [37]
-<relatorios/macro/imagens/grafico2.png, id=403, 928.75554pt x 502.01839pt>
+<relatorios/macro/imagens/grafico2.png, id=404, 928.75554pt x 502.01839pt>
 File: relatorios/macro/imagens/grafico2.png Graphic file (type png)
 <use relatorios/macro/imagens/grafico2.png>
 Package pdftex.def Info: relatorios/macro/imagens/grafico2.png  used on input line 89.
 (pdftex.def)             Requested size: 339.72592pt x 183.62968pt.
-<relatorios/macro/imagens/grafico3.png, id=404, 1037.16054pt x 516.64447pt>
+<relatorios/macro/imagens/grafico3.png, id=405, 1037.16054pt x 516.64447pt>
 File: relatorios/macro/imagens/grafico3.png Graphic file (type png)
 <use relatorios/macro/imagens/grafico3.png>
 Package pdftex.def Info: relatorios/macro/imagens/grafico3.png  used on input line 99.
 (pdftex.def)             Requested size: 339.72592pt x 169.22398pt.
  [38 <./relatorios/macro/imagens/grafico2.png> <./relatorios/macro/imagens/grafico3.png>]
-<relatorios/macro/imagens/grafico4.png, id=413, 1152.4484pt x 650.86018pt>
+<relatorios/macro/imagens/grafico4.png, id=414, 1152.4484pt x 650.86018pt>
 File: relatorios/macro/imagens/grafico4.png Graphic file (type png)
 <use relatorios/macro/imagens/grafico4.png>
 Package pdftex.def Info: relatorios/macro/imagens/grafico4.png  used on input line 114.
 (pdftex.def)             Requested size: 407.66833pt x 230.2277pt.
-<relatorios/macro/imagens/grafico5.png, id=414, 1152.87857pt x 630.21161pt>
+<relatorios/macro/imagens/grafico5.png, id=415, 1152.87857pt x 630.21161pt>
 File: relatorios/macro/imagens/grafico5.png Graphic file (type png)
 <use relatorios/macro/imagens/grafico5.png>
 Package pdftex.def Info: relatorios/macro/imagens/grafico5.png  used on input line 120.
 (pdftex.def)             Requested size: 407.66833pt x 222.8468pt.
- [39 <./relatorios/macro/imagens/grafico4.png>]) [40 <./relatorios/macro/imagens/grafico5.png>] (relatorios/lounge/texto.tex [41]
+ [39 <./relatorios/macro/imagens/grafico4.png>] [40 <./relatorios/macro/imagens/grafico5.png>]) (relatorios/lounge/texto.tex [41]
 File: logo/hlogo.png Graphic file (type png)
 <use logo/hlogo.png>
 Package pdftex.def Info: logo/hlogo.png  used on input line 9.
@@ -1613,34 +1613,32 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 9--9
 [42
 
 ] [43]
-<relatorios/lounge/imagens/img.jpg, id=441, 889.3225pt x 454.69875pt>
+<relatorios/lounge/imagens/img.jpg, id=445, 889.3225pt x 454.69875pt>
 File: relatorios/lounge/imagens/img.jpg Graphic file (type jpg)
 <use relatorios/lounge/imagens/img.jpg>
 Package pdftex.def Info: relatorios/lounge/imagens/img.jpg  used on input line 99.
 (pdftex.def)             Requested size: 407.66833pt x 208.43546pt.
-<relatorios/lounge/imagens/1.jpg, id=442, 1131.22626pt x 673.51625pt>
+<relatorios/lounge/imagens/1.jpg, id=446, 1131.22626pt x 673.51625pt>
 File: relatorios/lounge/imagens/1.jpg Graphic file (type jpg)
 <use relatorios/lounge/imagens/1.jpg>
 Package pdftex.def Info: relatorios/lounge/imagens/1.jpg  used on input line 112.
 (pdftex.def)             Requested size: 221.95676pt x 132.14188pt.
-<relatorios/lounge/imagens/2.jpg, id=443, 1131.22626pt x 674.52pt>
+<relatorios/lounge/imagens/2.jpg, id=447, 1131.22626pt x 674.52pt>
 File: relatorios/lounge/imagens/2.jpg Graphic file (type jpg)
 <use relatorios/lounge/imagens/2.jpg>
 Package pdftex.def Info: relatorios/lounge/imagens/2.jpg  used on input line 116.
 (pdftex.def)             Requested size: 221.95676pt x 132.33882pt.
-<relatorios/lounge/imagens/3.jpg, id=444, 1131.22626pt x 674.52pt>
+<relatorios/lounge/imagens/3.jpg, id=448, 1131.22626pt x 674.52pt>
 File: relatorios/lounge/imagens/3.jpg Graphic file (type jpg)
 <use relatorios/lounge/imagens/3.jpg>
 Package pdftex.def Info: relatorios/lounge/imagens/3.jpg  used on input line 119.
 (pdftex.def)             Requested size: 221.95676pt x 132.33882pt.
-<relatorios/lounge/imagens/4.jpg, id=445, 1136.245pt x 673.51625pt>
+<relatorios/lounge/imagens/4.jpg, id=449, 1136.245pt x 673.51625pt>
 File: relatorios/lounge/imagens/4.jpg Graphic file (type jpg)
 <use relatorios/lounge/imagens/4.jpg>
 Package pdftex.def Info: relatorios/lounge/imagens/4.jpg  used on input line 123.
 (pdftex.def)             Requested size: 221.95676pt x 131.56636pt.
- [44 <./relatorios/lounge/imagens/1.jpg> <./relatorios/lounge/imagens/2.jpg> <./relatorios/lounge/imagens/3.jpg> <./relatorios/lounge/imagens/4.jpg> <./relatorios/lounge/imagens/img.jpg>]) [45] [46
-
-] (main.aux)
+ [44 <./relatorios/lounge/imagens/1.jpg> <./relatorios/lounge/imagens/2.jpg> <./relatorios/lounge/imagens/3.jpg> <./relatorios/lounge/imagens/4.jpg> <./relatorios/lounge/imagens/img.jpg>]) [45] (main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
@@ -1652,10 +1650,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59473 strings out of 475550
- 1455414 string characters out of 5762533
- 2376308 words of memory out of 5000000
- 79717 multiletter control sequences out of 15000+600000
+ 59481 strings out of 475550
+ 1455682 string characters out of 5762533
+ 2376627 words of memory out of 5000000
+ 79724 multiletter control sequences out of 15000+600000
  568925 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  107i,18n,116p,1623b,2414s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1663,9 +1661,9 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist, replaced by a fixed one
 
  <C:\Users\gumac\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Users/gumac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (46 pages, 4178431 bytes).
+Output written on main.pdf (45 pages, 4177972 bytes).
 PDF statistics:
- 604 PDF objects out of 1000 (max. 8388607)
- 138 named destinations out of 1000 (max. 500000)
+ 600 PDF objects out of 1000 (max. 8388607)
+ 137 named destinations out of 1000 (max. 500000)
  178 words of extra memory for PDF output out of 10000 (max. 10000000)
 

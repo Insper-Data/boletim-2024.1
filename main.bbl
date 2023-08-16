@@ -63,6 +63,7 @@
       \true{nocite}
       \field{pages}{222\bibrangedash 241}
       \range{pages}{20}
+      \keyw{macro}
     \endentry
     \entry{downs1957economic}{article}{}
       \name{author}{1}{}{%
@@ -89,6 +90,7 @@
       \field{title}{An economic theory of democracy}
       \field{volume}{28}
       \field{year}{1957}
+      \keyw{passeLivre}
     \endentry
     \entry{edlin2007voting}{article}{}
       \name{author}{3}{}{%
@@ -133,6 +135,7 @@
       \field{year}{2007}
       \field{pages}{293\bibrangedash 314}
       \range{pages}{22}
+      \keyw{passeLivre}
     \endentry
     \entry{fowler2006altruism}{article}{}
       \name{author}{1}{}{%
@@ -165,6 +168,7 @@
       \field{year}{2006}
       \field{pages}{674\bibrangedash 683}
       \range{pages}{10}
+      \keyw{passeLivre}
     \endentry
     \entry{haspel2005location}{article}{}
       \name{author}{2}{}{%
@@ -203,6 +207,7 @@
       \field{year}{2005}
       \field{pages}{560\bibrangedash 573}
       \range{pages}{14}
+      \keyw{passeLivre}
     \endentry
     \entry{istrefi2014economic}{article}{}
       \name{author}{2}{}{%
@@ -237,6 +242,7 @@
       \field{title}{Economic policy uncertainty and inflation expectations}
       \field{year}{2014}
       \true{nocite}
+      \keyw{macro}
     \endentry
     \entry{itau}{article}{}
       \name{author}{1}{}{%
@@ -258,6 +264,7 @@
       \field{labeltitlesource}{title}
       \field{title}{Taxa neutra de juros no Brasil.}
       \field{year}{2017}
+      \keyw{macro}
     \endentry
     \entry{konishi2010examination}{inproceedings}{}
       \name{author}{2}{}{%
@@ -294,6 +301,7 @@
       \field{year}{2010}
       \field{pages}{263\bibrangedash 268}
       \range{pages}{6}
+      \keyw{passeLivre}
     \endentry
     \entry{laubach2001measuring}{misc}{}
       \name{author}{2}{}{%
@@ -325,6 +333,7 @@
       \field{title}{Measuring the Natural Rate of Interest. Board of Governors of the Federal Reserve System (US)}
       \field{year}{2001}
       \true{nocite}
+      \keyw{macro}
     \endentry
     \entry{pereira2023transporte}{article}{}
       \true{moreauthor}
@@ -384,6 +393,7 @@
       \field{labeltitlesource}{title}
       \field{title}{Transporte público gratuito e participação eleitoral}
       \field{year}{2023}
+      \keyw{passeLivre}
     \endentry
     \entry{riker1968theory}{article}{}
       \name{author}{2}{}{%
@@ -422,6 +432,7 @@
       \field{year}{1968}
       \field{pages}{25\bibrangedash 42}
       \range{pages}{18}
+      \keyw{passeLivre}
     \endentry
     \entry{smets2013embarrassment}{article}{}
       \name{author}{2}{}{%
@@ -460,6 +471,7 @@
       \field{year}{2013}
       \field{pages}{344\bibrangedash 359}
       \range{pages}{16}
+      \keyw{passeLivre}
     \endentry
   \enddatalist
 \endrefsection
