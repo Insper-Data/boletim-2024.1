@@ -1,0 +1,43 @@
+\section{Modelagem Teórica}
+\label{sec:modteor}
+
+A literatura identificou várias estratégias para modelar o comportamento de agentes de trânsito. Entre as principais, destacam-se os modelos microeconômicos baseados em utilidade e os estocásticos, que geralmente estão associados a cadeias de Markov \cite{chen2021modeling}. O comportamento dos usuários do trânsito pode ser considerado caótico e errático, portanto, os modelos estocásticos apresentam uma boa aderência à realidade, mas os modelos microeconômicos são de mais fácil interpretabilidade e contemplam melhor a intuição do problema. Assim, o problema da faixa azul será tratado através das lentes de um modelo de escolha racional, no qual o agente, de forma bem tradicional à literatura microeconômica, maximiza sua utilidade.
+
+Para basear a modelagem teórica, a principal referência utilizada foi \textcite{blomquist1986utility}, na qual desenvolveu-se um modelo microeconômico de escolha racional apresentado na Equação \ref{eq:utilidade}, com $F_i$ representando a utilidade líquida do agente de trânsito, que será maximizada conforme esse escolhe o seu nível ótimo de cuidado ou atenção no trânsito $c_i$. Outros pesquisadores deram continuidade a este modelo, principalmente incorporando um componente interação estratégica entre os agentes \cite{pedersen2003moral}. Entretanto, para os fins deste estudo, optou-se pelo modelo simplificado, com pequenas adaptações.
+
+\begin{equation}
+    \max_{c_i} F_i = U_i(c_i)-p_i(c_i,s)L_i(c_i,s)
+    \label{eq:utilidade}
+\end{equation}
+
+O primeiro componente, $U_i(c_i)$, representa a utilidade direta de prestar atenção advinda do nível de cuidado escolhido pelo agente. Na medida em que é alocado maior cuidado, há uma piora no nível de utilidade, visto que o esforço pode envolver tempo, inconveniência, desconforto, energia ou dinheiro para garantir condições mais seguras no trânsito. Um agente pode, por exemplo, escolher um caminho mais longo ou caro, mas que considere mais seguro, ou investir mais dinheiro em medidas de segurança, fazendo revisões mais frequentes.
+
+O segundo componente, $p_i(c_i,s)$, se refere à probabilidade de ocorrer um acidente, dado o nível de cuidado escolhido pelo indivíduo e as condições exógenas de segurança da via ou do veículo, $s$. Um agente que é mais cuidadoso apresenta menor probabilidade de se envolver em um sinistro, visto que pode adotar medidas que evitem colisões, como manter maior distância ao carro da frente ou sinalizar mudanças de faixa. As condições da via $(s)$ afetam todos os agentes de trânsito, de forma a melhorar a sua segurança e diminuir a probabilidade de ocorrer um sinistro. A iluminação e sinalização da via, por exemplo, são fatores relevantes para garantir a segurança viária. A faixa azul também pode ser considerado um fator que contribui para as condições da via, visto que segrega os usos e diminui os conflitos.
+
+O último componente, $L_i(c_i,s)$, é uma função de perdas, que computa a utilidade perdida quando ocorre um sinistro. Assim como no componente da probabilidade de ocorrer um acidente, o nível de cuidado e a segurança da via podem diminuir as perdas, caso haja um acidente. Uma via com menor velocidade máxima pode fazer com que, caso haja um sinistro, ele seja de menor severidade. Um carro com maior estabilidade, que costuma ser mais caro, pode permitir maior espaço de manobra, possibilitando que o motorista minimize as perdas.
+
+\begin{figure}
+    \caption{Estática comparativa do modelo microeconômico}
+    \begin{subfigure}[t]{0.45\linewidth}
+        \centering
+        \input{relatorios/faixa-azul/graficos/micro1}
+        \caption{Utilidade do agente em função de $c_i$}
+        \label{fig:micro1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.45\linewidth}
+        \centering
+        \input{relatorios/faixa-azul/graficos/micro3}
+        \caption{Relação entre nível de cuidado e probabilidade de ocorrer um sinistro}
+        \label{fig:micro3}
+    \end{subfigure}
+    \label{fig:micro}
+\end{figure}
+
+Na Figura \ref{fig:micro3} é possível observar a dinâmica das variáveis no modelo. Na medida em que aumenta $c_i$, há uma redução na probabilidade de ocorrer um acidente, entretanto, o efeito marginal do cuidado é decrescente, visto que cada vez fica mais difícil de reduzir o risco. Quando há um choque exógeno que aumenta $s$, como a adoção da faixa-azul, a curva do \textit{trade-off} cuidado e risco se desloca para baixo, o que significa que, para o mesmo nível de atenção, há uma probabilidade menor de ocorrer um acidente. Na Figura \ref{fig:micro3} se observaria então um deslocamento do ponto $A$ para $A'$.
+
+Todavia, os agentes do trânsito, ao observarem esse choque exógeno vão se adaptar e escolher um novo nível de cuidado $c_i$, que maximize sua utilidade. O modelo trata o nível de cuidado e a segurança como substitutos em certa magnitude, o que indica que, ao observarem uma via mais segura, os agentes se permitirão prestar menos atenção, afinal a segurança ``substitui'' uma parte dos benefícios da atenção no trânsito ao diminuir tanto a probabilidade quanto a perda causada pelo sinistro. O agente, então, maximizará sua utilidade $F_i^B$ escolhendo um novo nível de cuidado $c_i^B$, que será inferior ao anterior, como pode ser observado na \ref{fig:micro1}. Portanto, observa-se um ganho de bem estar quando a escolha do indivíduo muda do ponto A para o ponto B.
+
+Apesar do modelo indicar que o novo nível de cuidado será menor e, no geral, os agentes serão mais ``hawkish'', ou agressivos \cite{pedersen2003moral}, não é possível prever a partir desse modelo a magnitude do efeito. No gráfico \ref{fig:micro3}, sabe-se que os agentes vão escolher um nível de $c_i^B<c_i^A$ e, portanto, a nova probabilidade de ocorrer um acidente será maior do que $p_i^{A'}$. Entretanto, não é possível identificar se será maior, menor, ou igual a $p_i^A$. O que se tem de resultado desse modelo é um efeito ambíguo, no qual ao mesmo tempo em que a segurança da via diminui a probabilidade de ocorrer um acidente, há também um \textit{moral hazard}, no qual os agentes passarão a ser menos cuidadosos, aumentando a probabilidade de ocorrer um acidente.
+
+Sob a premissa de que um efeito é maior do que o outro, a hipótese a ser testada empiricamente na Seção \ref{sec:modemp} é de que a faixa azul causa uma redução na probabilidade de ocorrer um acidente. Em outras palavras, caso seja verificada verdadeira a hipótese, a magnitude do efeito da segurança da via é maior do que o efeito da redução no nível de cuidado. 

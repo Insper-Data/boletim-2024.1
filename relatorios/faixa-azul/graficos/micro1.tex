@@ -1,0 +1,44 @@
+\begin{tikzpicture}
+
+\def\xlim{3.5}
+\def\ylim{2.5}
+
+\begin{axis}[standard,
+    xtick={13/8, 2},
+    ytick={1.5, 2},
+    xticklabels = {$c_i^B$, $c_i^A$},
+    yticklabels = {$max(F_i^A)$, $max(F_i^B)$},
+    samples=\nsamples,
+    xlabel={$c_i$},
+    ylabel={$F_i$},
+    xmin=0,xmax=\xlim,
+    ymin=0,ymax=\ylim,
+    y label style={anchor=east},
+]
+
+\addplot[name path=F,domain={-0.3:\xlim+1}]{-(2-x)^(2)+1.5};
+\addplot[name path=H,domain={-0.3:\xlim+1}]{-(1.3-0.8*x)^(2)+2};
+
+\addplot[name path=lF,domain={0:\xlim}, dotted]{2};
+\addplot[name path=lH,domain={0:\xlim}, dotted]{1.5};
+
+\draw[dotted] (2,0)--(2,\ylim);
+\draw[dotted] (13/8,0)--(13/8,\ylim);
+
+\node[circle, fill=black, inner sep=1pt, 
+label = {[name=label node]above left:$B$}] at (13/8, 2) {};
+\node[circle, fill=black, inner sep=1pt, 
+label = {[name=label node]above left:$A$}] at (2, 1.5) {};
+
+\begin{scope}[decoration={markings,
+    mark=at position 0.185 with {\arrow[black,thick]{<}},
+},
+              ]
+\draw[postaction={decorate}] plot[domain=0:10](\x,0);
+\end{scope}
+
+\end{axis}
+\end{tikzpicture}
+
+
+

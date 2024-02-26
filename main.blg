@@ -1,9 +1,18 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[126] biber-MSWIN64:340> INFO - === 
-[170] Biber.pm:419> INFO - Reading 'main.bcf'
-[306] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[323] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[324] bbl.pm:763> INFO - Output to main.bbl
-[324] Biber.pm:131> WARN - The file 'main.bcf' does not contain any citations!
-[324] Biber.pm:133> INFO - WARNINGS: 1
+[99] biber-MSWIN64:340> INFO - === 
+[143] Biber.pm:419> INFO - Reading 'main.bcf'
+[244] Biber.pm:979> INFO - Found 35 citekeys in bib section 0
+[254] Biber.pm:4419> INFO - Processing section 0
+[263] Biber.pm:4610> INFO - Looking for bibtex file 'citacoes.bib' for section 0
+[336] bibtex.pm:1713> INFO - LaTeX decoding ...
+[387] bibtex.pm:1519> INFO - Found BibTeX data source 'citacoes.bib'
+[522] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[522] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[522] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-PT'
+[522] Biber.pm:4245> INFO - No sort tailoring available for locale 'pt-PT'
+[549] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[563] bbl.pm:763> INFO - Output to main.bbl
+[563] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'RadinSohadi_Mackay_Hills_2000' is not an integer - this will probably not sort properly.
+[563] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\gusth\AppData\Local\Temp\biber_tmp__V8Z\26d94d6570d28999ca564a964d5a70f6_3092.utf8, line 57, warning: 1 characters of junk seen at toplevel
+[563] Biber.pm:133> INFO - WARNINGS: 2
