@@ -7,9 +7,9 @@
 
 \usepackage{keyval}
 
-\usepackage[color = {[gray]{0.94}}]{draftwatermark}
-\SetWatermarkText{RASCUNHO}
-\SetWatermarkScale{4}
+% \usepackage[color = {[gray]{0.94}}]{draftwatermark}
+% \SetWatermarkText{RASCUNHO}
+% \SetWatermarkScale{4}
 
 \linespread{1.25}
 \setcounter{tocdepth}{-1}
@@ -67,7 +67,9 @@
 
 \usepackage{lipsum}
 
+\usepackage[
+    backend=biber,
+    style=abnt,
+]{biblatex}
 
-
-
-
+\addbibresource{citacoes.bib}
