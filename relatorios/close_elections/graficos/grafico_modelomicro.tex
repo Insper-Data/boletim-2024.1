@@ -1,0 +1,32 @@
+\begin{tikzpicture}
+    \begin{axis}[standard,
+        axis lines = middle,
+        xlabel = {$C^M$},
+        ylabel = {$V$},
+        samples = 10,
+        xtick = \empty,
+        ytick = \empty,
+        xlabel style = {at={(axis description cs:1,-0.05)},anchor=north},
+        ylabel style = {at={(axis description cs:-0.05,1)},anchor=south},
+        clip=false,
+    ]
+
+    \addplot[name path =F, domain = {0:1}]{0.2x+1}
+    
+    % Curve UM
+   %  \addplot[
+   %      domain=-0.5:5, 
+   %      samples=100, 
+   %      color=black
+   % ]{-(x^2)/10 + 3};
+   %  \node at (axis cs:2.5,2) {$U^M$};
+
+    % Curve Uw = Uw
+    \addplot[
+        domain=-0.5:5, 
+        samples=100, 
+        color=black
+    ]{x/5 + 0.5};
+    \node at (axis cs:4.5,1.4) {$U^W = \overline{U}^W$};
+    \end{axis}
+\end{tikzpicture}

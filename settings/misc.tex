@@ -14,10 +14,7 @@
 \linespread{1.25}
 \setcounter{tocdepth}{-1}
 
-%DIAGRAMAS E GRÁFICOS ----
-\usepackage{tikz}
-\usetikzlibrary{fit, arrows,automata,positioning, calc, decorations.pathreplacing, calligraphy}
-\usepackage[edges]{forest}
+
 
 %EQUAÇÕES E TABELAS ----
 \usepackage{amsmath, amssymb}
@@ -35,7 +32,6 @@
 \usepackage{float} %force here [H] (bad)
 \usepackage{array} %tabela com coluna de tamanho definido
 \usepackage[flushleft]{threeparttable} %add notas no final da tabela
-\usepackage{adjustbox}%resize table
 
 \usepackage{pdfpages} %capa
 
@@ -65,11 +61,24 @@
 %     urlcolor=blue,
 %     }
 
-\usepackage{lipsum}
-
 \usepackage[
-    backend=biber,
-    style=abnt,
+  style=abnt, 
+  backend = biber
 ]{biblatex}
 
 \addbibresource{citacoes.bib}
+
+
+\usepackage{lipsum}
+
+
+% \usepackage{biblatex}
+
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\usepgfplotslibrary{statistics}
+\usepgfplotslibrary{fillbetween}
+
+\usepackage{svg}
+\usepackage{booktabs}
